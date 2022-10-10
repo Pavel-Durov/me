@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>DROR</title>
+  <title>Pavel Home Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
@@ -17,18 +17,41 @@
 
 <body>
 
-  <div class="navbar navbar-inverse navbar-fixed-top">
+  <!-- <div class="navbar navbar-inverse navbar-fixed-top"> -->
+  <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+    <a class="navbar-brand">Pavel Durov</a>
+
     <div class="container">
-      <ul class="nav-collapse collapse nav nav-tabs" id="myTab" role="tablist">
+      <ul class="collapse navbar-collapse collapse nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
-            aria-selected="true">Home</a>
+          <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home">
+            home
+          </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" id="publications-tab" data-toggle="tab" href="#publications" role="tab"
-            aria-controls="publications" aria-selected="false">
+            aria-controls="publications">
             publications</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" id="cv-tab" data-toggle="tab" href="#cv" role="tab" aria-controls="publications">
+            cv</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="talks-tab" data-toggle="tab" href="#talks" role="tab"
+            aria-controls="contact-me">talks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="talks-tab" data-toggle="tab" href="#projects" role="tab"
+            aria-controls="contact-me">projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" id="contact-me-tab" data-toggle="tab" href="#contact-me" role="tab"
+            aria-controls="contact-me">contact</a>
+        </li>
+
+
       </ul>
     </div>
   </div>
@@ -37,206 +60,367 @@
   <!-- Tab panes -->
   <div class="container tab-content">
     <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
-      <h1>Hi I'm Dror and I do search stuff. And I'm hot!</h1>
-      <h2>This is me:</h2>
-      <img src="./assets/dror-pixel.png" width="100" />
-      <img src="./assets/dror.jpeg" width="100" />
+      <img src="./assets/profile.png" width="100" />
+      <br />
+      <section class="mt-2" id="bio">
+        <p>
+          I've always been curious and fascinated by the world's inner workings and design.
+          I am a software engineer with experience developing and leading projects from scratch to enterprise products.
+          My main technical interests are programming languages structure, distributed systems, Linux and open source.
+        </p>
 
+      </section>
+      <section>
+        <h2>Identities</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <a href="https://github.com/Pavel-Durov">Github</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://twitter.com/pav3ldurov">Twitter</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://www.linkedin.com/in/paveldurov/">LinkedIn</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://stackoverflow.com/users/5321395/pavel-durov">Stackoverflow</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://iamkimchi.hashnode.dev/">Hashnote</a>
+          </li>
+          <li class="list-group-item">
+            <a href="https://medium.com/@iamkimchi">Medium</a>
+          </li>
+        </ul>
+      </section>
+
+    </div>
+
+
+    <div class="tab-pane" id="cv" role="tabpanel" aria-labelledby="cv-tab">
+      <section class="container">
+
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h2>Summary</h2>
+            </div>
+            <p> I am an autodidact full-stack software engineer experienced in developing and leading projects from
+              scratch to enterprise product on various environments. I'm a quick learner with a passion for software
+              internals, technology and design. I contribute to open-source projects and learn new technologies and
+              theoretical fields in my spare time. My main technical interests are Programming Languages, Linux,
+              Functional Programming, distributed systems and platform engineering.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h2 id="education">Education</h2>
+            </div>
+            <div>
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">Sela College, Israel - Software development - 2013 - 2014 - Graduated with honours
+                    </th>
+                  </tr>
+                  <tr>
+                    <th scope="col">
+                      Open University, Israel - Computer Science - 2013 – 2016
+                    </th>
+                  </tr>
+                  <tr>
+                    <th scope="col">
+                      Birkbeck, the University of London, UK - BSc (Hons) in Computing - 2018 –2022
+                    </th>
+                  </tr>
+                  </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h2 id="tables">Education</h2>
+            </div>
+            <table class="table table-hover">
+              <thead>
+                <th>
+                  <h3>nate (UK/US) 👉 Tech Lead, CTO, Principle Engineer. Jan 2019 - Current</h3>
+                </th>
+                <tr>
+                  <td>
+                    <p>
+                      Joined as a Software Engineer and naturally progressed to Tech Lead, CTO, and Principle Engineer.
+                      My
+                      role grew alongside the company. I built an engineering function of more than 30 engineers from
+                      scratch while aligning technical deliveries to company objectives. This role taught me a lot about
+                      data science, engineering practices, leadership, business, management and finance. My current
+                      position as a technical leader includes mentorship and consultancy with expectations of setting
+                      technical and architectural direction, technology evaluation, and applied research.
+
+                    </p>
+                    <p>
+                      👩‍💻TypeScript, Python, Go, Bash, Terraform, AWS, MongoDB, PostgreSQL, Kubernetes, Docker,
+                      Traefik, Git, CircleCi and more...
+                    </p>
+                  </td>
+                </tr>
+
+                <th>
+                  <h3>Starcount (UK) 👉 Backend Engineer. Aug 2018 - Jan 2019</h3>
+                </th>
+                <tr>
+                  <td>
+                    <p>Working as a backend engineer alongside to data engineering team on data-driven applications.</p>
+                    <p>👩‍💻JS/TS, Node, KoaJs, ES6/7, Lodash, PostgreSQL, AWS, SQS, Athena, Docker, Circleci, Git,
+                      Linux, Bash
+                    </p>
+                  </td>
+                </tr>
+
+                <th>
+                  <h3>Grosvenor Systems (UK) 👉 Web Tech Lead. Dec 2017 - July 2018
+                  </h3>
+                </th>
+                <tr>
+                  <td>
+                    <p>Tech lead of web development engineering team. Working on legacy system into web transformation.
+                    </p>
+                    <p>👩‍💻TypeScript, JavaScript, Node, Angular, Redux, Webpack, Mocha, Karma, Selenium, AWS, GCP,
+                      Linux, Docker, Git </p>
+                  </td>
+                </tr>
+
+                <th>
+                  <h3>Scores 365 (Israel) 👉 Backend/Full Stack Developer. March 2017 - Dec 2017
+                  </h3>
+                </th>
+                <tr>
+                  <td>
+                    <p>Internal tooling maintenance and web scrapers services development.</p>
+                    <p>👩‍💻C#, Node, JavaScript, TypeScript, Angular, .Net Web API/MVC, AWS, Jenkins, MSSQL, Git,
+                      GitHub, Assana</p>
+                  </td>
+                </tr>
+
+                <th>
+                  <h3>Sela Group College (Israel) 👉 Lecturer. Dec 2016 - March 2017
+                  </h3>
+                </th>
+                <tr>
+                  <td>
+                    <p>Evening course lecturer - Design Patterns and Advanced Techniques
+                    </p>
+                  </td>
+                </tr>
+
+                <th>
+                  <h3>Sela Group (Israel) 👉 Software Engineer. Oct 2014 - May 2017
+
+                  </h3>
+                </th>
+                <tr>
+                  <td>
+                    <p>Working on various in-house and outsourced projects as a developer and tech consultant.
+
+                    </p>
+                    <p>👩‍💻Java, C#, C/C++, JS/TS, Scala, Unity, Azure, AWS, Neo4j, MongoDb, Kafka, Xamarin, Ionic,
+                      iOS, Android, .Net Core, React, Git
+                    </p>
+                  </td>
+                </tr>
+
+                <th>
+                  <h3>QIS (Israel) - Full Stack Developer 👉 Dec 2013 - Sep 2014</h3>
+                </th>
+                <tr>
+                  <td>
+                    <p>Worked on a mobile system with multiple GoPro cameras, controlled by an Android client.
+                    </p>
+                    <p>👩👩‍💻Java, C#, Android, .NET Web Api, MySQL
+                    </p>
+                  </td>
+                </tr>
+
+                </tbody>
+            </table>
+          </div>
+        </div>
+
+      </section>
     </div>
 
     <div class="tab-pane" id="publications" role="tabpanel" aria-labelledby="publications-tab">
       <section class="container">
         <h1>Publications</h1>
         <table class="table table-hover">
-          <tbody>
-            <tr>
-              <td>
-                <a href="?">Multi-Agent Pathfinding: Definitions, Variants, and Benchmarks</a>
-                <div class="gs_gray">R Stern, N Sturtevant, A Felner, S Koenig, H Ma, T Walker, J Li, D Atzmon,
-                  ...
-                </div>
-                <div class="gs_gray">Twelfth International Symposium on Combinatorial Search (SoCS), 151-159<span
-                    class="gs_oph">, 2019</span></div>
-              </td>
+          <tr>
+            <td>
+              <p>PyPy,Python and performance benchmarking
+                https://iamkimchi.hashnode.dev/pypypython-and-performance-benchmarking
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Linux VNC server & macOS VNC client.
+                https://iamkimchi.hashnode.dev/linux-vnc-server-macos-vnc-client
+              </p>
+            </td>
+          </tr>
 
-            </tr>
-            <tr>
-              <td><a href="?">Multi-Agent Pathfinding with Continuous Time</a>
-                <div class="gs_gray">A Andreychuk, K Yakovlev, P Surynek, D Atzmon, R Stern</div>
-                <div class="gs_gray">Artificial Intelligence, 103662<span class="gs_oph">, 2022</span></div>
-              </td>
 
-            </tr>
-            <tr>
-              <td>
-                <a href="?">Robust Multi-Agent Path Finding</a>
-                <div class="gs_gray">D Atzmon, R Stern, A Felner, G Wagner, R Barták, NF Zhou</div>
-                <div class="gs_gray">Eleventh Annual Symposium on Combinatorial Search (SoCS), 2-9<span class="gs_oph">,
-                    2018</span></div>
-              </td>
 
-            </tr>
-            <tr>
-              <td><a href="?">Online Multi-Agent Pathfinding</a>
-                <div class="gs_gray">J Švancara, M Vlk, R Stern, D Atzmon, R Barták</div>
-                <div class="gs_gray">AAAI Conference on Artificial Intelligence (AAAI), 7732-7739<span class="gs_oph">,
-                    2019</span></div>
-              </td>
-            </tr>
-            <tr>
-              <td><a href="?">Probabilistic Robust Multi-Agent Path Finding</a>
-                <div class="gs_gray">D Atzmon, R Stern, A Felner, NR Sturtevant, S Koenig</div>
-                <div class="gs_gray">International Conference on Automated Planning and Scheduling (ICAPS),
-                  29-37<span class="gs_oph">, 2020</span></div>
-              </td>
+          <tr>
+            <td>
+              <p>
+                Basics of numeric bases by examples on four bases - decimal, binary, hex and octal.
+                https://www.codeproject.com/Articles/1034345/Introduction-to-numerical-bases
+              </p>
+            </td>
+          </tr>
 
-            </tr>
-            <tr>
-              <td><a href="?">Robust Multi-Agent Path Finding and Executing</a>
-                <div class="gs_gray">D Atzmon, R Stern, A Felner, G Wagner, R Barták, NF Zhou</div>
-                <div class="gs_gray">Journal of Artificial Intelligence Research (JAIR) 67, 549-579<span
-                    class="gs_oph">,
-                    2020</span></div>
-              </td>
-            </tr>
-            <tr>
-              <td><a href="?">Multi-Train Path Finding</a>
-                <div class="gs_gray">D Atzmon, A Diei, D Rave</div>
-                <div class="gs_gray">Twelfth Annual Symposium on Combinatorial Search (SoCS), 125-129<span
-                    class="gs_oph">, 2019</span></div>
-              </td>
-            </tr>
-            <tr>
-              <td><a href="?">Multi-Directional Heuristic Search</a>
-                <div class="gs_gray">D Atzmon, J Li, A Felner, E Nachmani, S Shperberg, N Sturtevant, ...</div>
-                <div class="gs_gray">International Joint Conference on Artificial Intelligence (IJCAI),
-                  4062-4068<span class="gs_oph">, 2020</span></div>
-              </td>
 
-            </tr>
-            <tr>
-              <td><a href="?">Safe Multi-Agent Pathfinding with Time Uncertainty</a>
-                <div class="gs_gray">T Shahar, S Shekhar, D Atzmon, A Saffidine, B Juba, R Stern</div>
-                <div class="gs_gray">Journal of Artificial Intelligence Research (JAIR) 70, 923-954<span
-                    class="gs_oph">,
-                    2021</span></div>
-              </td>
+          <tr>
+            <td>
+              <p>
+                This article will explain how to explore Android internal data from Eclipse DDMS perspective using adb
+                and Linux commands.
+                https://www.codeproject.com/Articles/825304/Accessing-Internal-Data-on-Android-Device
+              </p>
+            </td>
+          </tr>
 
-            </tr>
-            <tr>
-              <td><a href="?">Generalizing Multi-Agent Path Finding for Heterogeneous Agents</a>
-                <div class="gs_gray">D Atzmon, Y Zax, E Kivity, L Avitan, J Morag, A Felner</div>
-                <div class="gs_gray">Thirteenth Annual Symposium on Combinatorial Search (SoCS), 101-105<span
-                    class="gs_oph">, 2020</span></div>
-              </td>
-            </tr>
-            <tr>
-              <td><a href="?">Conflict-Free Multi-Agent Meeting</a>
-                <div class="gs_gray">D Atzmon, SI Freiman, O Epshtein, O Shichman, A Felner</div>
-                <div class="gs_gray">International Conference on Automated Planning and Scheduling (ICAPS),
-                  16-24<span class="gs_oph">, 2021</span></div>
-              </td>
-            </tr>
-            <tr>
-              <td><a href="?">Measuring the Vulnerability of a Multi-Agent Pathfinding Solution</a>
-                <div class="gs_gray">R Yoeli, R Stern, D Atzmon</div>
-                <div class="gs_gray">Twelfth Annual Symposium on Combinatorial Search (SoCS), 208-209<span
-                    class="gs_oph">, 2019</span></div>
-              </td>
-            </tr>
+          <tr>
+            <td>
+              <p>
+                Basic NDK implementation using Hello World application
+                https://www.codeproject.com/Articles/824711/An-Introduction-to-Android-NDK
+              </p>
+            </td>
+          </tr>
 
-            <tr>
-              <td><a href="?">Studying Online Multi-Agent Path Finding</a>
-                <div class="gs_gray">J Morag, R Stern, A Felner, D Atzmon, E Boyarski</div>
-                <div class="gs_gray">Proceedings of the International Symposium on Combinatorial Search 12
-                  (1&nbsp;…<span class="gs_oph">, 2021</span></div>
-              </td>
+          <tr>
+            <td>
+              <p>
+                This article is explaining how to implement a basic game fundamentals on Android platform.
+                https://www.codeproject.com/Articles/827608/Android-Basic-Game-Loop
+              </p>
+            </td>
+          </tr>
 
-            </tr>
-            <tr>
-              <td><a href="?">Bounded Suboptimal Game Tree Search</a>
-                <div class="gs_gray">D Atzmon, R Stern, A Saffidine</div>
-                <div class="gs_gray">Eleventh Annual Symposium on Combinatorial Search (SoCS), 10-18<span
-                    class="gs_oph">,
-                    2018</span></div>
-              </td>
 
-            </tr>
-            <tr>
-              <td><a href="?">Online Multi-Agent Path Finding: New Results</a>
-                <div class="gs_gray">J Morag, A Felner, R Stern, D Atzmon, E Boyarski</div>
-                <div class="gs_gray">Proceedings of the International Symposium on Combinatorial Search 15
-                  (1&nbsp;…<span class="gs_oph">, 2022</span></div>
-              </td>
+          <tr>
+            <td>
+              <p>
+                Article about dynamic Sqlite database management on Android platform using Java class reflection.
+                https://www.codeproject.com/Articles/829272/Android-dynamic-Sqlite-database-management-v
+              </p>
+            </td>
+          </tr>
 
-            </tr>
-            <tr>
-              <td><a href="?">Optimally Solving the Multiple Watchman Route Problem with Heuristic Search</a>
-                <div class="gs_gray">Y Livne, D Atzmon, S Skyler, E Boyarski, A Shapiro, A Felner</div>
-                <div class="gs_gray">Proceedings of the International Symposium on Combinatorial Search 15
-                  (1&nbsp;…<span class="gs_oph">, 2022</span></div>
-              </td>
+          <tr>
+            <td>
+              <p>
+                Brief overview on the basic concepts of mvvmcross platform. We we'll explore the mvvmcross project
+                architecture and some mvvmcross classes.
+                https://www.codeproject.com/Articles/863695/Introduction-to-Mvvmcross-Platform
+              </p>
+            </td>
+          </tr>
 
-            </tr>
-            <tr>
-              <td><a href="?">Bounded-Cost Bi-Objective Heuristic Search</a>
-                <div class="gs_gray">S Skyler, D Atzmon, A Felner, O Salzman, H Zhang, S Koenig, W Yeoh, ...</div>
-                <div class="gs_gray">Proceedings of the International Symposium on Combinatorial Search 15
-                  (1&nbsp;…<span class="gs_oph">, 2022</span></div>
-              </td>
 
-            </tr>
-            <tr>
-              <td><a href="?">On Merging Agents in Multi-Agent Pathfinding Algorithms</a>
-                <div class="gs_gray">E Boyarski, SH Chan, D Atzmon, A Felner, S Koenig</div>
-                <div class="gs_gray">Proceedings of the International Symposium on Combinatorial Search 15 (1),
-                  11-19<span class="gs_oph">, 2022</span></div>
-              </td>
+          <tr>
+            <td>
+              <p>
+                Basic encryption/decryption on Android and on .NET platforms, with focus on passing encrypted data from
+                Android to .NET.
+                https://www.codeproject.com/Articles/826457/Android-and-NET-Encryption
+              </p>
+            </td>
+          </tr>
 
-            </tr>
-            <tr>
-              <td><a href="?">Meeting at the Border of Two Separate Domains</a>
-                <div class="gs_gray">AP Tabacaru, D Atzmon, A Felner</div>
-                <div class="gs_gray">Proceedings of the International Symposium on Combinatorial Search 15
-                  (1&nbsp;…<span class="gs_oph">, 2022</span></div>
-              </td>
 
-            </tr>
-            <tr>
-              <td><a href="?">Pursuit Planning with Spatial Action Abstraction</a>
-                <div class="gs_gray">E Hershkovich, D Atzmon, G Shani, R Stern</div>
-                <div class="gs_gray"></div>
-              </td>
+          <tr>
+            <td>
+              <p>
+                Uploading large files from Android to ASP.NET
+                https://www.codeproject.com/Articles/829950/Uploading-large-files-from-Android-to-ASP-NET
+              </p>
+            </td>
+          </tr>
 
-            </tr>
-            <tr>
-              <td><a href="?">Different Forms of Optimality in Multi-Agent Problems</a>
-                <div class="gs_gray">D Atzmon</div>
-                <div class="gs_gray">Ben-Gurion University of the Negev<span class="gs_oph">, 2021</span></div>
-              </td>
-
-            </tr>
-            <tr>
-              <td><a href="?">Optimality in Online Multi-agent Path Finding</a>
-                <div class="gs_gray">J Morag, R Stern, A Felner, D Atzmon, E Boyarski</div>
-                <div class="gs_gray"></div>
-              </td>
-
-            </tr>
-            <tr>
-              <td><a href="?">A Practical Approach to Multi-Agent Path Finding in Robotic Warehouses</a>
-                <div class="gs_gray">J Morag, A Felner, R Stern, D Atzmon, E Boyarski, S Louis, M Toledano</div>
-                <div class="gs_gray"></div>
-              </td>
-
-            </tr>
-          </tbody>
+          <tr>
+            <td>
+              <p>
+                I explain how to create a local WebView hosted Html/Javascript application on Winrt Platform and how to
+                establish the communication between both sides.
+                https://www.codeproject.com/Articles/1008161/Hosted-Javascript-WinRT-duplex-communication
+              </p>
+            </td>
+          </tr>
         </table>
       </section>
     </div>
+
+    <div class="tab-pane" id="talks" role="tabpanel" aria-labelledby="talks-tab">
+      <section class="container">
+        <h1>Talks</h1>
+        <table class="table table-hover">
+          <tr>
+            <td>
+              <p>
+                Me talking on Enginears podcast with Elliot Kipling about how our tech looks and feels like at
+                nate and my journey so far from a technical perspective. It was a pleasure
+                https://www.youtube.com/watch?v=JBhyXc4gaSE&t=1857s
+              </p>
+              <p>https://www.youtube.com/watch?v=JBhyXc4gaSE&t=1857s
+              </p>
+            </td>
+          </tr>
+        </table>
+      </section>
+    </div>
+
+    <div class="tab-pane" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+      <section class="container">
+        <h1>Talks</h1>
+        <table class="table table-hover">
+          <tr>
+            <td>
+              <p>
+                TODO: add projects
+              </p>
+            </td>
+          </tr>
+        </table>
+      </section>
+    </div>
+
+    <div class="tab-pane" id="contact-me" role="tabpanel" aria-labelledby="contact-me-tab">
+      <section>
+        <h1>Contact Me</h1>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <a href="https://keys.openpgp.org/search?q=EE415FF7FDA3888D1D9FB546006673FCAA91C9E4">PGP</a>
+          </li>
+          <li class="list-group-item">
+            <a href="iamkimchi@proton.me">Email</a>
+          </li>
+        </ul>
+      </section>
+      </section>
+    </div>
+
     <hr />
     <footer>
-      <p>© Dror 2022</p>
+      <p>© Pavel Durov 2022</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

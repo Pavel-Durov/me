@@ -1,32 +1,62 @@
 import React from "react";
-import logo from "./logo.svg";
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+  // Routes, //replaces "Switch" used till v5
+  // Route,
+} from "react-router-dom";
+
 import "./App.css";
 
 import NavBar from "./NavBar";
 
-// eslint-disable-next-line
 import "./js/bootstrap.bundle";
 
 import "./css/bootstrap.css";
+import { Home } from "./routes/home";
+import { Error } from "./routes/error";
+import { Cv } from "./routes/cv";
+import {BrowserRouter} from "react-router-dom";
+
+
+/**
+ * https://github.com/remix-run/react-router/blob/main/docs/start/tutorial.md
+ */
+const router = createBrowserRouter([
+  {
+    path: "/*",
+    element: <Home />,
+    errorElement: <Error />,
+  },
+  {
+    path: "/cv",
+    element: <Cv />,
+  },
+]);
 
 export default class App extends React.Component {
   componentDidMount(): void {
-    console.log('componentDidMount');
-  } 
+    console.log("componentDidMount");
+  }
   render() {
-    return(
-      <div className="App">
-      <header className="App-header">
-        <NavBar />
-      </header>
-      
-      <script
-        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      ></script>
-    
+    return (
+      // <React.StrictMode>
 
-    </div>
-    )
+      
+      // <BrowserRouter>
+      <div>
+        <div className="App">
+          <NavBar />  
+          <section className="row">
+          </section>
+          <section className="row">
+            <RouterProvider router={router} />
+          </section>
+        </div>
+        </div>
+        // </BrowserRouter>
+      // </React.StrictMode>
+    );
   }
 }

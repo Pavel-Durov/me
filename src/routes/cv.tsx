@@ -1,17 +1,15 @@
-export function Cv() {
+
+export function Cv (): JSX.Element {
   return (
     <>
-    <div className="tab-pane" id="cv" role="tabpanel" aria-labelledby="cv-tab">
-      <section className="container">
-
-
+    <div className="container" id="cv" role="tabpanel" aria-labelledby="cv-tab">
         <div className="row">
           <div className="col-lg-12">
             <div className="page-header">
               <h2>Summary</h2>
             </div>
             <p> I am an autodidact full-stack software engineer experienced in developing and leading projects from
-              scratch to enterprise product on various environments. I'm a quick learner with a passion for software
+              scratch to enterprise product on various environments. I am a quick learner with a passion for software
               internals, technology and design. I contribute to open-source projects and learn new technologies and
               theoretical fields in my spare time. My main technical interests are Programming Languages, Linux,
               Functional Programming, distributed systems and platform engineering.
@@ -156,10 +154,8 @@ export function Cv() {
             </table>
           </div>
         </div>
-
-      </section>
     </div>
 
     </>
-  );
+  )
 }

@@ -1,53 +1,53 @@
-import { Outlet, Link } from "react-router-dom";
-import "./App.css";
+import './App.css'
 
-function NavBar() {
+export function NavBar (): JSX.Element {
   return (
+    <>
     <div className="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
-      <a className="navbar-brand">Pavel Durov</a>
-
       <div className="container">
-        <ul
-          className="collapse navbar-collapse collapse nav nav-tabs"
-          id="myTab"
-          role="tablist"
-        >
-          <li className="nav-item">
-            <a href={`/`} className="nav-link">
-              home
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href={`/publications`} className="nav-link">
-              {" "}
-              publications
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href={`./cv`} className="nav-link">
-              cv
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href={`/talks`} className="nav-link">
-              talks
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href={`/projects`} className="nav-link">
-              projects
-            </a>
-          </li>
+        <a href="../" className="navbar-brand">[Pavel Durov]</a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarResponsive">
+          <ul className="navbar-nav">
 
           <li className="nav-item">
-            <a href={`/contact`} className="nav-link">
-              contact
-            </a>
-          </li>
-        </ul>
+             <a href={'/'} className="nav-link">
+               home
+             </a>
+           </li>
+           <li className="nav-item">
+             <a href={'/publications'} className="nav-link">
+               {' '}
+               publications
+             </a>
+           </li>
+           <li className="nav-item">
+             <a href={'./cv'} className="nav-link">
+               cv
+             </a>
+           </li>
+           <li className="nav-item">
+             <a href={'/talks'} className="nav-link">
+               talks
+             </a>
+           </li>
+           <li className="nav-item">
+             <a href={'/projects'} className="nav-link">
+               projects
+             </a>
+           </li>
+           <li className="nav-item">
+             <a href={'/contact'} className="nav-link">
+               contact
+             </a>
+             </li>
+          </ul>
+
+        </div>
       </div>
     </div>
-  );
+    </>
+  )
 }
-
-export default NavBar;

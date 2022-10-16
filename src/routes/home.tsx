@@ -1,18 +1,22 @@
-export function Home() {
+import Profile from '../assets/profile.png'
+
+export function Home (): JSX.Element {
   return (
-    
+
     <div className="container tab-content">
         <div className="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
-          <img src="./assets/profile.png" width="100" />
-          <br />
-          <section className="mt-2" id="bio">
+          <section className="container m-5">
+          <img src={Profile} width="100" className="m-5" />
+
             <p>
-              I've always been curious and fascinated by the world's inner workings and design.
+              I have always been curious and fascinated by the world inner workings and design.
               I am a software engineer with experience developing and leading projects from scratch to enterprise products.
               My main technical interests are programming languages structure, distributed systems, Linux and open source.
             </p>
-
           </section>
+
+          <br />
+
           <section>
             <h2>Identities</h2>
             <ul className="list-group">
@@ -40,5 +44,5 @@ export function Home() {
         </div>
       </div>
 
-  );
+  )
 }

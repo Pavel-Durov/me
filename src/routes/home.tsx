@@ -10,7 +10,7 @@ export function Home (): JSX.Element {
         role="tabpanel"
         aria-labelledby="home-tab"
       >
-        <section className="container m-5">
+        <section className="container m-1">
           <img src={Profile} width="100" className="m-5" />
 
           <p>

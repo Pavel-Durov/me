@@ -51,20 +51,28 @@ const router = createBrowserRouter([
   }
 ])
 
+declare global {
+  interface Window {
+    _386: any
+  }
+}
+
 export default class App extends React.Component {
   componentDidMount (): void {
-    console.log('componentDidMount')
+    window.addEventListener('load', () => {
+      window._386.magicCursor()
+      window._386.scrollLock()
+    })
   }
 
   render (): React.ReactNode {
     return (
       <div>
-        <div className="App bootstra-enable-cursor">
-         <section className="container">
+        <div className="App bootstra-enable-cursor container">
+         <section className="row">
             <NavBar />
          </section>
-          <section className="row"></section>
-          <section className="container tab-content">
+          <section className="row">
             <RouterProvider router={router} />
           </section>
         </div>

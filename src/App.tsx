@@ -69,12 +69,8 @@ export default class App extends React.Component {
     return (
       <div>
         <div className="App bootstra-enable-cursor container">
-         <section className="row">
             <NavBar />
-         </section>
-          <section className="row">
             <RouterProvider router={router} />
-          </section>
         </div>
       </div>
     )

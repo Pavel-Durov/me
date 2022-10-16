@@ -17,7 +17,7 @@ export function Home (): JSX.Element {
             I have always been curious and fascinated by the world inner
             workings and design. I am a software engineer with experience
             developing and leading projects from scratch to enterprise products.
-            My main technical interests are programming languages structure,
+            My main technical interests are programming languages,
             distributed systems, Linux and open source.
           </p>
         </section>

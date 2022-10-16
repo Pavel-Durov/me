@@ -1,23 +1,20 @@
 import React from 'react'
+import talks from '../data/talks'
 
 export function Talks (): JSX.Element {
   return (
     <>
     <section className="container">
         <h1>Talks</h1>
-        <table className="table table-hover">
-          <tr>
-            <td>
-              <p>
-                Me talking on Enginears podcast with Elliot Kipling about how our tech looks and feels like at
-                nate and my journey so far from a technical perspective. It was a pleasure
-                https://www.youtube.com/watch?v=JBhyXc4gaSE&t=1857s
-              </p>
-              <p>https://www.youtube.com/watch?v=JBhyXc4gaSE&t=1857s
-              </p>
-            </td>
-          </tr>
-        </table>
+        { talks.map((talk, idx) => (
+          <div key={idx} className="card">
+            <div className="card-header">{talk.title}</div>
+            <div className="card-body">
+              <p>{talk.description}</p>
+              <a href={talk.url}>{talk.url}</a>
+            </div>
+          </div>
+        ))}
       </section>
     </>
   )

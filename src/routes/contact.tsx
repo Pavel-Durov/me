@@ -1,7 +1,6 @@
 export function Contact (): JSX.Element {
   return (
-
-    <section className="container">
+      <section className="container">
         <h1>Contact Me</h1>
         <ul className="list-group">
           <li className="list-group-item">

@@ -1,16 +1,5 @@
 import publications from '../data/publications'
-
-// function randomNumber (min: number, max: number): number {
-//   return Math.random() * (max - min) + min
-// }
-
-const bgs = ['bg-primary', 'bg-success', 'bg-error', 'bg-danger', 'bg-warning', 'bg-info']
-
-function getClass (i: number): string {
-  const bg = bgs[i % bgs.length]
-  // bgs[randomNumber(0, bgs.length)]
-  return `card text-white bg-secondary ${bg}`
-}
+import { getBgClass } from './utils'
 
 export function Publications (): JSX.Element {
   return (
@@ -19,7 +8,7 @@ export function Publications (): JSX.Element {
         <h1>Publications</h1>
           {
             publications.map((publication, idx) => (
-              <div key={idx} className={getClass(idx)}>
+              <div key={idx} className={getBgClass(idx)}>
                 <div className="card-header">{publication.title}</div>
                 <div className="card-body">
                   <p>{publication.description}</p>
@@ -28,7 +17,6 @@ export function Publications (): JSX.Element {
               </div>
             ))
           }
-
       </section>
     </>
   )

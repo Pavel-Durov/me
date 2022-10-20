@@ -1,4 +1,10 @@
 const publications = [
+
+  {
+    title: 'Python logging module quirks',
+    description: 'The Python logger module might resemble familiar tools, but it has its specifics. In this article, I would like to cover some quirks that I found along the way while I was working recently on a python project.',
+    url: 'https://iamkimchi.hashnode.dev/python-logging-module-quirks'
+  },
   {
     title: 'PyPy,Python and performance benchmarking',
     description: 'My short experience with the PyPy that I was only recently exposed to. This article complements the Writing an Interpreter with PyPy tutorial from 2011',

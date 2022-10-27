@@ -10,16 +10,14 @@ export function Cv (): JSX.Element {
 
         <div className="table table-hover">
           {education.map((edu, idx) => (
-            <div key={idx}>
-              {edu.title}
-            </div>
+            <div key={idx}>{edu.title}</div>
           ))}
         </div>
 
         <h1 id="tables">Experience</h1>
         <div className="table table-hover">
           {workExperience.map((exp, idx) => (
-            <div key={idx} >
+            <div key={idx}>
               <div>
                 <h2>
                   {exp.company} 👉 {exp.title}. {exp.date}
@@ -28,9 +26,7 @@ export function Cv (): JSX.Element {
               <div>
                 <div>
                   <p>{exp.description}</p>
-                  <p>
-                  {exp.techStack}
-                  </p>
+                  <p>{exp.techStack}</p>
                 </div>
               </div>
             </div>

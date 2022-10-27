@@ -20,13 +20,15 @@ const projects = [
   {
     url: 'https://github.com/goldshtn/msos',
     title: 'msos',
-    description: 'Open source contributor. Command-line environment a-la WinDbg for executing SOS commands without having SOS available. It is based on the ClrMD library that is essentially a managed replacement for SOS',
+    description:
+      'Open source contributor. Command-line environment a-la WinDbg for executing SOS commands without having SOS available. It is based on the ClrMD library that is essentially a managed replacement for SOS',
     techStack: 'C#'
   },
   {
     url: 'https://github.com/goldshtn/etrace',
     title: 'etrace',
-    description: 'Open source contributor. Command-line environment a-la WinDbg for executing SOS commands without having SOS available. It is based on the ClrMD library that is essentially a managed replacement for SOS',
+    description:
+      'Open source contributor. Command-line environment a-la WinDbg for executing SOS commands without having SOS available. It is based on the ClrMD library that is essentially a managed replacement for SOS',
     techStack: 'C#'
   },
   {
@@ -59,7 +61,6 @@ const projects = [
     description: 'Code samples for the article "Android Basic Game Loop"',
     techStack: 'Java'
   }
-
 ]
 
 export default projects

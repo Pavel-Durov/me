@@ -1,4 +1,5 @@
-export const summary = 'I am an autodidact full-stack software engineer experienced in developing and leading projects from scratch to enterprise product on various environments. I am a quick learner with a passion for software internals, technology and design. I contribute to open-source projects and learn new technologies and theoretical fields in my spare time. My main technical interests are Programming Languages, Linux, Functional Programming, distributed systems and platform engineering.'
+export const summary =
+  'I am an autodidact full-stack software engineer experienced in developing and leading projects from scratch to enterprise product on various environments. I am a quick learner with a passion for software internals, technology and design. I contribute to open-source projects and learn new technologies and theoretical fields in my spare time. My main technical interests are Programming Languages, Linux, Functional Programming, distributed systems and platform engineering.'
 
 export const education = [
   { title: 'Sela College, Israel - Software development - 2013 - 2014 - Magna Cum Laude' },
@@ -10,7 +11,8 @@ export const workExperience = [
     company: 'nate (UK/US)',
     title: 'Tech Lead, CTO, Principle Engineer.',
     date: 'Jan 2019 - Current',
-    description: ' Joined as a Software Engineer and naturally progressed to Tech Lead, CTO, and Principle Engineer. My role grew alongside the company. I built an engineering function of more than 30 engineers from scratch while aligning technical deliveries to company objectives. This role taught me a lot about data science, engineering practices, leadership, business, management and finance. My current position as a technical leader includes mentorship and consultancy with expectations of setting technical and architectural direction, technology evaluation, and applied research.',
+    description:
+      ' Joined as a Software Engineer and naturally progressed to Tech Lead, CTO, and Principle Engineer. My role grew alongside the company. I built an engineering function of more than 30 engineers from scratch while aligning technical deliveries to company objectives. This role taught me a lot about data science, engineering practices, leadership, business, management and finance. My current position as a technical leader includes mentorship and consultancy with expectations of setting technical and architectural direction, technology evaluation, and applied research.',
     techStack: 'TypeScript, Python, Go, Bash, Terraform, AWS, MongoDB, PostgreSQL, Kubernetes, Docker, Traefik, Git, CircleCi and more'
   },
   {

@@ -1,9 +1,6 @@
 import React from 'react'
 
-import {
-  createBrowserRouter,
-  RouterProvider
-} from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import './App.css'
 
@@ -69,8 +66,8 @@ export default class App extends React.Component {
     return (
       <div>
         <div className="App bootstra-enable-cursor container">
-            <NavBar />
-            <RouterProvider router={router} />
+          <NavBar />
+          <RouterProvider router={router} />
         </div>
       </div>
     )

@@ -7,8 +7,7 @@ const publications = [
   },
   {
     title: 'PyPy,Python and performance benchmarking',
-    description:
-      'My short experience with the PyPy that I was only recently exposed to. This article complements the Writing an Interpreter with PyPy tutorial from 2011',
+    description: 'My short experience with the PyPy that I was only recently exposed to. This article complements the Writing an Interpreter with PyPy tutorial from 2011',
     url: 'https://iamkimchi.hashnode.dev/pypypython-and-performance-benchmarking'
   },
   {
@@ -24,8 +23,7 @@ const publications = [
   },
   {
     title: 'Accessing Internal Data on Android Device',
-    description:
-      'Exploring Android internal data from Eclipse DDMS perspective using adb and Linux commands.',
+    description: 'Exploring Android internal data from Eclipse DDMS perspective using adb and Linux commands.',
     url: 'https://www.codeproject.com/Articles/825304/Accessing-Internal-Data-on-Android-Device'
   },
   {
@@ -35,20 +33,17 @@ const publications = [
   },
   {
     title: 'Android Basic Game Loop',
-    description:
-      'Implementing a basic game fundamentals from scratch on Android platform.',
+    description: 'Implementing a basic game fundamentals from scratch on Android platform.',
     url: 'https://www.codeproject.com/Articles/827608/Android-Basic-Game-Loop'
   },
   {
     title: 'Android dynamic Sqlite database management.',
-    description:
-      'Article about dynamic Sqlite database management on Android platform using Java class reflection.',
+    description: 'Article about dynamic Sqlite database management on Android platform using Java class reflection.',
     url: 'https://www.codeproject.com/Articles/829272/Android-dynamic-Sqlite-database-management-v'
   },
   {
     title: 'Introduction to Mvvmcross Platform.',
-    description:
-      'brief overview on the basic concepts of mvvmcross platform. We will explore the mvvmcross project architecture and its classes.',
+    description: 'brief overview on the basic concepts of mvvmcross platform. We will explore the mvvmcross project architecture and its classes.',
     url: 'https://www.codeproject.com/Articles/863695/Introduction-to-Mvvmcross-Platform'
   },
   {
@@ -63,8 +58,7 @@ const publications = [
   },
   {
     title: 'Hosted Javascript-WinRT duplex communication',
-    description:
-      '.NET WebView hosted Html/Javascript application on Winrt Platform and how to establish the communication between both sides',
+    description: '.NET WebView hosted Html/Javascript application on Winrt Platform and how to establish the communication between both sides',
     url: 'https://www.codeproject.com/Articles/1008161/Hosted-Javascript-WinRT-duplex-communication'
   }
 ]

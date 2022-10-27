@@ -1,9 +1,9 @@
 export const summary = 'I am an autodidact full-stack software engineer experienced in developing and leading projects from scratch to enterprise product on various environments. I am a quick learner with a passion for software internals, technology and design. I contribute to open-source projects and learn new technologies and theoretical fields in my spare time. My main technical interests are Programming Languages, Linux, Functional Programming, distributed systems and platform engineering.'
 
 export const education = [
-  { title: 'Sela College, Israel - Software development - 2013 - 2014 - Graduated with honours' },
-  { title: 'Open University, Israel - Computer Science - 2013 – 2016' },
-  { title: 'Birkbeck, the University of London, UK - BSc (Hons) in Computing - 2018 –2022' }
+  { title: 'Sela College, Israel - Software development - 2013 - 2014 - Magna Cum Laude' },
+  { title: 'Open University, Israel - BSc Computer Science - 2014 – 2017' },
+  { title: 'Birkbeck, University of London, UK - BSc (Hons) in Computing, First Class Honours - 2018 – 2022' }
 ]
 export const workExperience = [
 

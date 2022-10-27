@@ -1,5 +1,11 @@
 const projects = [
   {
+    url: 'https://github.com/Pavel-Durov/dotfiles',
+    title: 'dotfiles',
+    description: 'dotfiles for my debian and macos',
+    techStack: ''
+  },
+  {
     url: 'https://github.com/Pavel-Durov/kimchi.py',
     title: 'Kimchi.Py',
     description: 'Interpreter called Kimchi, Inspired by a book "Writing An Interpreter In Go" but writen in RPython.',

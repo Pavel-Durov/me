@@ -1,8 +1,11 @@
+import React from 'react'
 import Profile from '../assets/profile.png'
 import identities from '../data/identities'
 
-export function Home (): JSX.Element {
-  return (
+export class Home extends React.Component {
+  render (): React.ReactNode {
+    return (
+
     <div className="container tab-content">
       <div
         className="tab-pane active"
@@ -37,5 +40,7 @@ export function Home (): JSX.Element {
         </section>
       </div>
     </div>
-  )
+
+    )
+  }
 }

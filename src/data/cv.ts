@@ -6,7 +6,6 @@ export const education = [
   { title: 'Birkbeck, University of London, UK - BSc (Hons) in Computing, First Class Honours - 2018 – 2022' }
 ]
 export const workExperience = [
-
   {
     company: 'nate (UK/US)',
     title: 'Tech Lead, CTO, Principle Engineer.',

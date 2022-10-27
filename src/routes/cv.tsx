@@ -3,39 +3,39 @@ export function Cv (): JSX.Element {
   return (
     <>
       <div id="cv" role="tabpanel" className="container col-lg-6 p-2">
-        <h2>Summary</h2>
+        <h1>Summary</h1>
         <p> {summary}</p>
 
-        <h2 id="education">Education</h2>
+        <h1 id="education">Education</h1>
 
-        <table className="table table-hover">
+        <div className="table table-hover">
           {education.map((edu, idx) => (
-            <tr key={idx}>
-              <th scope="col">{edu.title}</th>
-            </tr>
+            <div key={idx}>
+              {edu.title}
+            </div>
           ))}
-        </table>
+        </div>
 
-        <h2 id="tables">Experience</h2>
-        <table className="table table-hover">
+        <h1 id="tables">Experience</h1>
+        <div className="table table-hover">
           {workExperience.map((exp, idx) => (
             <div key={idx} >
-              <th>
-                <h3>
+              <div>
+                <h2>
                   {exp.company} 👉 {exp.title}. {exp.date}
-                </h3>
-              </th>
-              <tr>
-                <td>
+                </h2>
+              </div>
+              <div>
+                <div>
                   <p>{exp.description}</p>
                   <p>
                   {exp.techStack}
                   </p>
-                </td>
-              </tr>
+                </div>
+              </div>
             </div>
           ))}
-        </table>
+        </div>
       </div>
     </>
   )

@@ -3,7 +3,7 @@ import talks from 'data/talks'
 export function Talks (): JSX.Element {
   return (
     <>
-      <section className="container col-lg-6 p-2">
+      <section>
         <h1>Talks</h1>
         {talks.map((talk, idx) => (
           <div key={idx} className="card">

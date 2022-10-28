@@ -4,7 +4,7 @@ import { getBgClass } from 'routes/utils'
 export function Projects (): JSX.Element {
   return (
     <>
-      <section className="container col-lg-6 p-2">
+      <section>
         <h1>Projects</h1>
         {projects.map((proj, idx) => (
           <div key={idx} className={getBgClass(idx)}>

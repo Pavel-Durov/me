@@ -2,7 +2,7 @@ import { summary, education, workExperience } from 'data/cv'
 export function Cv (): JSX.Element {
   return (
     <>
-      <div id="cv" role="tabpanel" className="container col-lg-6 p-2">
+      <div id="cv" role="tabpanel">
         <h1>Summary</h1>
         <p> {summary}</p>
 

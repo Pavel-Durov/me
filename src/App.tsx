@@ -9,7 +9,7 @@ import 'js/bootstrap.bundle'
 
 import 'css/bootstrap.css'
 import { router } from 'routes'
-import { BROWSER_SESSION_BASED_LOADING_HOME, LOADING_SPEED_FACTOR } from 'config'
+import { ACCELERATED_LOADING, BROWSER_SESSION_BASED_LOADING_HOME, LOADING_SPEED_FACTOR } from 'config'
 
 declare global {
   interface Window {
@@ -18,18 +18,25 @@ declare global {
 }
 interface HomeState {
   loadProgress: number
+  loadFactor: number
 }
 
 export default class App extends React.Component<{}, HomeState> {
   constructor (props: {}) {
     super(props)
     let loadProgress = 0
+    let loadFactor = LOADING_SPEED_FACTOR
+    const progress = sessionStorage.getItem('homeLoadProgress')
     if (BROWSER_SESSION_BASED_LOADING_HOME) {
-      const progress = sessionStorage.getItem('homeLoadProgress')
       loadProgress = progress == null ? 0 : parseInt(progress, 10)
+      loadFactor = LOADING_SPEED_FACTOR
+    }
+    if (ACCELERATED_LOADING) {
+      loadFactor = LOADING_SPEED_FACTOR / 4
     }
     this.state = {
-      loadProgress
+      loadProgress,
+      loadFactor
     }
   }
 
@@ -43,7 +50,7 @@ export default class App extends React.Component<{}, HomeState> {
         setTimeout(() => {
           this.setState({ loadProgress: i })
           sessionStorage.setItem('homeLoadProgress', i.toString())
-        }, i * LOADING_SPEED_FACTOR)
+        }, i * this.state.loadFactor)
       }
     }
   }
@@ -58,7 +65,7 @@ export default class App extends React.Component<{}, HomeState> {
           </div>
           <div></div>
         </div>
-        <div className="App bootstra-enable-cursor container" hidden={this.state.loadProgress !== 100}>
+        <div className="App bootstra-enable-cursor container container col-lg-6 p-2" hidden={this.state.loadProgress !== 100} >
           <NavBar />
           <RouterProvider router={router} />
         </div>

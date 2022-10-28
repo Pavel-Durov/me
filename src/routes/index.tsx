@@ -1,4 +1,4 @@
-import { createHashRouter } from 'react-router-dom'
+import { createBrowserRouter } from 'react-router-dom'
 
 import { Home } from 'routes/home'
 import { Error } from 'routes/error'
@@ -17,7 +17,7 @@ declare global {
 /**
  * https://github.com/remix-run/react-router/blob/main/docs/start/tutorial.md
  */
-export const router = createHashRouter([
+export const router = createBrowserRouter([
   {
     path: '/*',
     element: <Home />,

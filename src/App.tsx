@@ -31,7 +31,7 @@ export default class App extends React.Component<{}, HomeState> {
       loadProgress = progress == null ? 0 : parseInt(progress, 10)
       loadFactor = LOADING_SPEED_FACTOR
     }
-    if (ACCELERATED_LOADING) {
+    if (progress != null && ACCELERATED_LOADING) {
       loadFactor = LOADING_SPEED_FACTOR / 4
     }
     this.state = {

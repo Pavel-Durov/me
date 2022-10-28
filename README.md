@@ -1,4 +1,4 @@
 # My website
 
-[GitHub Pages](https://pavel-durov.github.io/me/)
+Hosted on [Vercel](https://drkimchi.vercel.app/)
 

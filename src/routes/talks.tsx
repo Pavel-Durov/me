@@ -4,14 +4,16 @@ import talks from '../data/talks'
 export function Talks (): JSX.Element {
   return (
     <>
-      <section className="container">
+      <section className="container col-lg-6 p-2">
         <h1>Talks</h1>
         {talks.map((talk, idx) => (
           <div key={idx} className="card">
-            <div className="card-header">{talk.title}</div>
+            <h2>{talk.date}</h2>
+            <div className="card-header">
+              <a href={talk.url}>{talk.title}</a>
+            </div>
             <div className="card-body">
-              <p>{talk.description}</p>
-              <a href={talk.url}>{talk.url}</a>
+              {talk.description}
             </div>
           </div>
         ))}

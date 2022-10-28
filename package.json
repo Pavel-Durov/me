@@ -1,7 +1,8 @@
 {
   "name": "me",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://pavel-durov.github.io/me/",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -19,7 +20,6 @@
     "typescript": "*",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/Pavel-Durov/me",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

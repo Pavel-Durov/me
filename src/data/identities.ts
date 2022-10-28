@@ -6,7 +6,7 @@ const identities = [
     name: 'Stackoverflow',
     url: 'https://stackoverflow.com/users/5321395/pavel-durov'
   },
-  { name: 'Hashnote', url: 'https://iamkimchi.hashnode.dev' },
+  { name: 'Hashnote', url: 'https://drkimchi.hashnode.dev' },
   { name: 'Medium', url: 'https://medium.com/@iamkimchi' }
 ]
 

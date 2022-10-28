@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.1e631bba.css",
+    "main.js": "/me/static/js/main.a211a84d.js",
+    "static/media/profile.png": "/me/static/media/profile.050775e0a81914a3e156.png",
+    "static/media/Px437_IBM_EGA8.otf": "/me/static/media/Px437_IBM_EGA8.ca0f98f1eb95725c518e.otf",
+    "static/media/shade-50-grayLight.svg": "/me/static/media/shade-50-grayLight.6522066383fc06a907c8.svg",
+    "index.html": "/me/index.html",
+    "static/media/arrow-down-black.svg": "/me/static/media/arrow-down-black.c3c7df30225d6ec9b20e.svg",
+    "static/media/arrow-up-black.svg": "/me/static/media/arrow-up-black.43364c3a7fc8a35b0603.svg",
+    "static/media/left-brace-black.svg": "/me/static/media/left-brace-black.31f7980d9ea80765948a.svg",
+    "static/media/left-brace-grayLight.svg": "/me/static/media/left-brace-grayLight.0dc5248dca0494089ab1.svg",
+    "static/media/right-brace-black.svg": "/me/static/media/right-brace-black.040e4e96d8f659a9fde4.svg",
+    "static/media/right-brace-grayLight.svg": "/me/static/media/right-brace-grayLight.6b694a4813772f9eb85b.svg",
+    "static/media/hyphen-black.svg": "/me/static/media/hyphen-black.ae95dd81823994e25d0c.svg",
+    "main.1e631bba.css.map": "/me/static/css/main.1e631bba.css.map",
+    "main.a211a84d.js.map": "/me/static/js/main.a211a84d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e631bba.css",
+    "static/js/main.a211a84d.js"
+  ]
+}

@@ -1,14 +1,15 @@
 import React from 'react'
 
 import { RouterProvider } from 'react-router-dom'
-import './App.css'
+import 'App.css'
 
-import { NavBar } from './NavBar'
+import { NavBar } from 'components/NavBar'
 
-import './js/bootstrap.bundle'
+import 'js/bootstrap.bundle'
 
-import './css/bootstrap.css'
-import { router } from './routes'
+import 'css/bootstrap.css'
+import { router } from 'routes'
+
 declare global {
   interface Window {
     _386: any

@@ -1,7 +1,7 @@
 import React from 'react'
-import Profile from '../assets/profile.png'
-import { BROWSER_SESSION_BASED_LOADING_HOME } from '../config'
-import identities from '../data/identities'
+import Profile from 'assets/profile.png'
+import { BROWSER_SESSION_BASED_LOADING_HOME } from 'config'
+import identities from 'data/identities'
 
 interface HomeState {
   loadProgress: number

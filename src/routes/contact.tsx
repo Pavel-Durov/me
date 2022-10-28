@@ -1,4 +1,4 @@
-import contact from '../data/contact'
+import contact from 'data/contact'
 
 export function Contact (): JSX.Element {
   return (

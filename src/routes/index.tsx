@@ -1,12 +1,12 @@
 import { createBrowserRouter } from 'react-router-dom'
 
-import { Home } from './Home'
-import { Error } from './Error'
-import { Cv } from './Cv'
-import { Publications } from './Publications'
-import { Projects } from './Projects'
-import { Talks } from './Talks'
-import { Contact } from './Contact'
+import { Home } from 'routes/Home'
+import { Error } from 'routes/Error'
+import { Cv } from 'routes/Cv'
+import { Publications } from 'routes/Publications'
+import { Projects } from 'routes/Projects'
+import { Talks } from 'routes/Talks'
+import { Contact } from 'routes/Contact'
 
 declare global {
   interface Window {

@@ -1,4 +1,4 @@
-import { summary, education, workExperience } from '../data/cv'
+import { summary, education, workExperience } from 'data/cv'
 export function Cv (): JSX.Element {
   return (
     <>

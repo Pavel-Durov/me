@@ -1,5 +1,4 @@
-import React from 'react'
-import talks from '../data/talks'
+import talks from 'data/talks'
 
 export function Talks (): JSX.Element {
   return (

@@ -1,0 +1,1 @@
+export const BROWSER_SESSION_BASED_LOADING_HOME = true

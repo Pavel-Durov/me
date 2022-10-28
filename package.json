@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
-  "homepage": "https://pavel-durov.github.io/me/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

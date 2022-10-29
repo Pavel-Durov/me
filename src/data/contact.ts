@@ -3,5 +3,58 @@ export default {
   title: 'Hello world!',
   pgpPublicKey: 'https://keys.openpgp.org/search?q=EE415FF7FDA3888D1D9FB546006673FCAA91C9E4',
   contactMessage: "If you have any questions, suggestions, observations, complaints, ideas or just want to say hi, please feel free to send me an email. I'm quite responsive (unless you're a recruiter with irrelevant offer)",
-  email: 'iamkimchi@proton.me'
+  email: 'iamkimchi@proton.me',
+  pgpKey: `
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  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
+dAz7qhU37m9o7vc==UBwf
+  
+-----END PGP PUBLIC KEY BLOCK-----
+  `
 }

@@ -1,5 +1,10 @@
 const publications = [
   {
+    title: 'Db data migration using K8S jobs Helm. Or how I learned to let go & love Helm',
+    description: 'This article will cover the data migration process between two data stores, the evaluation of possible alternatives, and final outcome. We will cover the difference between sequential, asynchronous, multi-threaded, and distributed applications. And finally, we will overview the practical application of Helm and K8S jobs for data migration tasks.',
+    url: 'https://drkimchi.hashnode.dev/db-data-migration-using-k8s-jobs-helm'
+  },
+  {
     title: 'Python logging module quirks',
     description:
       'The Python logger module might resemble familiar tools, but it has its specifics. In this article, I would like to cover some quirks that I found along the way while I was working recently on a python project.',

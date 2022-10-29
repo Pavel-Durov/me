@@ -65,7 +65,7 @@ export default class App extends React.Component<{}, HomeState> {
           </div>
           <div></div>
         </div>
-        <div className="App bootstra-enable-cursor container container col-lg-6 p-2" hidden={this.state.loadProgress !== 100} >
+        <div className="App bootstra-enable-cursor container col-md-8 col-sm-11 p-2" hidden={this.state.loadProgress !== 100} >
           <NavBar />
           <RouterProvider router={router} />
         </div>

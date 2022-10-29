@@ -9,10 +9,11 @@ export function Publications (): JSX.Element {
         <h1>Publications</h1>
         {publications.map((publication, idx) => (
           <div key={idx} className={getBgClass(idx)}>
-            <div className="card-header">{publication.title}</div>
+            <div className="card-header">
+              <a href={publication.url}>{publication.title}</a>
+            </div>
             <div className="card-body">
               <p>{publication.description}</p>
-              <a href={publication.url}>{publication.url}</a>
             </div>
           </div>
         ))}

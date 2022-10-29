@@ -51,6 +51,11 @@ export function NavBar (): JSX.Element {
                 contact
               </a>
             </li>
+            <li className="nav-item">
+              <a href={'/misc'} className="nav-link">
+                misc
+              </a>
+            </li>
           </ul>
         </div>
       </div>

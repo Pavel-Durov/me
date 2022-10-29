@@ -7,6 +7,7 @@ import { Publications } from 'routes/publications'
 import { Projects } from 'routes/projects'
 import { Talks } from 'routes/talks'
 import { Contact } from 'routes/contact'
+import { Misc } from 'routes/misc'
 
 declare global {
   interface Window {
@@ -42,5 +43,9 @@ export const router = createBrowserRouter([
   {
     path: '/contact',
     element: <Contact />
+  },
+  {
+    path: '/misc',
+    element: <Misc />
   }
 ])

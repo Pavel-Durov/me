@@ -33,18 +33,15 @@ export function NavBar (): JSX.Element {
                 Identity
               </a>
             </li>
-            <li className="nav-item">
-              <a href={'/contact'} className="nav-link">
-                Contact
-              </a>
-            </li>
-
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="themes">
                 More
                 <span className="caret"></span>
               </a>
               <div className="dropdown-menu" aria-labelledby="themes">
+                <a href={'/contact'} className="nav-link">
+                  Contact
+                </a>
                 <a href={'/projects'} className="dropdown-item">
                   Projects
                 </a>

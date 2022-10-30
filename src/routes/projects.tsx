@@ -4,14 +4,15 @@ import { getBgClass } from 'routes/utils'
 export function Projects (): JSX.Element {
   return (
     <>
-      <section>
+      <section className="container">
         <h1>Projects</h1>
-        {projects.map((proj, idx) => (
+        {projects.map((project, idx) => (
           <div key={idx} className={getBgClass(idx)}>
-            <div className="card-header">{proj.title}</div>
+            <div className="card-header">
+              <a href={project.url}>{project.title}</a>
+            </div>
             <div className="card-body">
-              <p>{proj.description}</p>
-              <a href={proj.url}>{proj.url}</a>
+              <p>{project.description}</p>
             </div>
           </div>
         ))}

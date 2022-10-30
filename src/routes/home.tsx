@@ -1,7 +1,5 @@
 import React from 'react'
 import Profile from 'assets/profile.png'
-import identities from 'data/identities'
-
 export class Home extends React.Component {
   render (): React.ReactNode {
     return (
@@ -11,22 +9,16 @@ export class Home extends React.Component {
           <section className="container m-1">
             <img src={Profile} width="100" className="m-5" />
             <p>
-              I am an autodidact software engineer experienced in developing and leading projects from scratch to enterprise product on various environments. My main technical interests are Programming Languages, Compilers, Linux, Distributed Systems and Software Architecture.
-              I am fluent in English, Hebrew and Russian and currently learning Greek. I am a quick learner, a creative problem solver, knowledge-driven and a technology enthusiast. I learn and practice music, yoga, philosophy, gardening and meditation in my spare time. I am an optimist with a realistic point of view.
+              You have landed at the home page of Pavel Durov.
+            </p>
+            <p>
+            I am a human, genuinely interested in technology, philosophy, music, gardening, running, bouldering and planet earth.
+            I live with my wife and two cats in London, UK. My technical interests are Programming Languages, Open Source, Linux, Distributed Systems and Software Architecture. But you will probably find me doing other stuff most of the time.
+            I like learning. Most of my knowledge comes from books, other humans and life experiences.
+            I am fluent in English, Hebrew and Russian and currently learning Greek.
             </p>
           </section>
           <br />
-          <section>
-            <h2>Identities</h2>
-
-            <ul className="list-group">
-              {identities.map((identity, idx) => (
-                <li key={idx} className="list-group-item">
-                  <a href={identity.url}>{identity.name}</a>
-                </li>
-              ))}
-            </ul>
-          </section>
         </section>
       </div>
     )

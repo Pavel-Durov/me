@@ -6,6 +6,10 @@ const identities = [
     name: 'Stackoverflow',
     url: 'https://stackoverflow.com/users/5321395/pavel-durov'
   },
+  {
+    name: 'GoodReads',
+    url: 'https://www.goodreads.com/user/show/154294414-pavel-durov'
+  },
   { name: 'Hashnote', url: 'https://drkimchi.hashnode.dev' },
   { name: 'Medium', url: 'https://medium.com/@iamkimchi' }
 ]

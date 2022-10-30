@@ -1,15 +1,27 @@
 const projects = [
   {
-    url: 'https://github.com/Pavel-Durov/dotfiles',
-    title: 'dotfiles',
-    description: 'dotfiles for my debian and macos',
-    techStack: ''
-  },
-  {
     url: 'https://github.com/Pavel-Durov/kimchi.py',
     title: 'Kimchi.Py',
     description: 'Interpreter called Kimchi, Inspired by a book "Writing An Interpreter In Go" but writen in RPython.',
     techStack: 'RPython, PyPy'
+  },
+  {
+    url: 'https://github.com/Pavel-Durov/pypy.meta.tracing',
+    title: 'pypy.meta.tracing',
+    description: 'Experimentation and exploration of the PyPy JIT tracing mechanism.',
+    techStack: 'RPython, PyPy'
+  },
+  {
+    url: 'https://github.com/blitzshare',
+    title: 'Blitzshare',
+    description: 'Blitzshare is a communication tool for data sharing between network participants directly, securely, and anonymously',
+    techStack: ' Go, Bash, AWS, Eks, Kubernetes, Terraform, docker, KubeMQ, Redis, PostgreSQL, libP2p'
+  },
+  {
+    url: 'https://github.com/Pavel-Durov/dotfiles',
+    title: 'dotfiles',
+    description: 'dotfiles for my debian and macos',
+    techStack: ''
   },
   {
     url: 'https://github.com/dumconstantin/ramda-loader',
@@ -28,7 +40,21 @@ const projects = [
     url: 'https://github.com/goldshtn/etrace',
     title: 'etrace',
     description:
+      'This Project uses various technologies for extracting Windows process handles data from a given context. Based on ClrMd, WCT, MiniDump and other Windows APIs at its core.',
+    techStack: 'C#'
+  },
+  {
+    url: 'https://github.com/Pavel-Durov/WHQ',
+    title: 'etrace',
+    description:
       'Open source contributor. Command-line environment a-la WinDbg for executing SOS commands without having SOS available. It is based on the ClrMD library that is essentially a managed replacement for SOS',
+    techStack: 'C#'
+  },
+  {
+    url: 'https://github.com/Pavel-Durov/SymMath',
+    title: 'SymMath',
+    description:
+      'A tool for quick math symbols insertion. Tested with Microsoft Word, but can be used in any text editor - as long as you got the right fonts installed :).  ',
     techStack: 'C#'
   },
   {
@@ -37,11 +63,12 @@ const projects = [
     description: 'Open source contributor. Command-line tool for realtime tracing of ETW events and for processing existing .etl recording files',
     techStack: 'RPython, PyPy'
   },
+
   {
-    url: 'https://github.com/blitzshare',
-    title: 'Blitzshare',
-    description: 'Blitzshare is a communication tool for data sharing between network participants directly, securely, and anonymously',
-    techStack: ' Go, Bash, AWS, Eks, Kubernetes, Terraform, docker, KubeMQ, Redis, PostgreSQL, libP2p'
+    url: 'https://github.com/Pavel-Durov/fish-out-of-water',
+    title: 'fish-out-of-water',
+    description: 'Interactive sound to visual translation using p5.js library.',
+    techStack: 'P5js, Javascript'
   },
   {
     url: 'https://github.com/Pavel-Durov/pynetwork',

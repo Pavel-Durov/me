@@ -4,4 +4,6 @@
 
 - Vercel [Dashboard](https://vercel.com/dashboard)
 
-- Styles are stolen from [BOOTSTRA.386](https://github.com/kristopolous/BOOTSTRA.386)
+- [BOOTSTRA.386](https://github.com/kristopolous/BOOTSTRA.386)
+
+- [Fonts](https://int10h.org/oldschool-pc-fonts/readme/)

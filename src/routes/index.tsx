@@ -7,7 +7,7 @@ import { Publications } from 'routes/publications'
 import { Projects } from 'routes/projects'
 import { Talks } from 'routes/talks'
 import { Contact } from 'routes/contact'
-import { Misc } from 'routes/misc'
+import { Identity } from 'routes/identity'
 
 declare global {
   interface Window {
@@ -25,8 +25,13 @@ export const router = createBrowserRouter([
     errorElement: <Error />
   },
   {
+
     path: '/cv',
     element: <Cv />
+  },
+  {
+    path: '/id',
+    element: <Identity />
   },
   {
     path: '/publications',
@@ -43,9 +48,5 @@ export const router = createBrowserRouter([
   {
     path: '/contact',
     element: <Contact />
-  },
-  {
-    path: '/misc',
-    element: <Misc />
   }
 ])

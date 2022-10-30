@@ -54,6 +54,9 @@ export function NavBar (): JSX.Element {
                 <a href={'./cv'} className="dropdown-item">
                   Cv
                 </a>
+                <a href={'./engineering-philosophy'} className="dropdown-item">
+                  Engineering Philosophy
+                </a>
                 <div className="dropdown-divider"></div>
                 <a href={'/'} className="dropdown-item">
                   Home

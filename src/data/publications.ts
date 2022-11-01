@@ -8,18 +8,18 @@ const publications = [
     title: 'Python logging module quirks',
     description:
       'The Python logger module might resemble familiar tools, but it has its specifics. In this article, I would like to cover some quirks that I found along the way while I was working recently on a python project.',
-    url: 'https://iamkimchi.hashnode.dev/python-logging-module-quirks'
+    url: 'https://drkimchi.hashnode.dev/python-logging-module-quirks'
   },
   {
     title: 'PyPy,Python and performance benchmarking',
     description: 'My short experience with the PyPy that I was only recently exposed to. This article complements the Writing an Interpreter with PyPy tutorial from 2011',
-    url: 'https://iamkimchi.hashnode.dev/pypypython-and-performance-benchmarking'
+    url: 'https://drkimchi.hashnode.dev/pypypython-and-performance-benchmarking'
   },
   {
     title: 'Linux VNC server & macOS VNC client.',
     description:
       "If you like me, having a Linux PC or a laptop at home but you're using your mac for work on a day-to-day basis. A local VNC server can be nice if you want to run or do some experiments with a native Linux OS",
-    url: 'https://iamkimchi.hashnode.dev/linux-vnc-server-macos-vnc-client'
+    url: 'https://drkimchi.hashnode.dev/linux-vnc-server-macos-vnc-client'
   },
   {
     title: 'Introduction to numerical bases.',

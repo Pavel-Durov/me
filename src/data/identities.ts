@@ -11,7 +11,8 @@ const identities = [
     url: 'https://www.goodreads.com/user/show/154294414-pavel-durov'
   },
   { name: 'Hashnote', url: 'https://drkimchi.hashnode.dev' },
-  { name: 'Medium', url: 'https://medium.com/@iamkimchi' }
+  { name: 'Medium', url: 'https://medium.com/@iamkimchi' },
+  { name: 'Chess.com', url: 'https://www.chess.com/member/ihcmikmai' }
 ]
 
 export default identities

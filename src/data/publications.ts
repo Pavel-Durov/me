@@ -11,6 +11,11 @@ const publications = [
     url: 'https://drkimchi.hashnode.dev/python-logging-module-quirks'
   },
   {
+    title: 'macOS FS vs Linux FS - case sensitivity',
+    description: 'In this article, I will overview the case-sensitivity difference between macOS default filesystem (FS) and Linux filesystem with some practical examples and gotchas.',
+    url: 'https://drkimchi.hashnode.dev/macos-fs-vs-linux-fs-case-sensitivity'
+  },
+  {
     title: 'PyPy,Python and performance benchmarking',
     description: 'My short experience with the PyPy that I was only recently exposed to. This article complements the Writing an Interpreter with PyPy tutorial from 2011',
     url: 'https://drkimchi.hashnode.dev/pypypython-and-performance-benchmarking'

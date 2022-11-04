@@ -39,7 +39,7 @@ export function NavBar (): JSX.Element {
                 <span className="caret"></span>
               </a>
               <div className="dropdown-menu" aria-labelledby="themes">
-                <a href={'/contact'} className="nav-link">
+                <a href={'/contact'} className="dropdown-item">
                   Contact
                 </a>
                 <a href={'/projects'} className="dropdown-item">

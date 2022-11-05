@@ -1,6 +1,6 @@
 import React from 'react'
 import projects from 'data/projects'
-import { getBgClass } from 'routes/utils'
+import { getBgClass } from 'components/Utils'
 export function Projects (): JSX.Element {
   return (
     <>

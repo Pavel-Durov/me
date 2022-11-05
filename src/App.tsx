@@ -5,8 +5,6 @@ import 'App.css'
 
 import { NavBar } from 'components/NavBar'
 
-import 'js/bootstrap.bundle'
-
 import 'css/bootstrap.css'
 import { router } from 'routes'
 import { ACCELERATED_LOADING, BROWSER_SESSION_BASED_LOADING_HOME, LOADING_SPEED_FACTOR } from 'config'

@@ -1,14 +1,14 @@
 import { createBrowserRouter } from 'react-router-dom'
 
-import { Home } from 'routes/home'
+import { Home } from 'components/Home'
 import { Error } from 'routes/error'
-import { Cv } from 'routes/cv'
-import { Publications } from 'routes/publications'
-import { Projects } from 'routes/projects'
-import { Talks } from 'routes/talks'
-import { Contact } from 'routes/contact'
-import { Identity } from 'routes/identity'
-import { EngineeringPhilosophy } from 'routes/engineeringPhilosophy'
+import { Cv } from 'components/Cv'
+import { Publications } from 'components/Publications'
+import { Projects } from 'components/Projects'
+import { Talks } from 'components/Talks'
+import { Contact } from 'components/Contact'
+import { Identity } from 'components/Identity'
+import { EngineeringPhilosophy } from 'components/EngineeringPhilosophy'
 
 declare global {
   interface Window {

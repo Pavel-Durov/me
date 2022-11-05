@@ -1,5 +1,5 @@
 import publications from 'data/publications'
-import { getBgClass } from 'routes/utils'
+import { getBgClass } from 'components/Utils'
 
 // TODO: integrate with hashnote RSS https://drkimchi.hashnode.dev/rss.xml
 export function Publications (): JSX.Element {

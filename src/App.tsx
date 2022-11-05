@@ -5,8 +5,6 @@ import 'App.css'
 
 import { NavBar } from 'components/NavBar'
 
-import 'js/bootstrap.bundle'
-
 import 'css/bootstrap.css'
 import { router } from 'routes'
 import { ACCELERATED_LOADING, BROWSER_SESSION_BASED_LOADING_HOME, LOADING_SPEED_FACTOR } from 'config'
@@ -66,7 +64,7 @@ export default class App extends React.Component<{}, HomeState> {
           <div></div>
         </div>
 
-        <div className="App bootstra-enable-cursor container col-md-8 col-sm-11 p-2 text-left" hidden={this.state.loadProgress !== 100} >
+        <div className="App bootstra-enable-cursor container col-md-8 col-sm-11 text-left" hidden={this.state.loadProgress !== 100} >
           <NavBar />
           <RouterProvider router={router} />
         </div>

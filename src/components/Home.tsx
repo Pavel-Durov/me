@@ -1,10 +1,14 @@
 import React from 'react'
-import Profile from 'assets/profile.png'
+
+import Profile from 'assets/head_spin_yellow_bg.gif'
+
 export class Home extends React.Component {
   render (): React.ReactNode {
     return (
       <div>
-        <img src={Profile} width="100" className="m-5" />
+
+        <img src={Profile} width="100" style={{ margin: '10px' }}/>
+
         <p>You have landed at the home page of Pavel Durov.</p>
         <p>
           I am a human, genuinely interested in technology, philosophy, music, gardening, running, bouldering and planet earth. I live with my wife and two cats in London, UK. My

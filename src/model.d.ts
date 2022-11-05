@@ -9,6 +9,7 @@ export interface Publication {
   url: string
   title: string
   description: string
+  date: string
 }
 
 export interface Project {

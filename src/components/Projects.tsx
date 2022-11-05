@@ -4,7 +4,7 @@ import { Project } from 'model'
 export function Projects ({ projects }: { projects: Project[] }): JSX.Element {
   return (
     <>
-      <section className="container">
+      <section>
         <h1>Projects</h1>
         {projects.map((project, idx) => (
           <div key={idx} className={getBgClass(idx)}>

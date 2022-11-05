@@ -1,21 +1,19 @@
 import { Publication } from 'model'
-import { getBgClass } from 'components/Utils'
 
 export function Publications ({ publications }: { publications: Publication[] }): JSX.Element {
   return (
     <>
-      <section className="container">
+      <section>
         <h1>Publications</h1>
-        {publications.map((publication, idx) => (
-          <div key={idx} className={getBgClass(idx)}>
-            <div className="card-header">
-              <a href={publication.url}>{publication.title}</a>
-            </div>
-            <div className="card-body">
-              <p>{publication.description}</p>
-            </div>
+         {publications.map((pub, idx) => (
+        <div key={idx} className="card" >
+          <h2>{pub.date}</h2>
+          <div className="card-header">
+            <a href={pub.url}>{pub.title}</a>
           </div>
-        ))}
+          <div className="card-body">{pub.description}</div>
+        </div>
+         ))}
       </section>
     </>
   )

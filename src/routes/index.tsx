@@ -9,6 +9,7 @@ import { Talks } from 'components/Talks'
 import { Contact } from 'components/Contact'
 import { Identity } from 'components/Identity'
 import { EngineeringPhilosophy } from 'components/EngineeringPhilosophy'
+import { AssetWall } from 'components/AssetWall'
 
 import identities from 'data/identities'
 import projects from 'data/projects'
@@ -60,5 +61,9 @@ export const router = createBrowserRouter([
   {
     path: '/engineering-philosophy',
     element: <EngineeringPhilosophy values={values} quotes={inspirationalQuotes}/>
+  },
+  {
+    path: '/asset-wall',
+    element: <AssetWall />
   }
 ])

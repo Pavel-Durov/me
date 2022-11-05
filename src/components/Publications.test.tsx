@@ -7,12 +7,14 @@ test('renders NavBar', () => {
       {
         url: 'test-url-1',
         title: 'test-title-1',
-        description: 'test-description-1'
+        description: 'test-description-1',
+        date: 'test-date-1'
       },
       {
         url: 'test-url-2',
         title: 'test-title-2',
-        description: 'test-description-2'
+        description: 'test-description-2',
+        date: 'test-date-2'
       }
     ]
   }/>)

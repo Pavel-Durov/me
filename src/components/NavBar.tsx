@@ -47,6 +47,9 @@ export function NavBar (): JSX.Element {
                 <a href={'/'} className="dropdown-item">
                   Home
                 </a>
+                <a href={'/asset-wall'} className="dropdown-item">
+                  Asset Wall
+                </a>
               </div>
             </li>
           </ul>

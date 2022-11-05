@@ -2,7 +2,7 @@ import { PhilosophyValue } from 'model'
 export function EngineeringPhilosophy ({ values, quotes }: { values: PhilosophyValue[], quotes: string[] }): JSX.Element {
   return (
     <>
-      <section className="container">
+      <section>
         <h1>Engineering Philosophy</h1>
         <p>Each value should be considered in its context + apply your judgment - *you are a human, not a machine*</p>
         {values.map((val, idx) => (

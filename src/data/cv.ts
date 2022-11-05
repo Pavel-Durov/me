@@ -1,12 +1,14 @@
+import { Education, WorkExperience } from 'model'
+
 export const summary =
   'I am an autodidact full-stack software engineer experienced in developing and leading projects from scratch to enterprise product on various environments. I am a quick learner with a passion for software internals, technology and design. I contribute to open-source projects and learn new technologies and theoretical fields in my spare time. My main technical interests are Programming Languages, Linux, Functional Programming, distributed systems and platform engineering.'
 
-export const education = [
+export const education: Education[] = [
   { title: 'Sela College, Israel - Software development - 2013 - 2014 - Magna Cum Laude' },
   { title: 'Open University, Israel - BSc Computer Science - 2014 – 2017' },
   { title: 'Birkbeck, University of London, UK - BSc (Hons) in Computing, First Class Honours - 2018 – 2022' }
 ]
-export const workExperience = [
+export const workExperience: WorkExperience[] = [
   {
     company: 'nate (UK/US)',
     title: 'Tech Lead, CTO, Principle Engineer.',

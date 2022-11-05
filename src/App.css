@@ -37,6 +37,8 @@
   }
 }
 
-@media screen and (max-width: 1150.50px) {
-  body { padding-top: 100px; }
+body { padding-top: 10px; }
+
+@media screen and (max-width: 575.71px) {
+  body { padding-top: 70px; }
 }

@@ -1,7 +1,7 @@
-import React from 'react'
-import projects from 'data/projects'
 import { getBgClass } from 'components/Utils'
-export function Projects (): JSX.Element {
+import { Project } from 'model'
+
+export function Projects ({ projects }: { projects: Project[] }): JSX.Element {
   return (
     <>
       <section className="container">

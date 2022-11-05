@@ -1,7 +1,5 @@
-import React from 'react'
-import { values, inspirationalQuotes } from 'data/engineeringPhilosophy'
-
-export function EngineeringPhilosophy (): JSX.Element {
+import { PhilosophyValue } from 'model'
+export function EngineeringPhilosophy ({ values, quotes }: { values: PhilosophyValue[], quotes: string[] }): JSX.Element {
   return (
     <>
       <section className="container">
@@ -19,7 +17,7 @@ export function EngineeringPhilosophy (): JSX.Element {
         ))}
         <h1>Inspirational Quotes</h1>
         <ul>
-          {inspirationalQuotes.map((quote, idx) => (
+          {quotes.map((quote, idx) => (
             <li key={idx} className="m-2">
               <span className='text-secondary'>
               {quote}

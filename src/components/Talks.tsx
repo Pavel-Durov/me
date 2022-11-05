@@ -1,6 +1,6 @@
-import talks from 'data/talks'
+import { Talk } from 'model'
 
-export function Talks (): JSX.Element {
+export function Talks ({ talks }: { talks: Talk[] }): JSX.Element {
   return (
     <section>
       <h1>Talks</h1>

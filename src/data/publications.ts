@@ -1,4 +1,5 @@
-const publications = [
+import { Publication } from 'model'
+const publications: Publication[] = [
   {
     title: 'Db data migration using K8S jobs Helm. Or how I learned to let go & love Helm',
     description: 'This article will cover the data migration process between two data stores, the evaluation of possible alternatives, and final outcome. We will cover the difference between sequential, asynchronous, multi-threaded, and distributed applications. And finally, we will overview the practical application of Helm and K8S jobs for data migration tasks.',

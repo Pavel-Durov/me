@@ -1,4 +1,6 @@
-const projects = [
+import { Project } from 'model'
+
+const projects: Project[] = [
   {
     url: 'https://github.com/Pavel-Durov/kimchi.py',
     title: 'Kimchi.Py',

@@ -1,4 +1,5 @@
-const talks = [
+import { Talk } from 'model'
+const talks: Talk[] = [
   {
     date: '2022-06-13',
     title: 'A universal all-in-one intelligent payments shopping app - Enginears Podcast',
@@ -30,19 +31,19 @@ const talks = [
     date: '2021-04-30',
     title: 'ACID vs BASE',
     description: 'Cloud theory and CAP Theorem. Overview of ACID, BASE how they compare and when to use them.',
-    link: 'https://docs.google.com/presentation/d/1irt9sypLYFq19xoLqyRB-SYVwY0UXZqw/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
+    url: 'https://docs.google.com/presentation/d/1irt9sypLYFq19xoLqyRB-SYVwY0UXZqw/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {
     date: '2021-06-4',
     title: 'MapReduce',
     description: 'Overview of Hadoop and MapReduce.',
-    link: 'https://docs.google.com/presentation/d/1b8NyNbgaAeo9zWzJ8_HbbJidqnO8_ko_/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
+    url: 'https://docs.google.com/presentation/d/1b8NyNbgaAeo9zWzJ8_HbbJidqnO8_ko_/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {
     date: '2021-02-26',
     title: 'Introduction to Web Assembly',
     description: 'Introduction to WebAssembly. WebAssembly is a new type of low-level assembly-like language that can be run in modern web browsers',
-    link: 'https://docs.google.com/presentation/d/1f_Sw-YtEmb81Zm5QwY5FFiOUuthC7sFa/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
+    url: 'https://docs.google.com/presentation/d/1f_Sw-YtEmb81Zm5QwY5FFiOUuthC7sFa/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
 
   {
@@ -68,7 +69,7 @@ const talks = [
     date: '2020-04-17',
     title: 'Algorithms analysis & big O notation',
     description: 'Very high level overview of algorithms analysis and big O notation. Used as a refresher for those who forgot, or as a starting point for those who never heard of it.',
-    link: 'https://docs.google.com/presentation/d/1rL83knworsX9HYdFa-uMj4FBePqLUJRa/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
+    url: 'https://docs.google.com/presentation/d/1rL83knworsX9HYdFa-uMj4FBePqLUJRa/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {
     date: '2020-03-13',

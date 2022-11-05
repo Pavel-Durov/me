@@ -1,5 +1,7 @@
 
-export const values = [
+import { PhilosophyValue } from 'model'
+
+export const values: PhilosophyValue[] = [
   {
     value: 'Build solutions that are easy to understand and not easy to make',
     sub: [

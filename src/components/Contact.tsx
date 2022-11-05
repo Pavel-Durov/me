@@ -1,6 +1,6 @@
-import contact from 'data/contact'
+import { Contact as Model } from 'model'
 
-export function Contact (): JSX.Element {
+export function Contact ({ contact }: { contact: Model }): JSX.Element {
   return (
     <section>
       <h1>{contact.title}</h1>

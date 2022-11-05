@@ -10,6 +10,13 @@ import { Contact } from 'components/Contact'
 import { Identity } from 'components/Identity'
 import { EngineeringPhilosophy } from 'components/EngineeringPhilosophy'
 
+import identities from 'data/identities'
+import projects from 'data/projects'
+import publications from 'data/publications'
+import talks from 'data/talks'
+import { values, inspirationalQuotes } from 'data/engineeringPhilosophy'
+import { summary, education, workExperience } from 'data/cv'
+import { contact } from 'data/contact'
 declare global {
   interface Window {
     _386: any
@@ -28,30 +35,30 @@ export const router = createBrowserRouter([
   {
 
     path: '/cv',
-    element: <Cv />
+    element: <Cv summary={summary} education={education} workExperience={workExperience}/>
   },
   {
     path: '/id',
-    element: <Identity />
+    element: <Identity identities={identities}/>
   },
   {
     path: '/publications',
-    element: <Publications />
+    element: <Publications publications={publications}/>
   },
   {
     path: '/projects',
-    element: <Projects />
+    element: <Projects projects={projects}/>
   },
   {
     path: '/talks',
-    element: <Talks />
+    element: <Talks talks={talks}/>
   },
   {
     path: '/contact',
-    element: <Contact />
+    element: <Contact contact={contact}/>
   },
   {
     path: '/engineering-philosophy',
-    element: <EngineeringPhilosophy />
+    element: <EngineeringPhilosophy values={values} quotes={inspirationalQuotes}/>
   }
 ])

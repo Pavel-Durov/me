@@ -23,20 +23,20 @@ const talks: Talk[] = [
   {
     date: '2021-04-23',
     title: 'CAP Theorem Intro',
-    description: 'Cloud theory and CAP Theorem series introduction.',
+    description: 'Cloud theory and CAP Theorem series introduction',
     url: 'https://docs.google.com/presentation/d/1TMOV8OcnxKURCPdw9Ws1gsn31oLKMiTI/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
 
   {
     date: '2021-04-30',
     title: 'ACID vs BASE',
-    description: 'Cloud theory and CAP Theorem. Overview of ACID, BASE how they compare and when to use them.',
+    description: 'Cloud theory and CAP Theorem. Overview of ACID, BASE how they compare and when to use them',
     url: 'https://docs.google.com/presentation/d/1irt9sypLYFq19xoLqyRB-SYVwY0UXZqw/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {
     date: '2021-06-4',
     title: 'MapReduce',
-    description: 'Overview of Hadoop and MapReduce.',
+    description: 'Overview of Hadoop and MapReduce',
     url: 'https://docs.google.com/presentation/d/1b8NyNbgaAeo9zWzJ8_HbbJidqnO8_ko_/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {
@@ -50,25 +50,25 @@ const talks: Talk[] = [
     date: '2022-05-13',
     title: 'Disaster recovery, disaster',
     description:
-    'Talking about general approach to disaster recovery, when and how its applicable strategy. Im this case it was premature optimization, that tried to address multiple problems at once.',
+    'Talking about general approach to disaster recovery, when and how its applicable strategy. Im this case it was premature optimization, that tried to address multiple problems at once',
     url: 'https://docs.google.com/presentation/d/1-KVH401qcUQck8DvD81g4-ptfxHNT7do/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {
     date: '2021-06-25',
     title: 'linux + namespaces + cgroups + docker',
-    description: 'Talk about containerization, how it works under the hood and what paved the way for it.',
+    description: 'Talk about containerization, how it works under the hood and what paved the way for it',
     url: 'https://docs.google.com/presentation/d/1b5w6nOfy9tmif0cAW-BovqJUy9uzpMn7/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {
     date: '2020-05-09',
     title: 'Protobufs',
-    description: 'Protobufs, forward, backward and full compatibility and supportive tools.',
+    description: 'Protobufs, forward, backward and full compatibility and supportive tools',
     url: 'https://docs.google.com/presentation/d/1WAAljjz5_2AZE5O5yafN6HXJdKGfBp6r/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {
     date: '2020-04-17',
     title: 'Algorithms analysis & big O notation',
-    description: 'Very high level overview of algorithms analysis and big O notation. Used as a refresher for those who forgot, or as a starting point for those who never heard of it.',
+    description: 'Very high level overview of algorithms analysis and big O notation. Used as a refresher for those who forgot, or as a starting point for those who never heard of it',
     url: 'https://docs.google.com/presentation/d/1rL83knworsX9HYdFa-uMj4FBePqLUJRa/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {

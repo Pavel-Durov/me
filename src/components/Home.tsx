@@ -1,14 +1,14 @@
 import React from 'react'
 
-import Profile from 'assets/head_spin_yellow_bg.gif'
+import MovingHead from './MovingHead'
 
 export class Home extends React.Component {
   render (): React.ReactNode {
     return (
       <div>
-
-        <img src={Profile} width="100" style={{ margin: '10px' }}/>
-
+        <div style={{ textAlign: 'center', padding: 10 }}>
+          <MovingHead/>
+        </div>
         <p>You have landed at the home page of Pavel Durov.</p>
         <p>
           I am a human, genuinely interested in technology, philosophy, music, gardening, running, bouldering and planet earth. I live with my wife and two cats in London, UK. My

@@ -11,7 +11,8 @@
     "lint": "eslint '*/**/*.{js,ts,json}'",
     "lint:fix": "eslint ./src --fix",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "generate-head": "node ./scripts/manipulate_images.js"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -41,6 +42,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.31.10",
     "gh-pages": "^4.0.0",
+    "jimp": "^0.16.2",
     "prettier": "^2.7.1"
   },
   "eslintConfig": {

@@ -1,10 +1,14 @@
 import 'App.css'
+import Profile from 'assets/head_spin_yellow_bg.gif'
 
 export function NavBar (): JSX.Element {
   return (
     <>
       <div className="navbar navbar-expand-sm fixed-top navbar-dark bg-primary text-center">
+        <img src={Profile} style={{ margin: '1px', width: 30, padding: '5px' }}/>
+
         <mark>[PAVEL DUROV]</mark>
+
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav">
             <li className="nav-item">

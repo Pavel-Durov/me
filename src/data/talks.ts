@@ -50,7 +50,7 @@ const talks: Talk[] = [
     date: '2022-05-13',
     title: 'Disaster recovery, disaster',
     description:
-    'Talking about general approach to disaster recovery, when and how its applicable strategy. Im this case it was premature optimization, that tried to address multiple problems at once',
+    'Talking about general approach to disaster recovery, when and how its applicable strategy. In my case it was a premature optimization when we tried to address multiple problems at once',
     url: 'https://docs.google.com/presentation/d/1-KVH401qcUQck8DvD81g4-ptfxHNT7do/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {

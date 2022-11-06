@@ -4,33 +4,33 @@ const publications: Publication[] = [
   {
     title: 'macOS FS vs Linux FS - case sensitivity',
     description: 'In this article, I will overview the case-sensitivity difference between macOS default filesystem (FS) and Linux filesystem with some practical examples and gotchas',
-    url: 'https://drkimchi.hashnode.dev/macos-fs-vs-linux-fs-case-sensitivity',
+    url: 'https://blog.p3ld3v.dev/macos-fs-vs-linux-fs-case-sensitivity',
     date: '2022-10-31'
   },
   {
     title: 'Python logging module quirks',
     description:
     'The Python logger module might resemble familiar tools, but it has its specifics. In this article, I would like to cover some quirks that I found along the way while I was working recently on a python project',
-    url: 'https://drkimchi.hashnode.dev/python-logging-module-quirks',
+    url: 'https://blog.p3ld3v.dev/python-logging-module-quirks',
     date: '2022-10-20'
   },
   {
     title: 'Db data migration using K8S jobs Helm. Or how I learned to let go & love Helm',
     description: 'This article will cover the data migration process between two data stores, the evaluation of possible alternatives, and final outcome. We will cover the difference between sequential, asynchronous, multi-threaded, and distributed applications. And finally, we will overview the practical application of Helm and K8S jobs for data migration tasks',
-    url: 'https://drkimchi.hashnode.dev/db-data-migration-using-k8s-jobs-helm',
+    url: 'https://blog.p3ld3v.dev/db-data-migration-using-k8s-jobs-helm',
     date: '2022-10-29'
   },
   {
     title: 'PyPy,Python and performance benchmarking',
     description: 'My short experience with the PyPy that I was only recently exposed to. This article complements the Writing an Interpreter with PyPy tutorial from 2011',
-    url: 'https://drkimchi.hashnode.dev/pypypython-and-performance-benchmarking',
+    url: 'https://blog.p3ld3v.dev/pypypython-and-performance-benchmarking',
     date: '2022-10-10'
   },
   {
     title: 'Linux VNC server & macOS VNC client',
     description:
       "If you like me, having a Linux PC or a laptop at home but you're using your mac for work on a day-to-day basis. A local VNC server can be nice if you want to run or do some experiments with a native Linux OS",
-    url: 'https://drkimchi.hashnode.dev/linux-vnc-server-macos-vnc-client',
+    url: 'https://blog.p3ld3v.dev/linux-vnc-server-macos-vnc-client',
     date: '2022-10-10'
   },
   {

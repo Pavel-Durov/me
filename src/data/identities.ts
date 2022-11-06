@@ -10,7 +10,7 @@ const identities = [
     name: 'GoodReads',
     url: 'https://www.goodreads.com/user/show/154294414-pavel-durov'
   },
-  { name: 'Hashnote', url: 'https://drkimchi.hashnode.dev' },
+  { name: 'Hashnote', url: 'https://blog.p3ld3v.dev' },
   { name: 'Medium', url: 'https://medium.com/@iamkimchi' },
   { name: 'Chess.com', url: 'https://www.chess.com/member/ihcmikmai' }
 ]

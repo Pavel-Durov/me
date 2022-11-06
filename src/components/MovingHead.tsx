@@ -100,6 +100,10 @@ export default class MovingHead extends React.Component<{}, MovingHeadState> {
       const { clientX, clientY } = touch.touches[0]
       this.updateImage(clientX, clientY)
     })
+    window.addEventListener('touchmove', (touch) => {
+      const { clientX, clientY } = touch.touches[0]
+      this.updateImage(clientX, clientY)
+    })
   }
 
   render (): React.ReactNode {

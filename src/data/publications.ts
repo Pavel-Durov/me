@@ -2,6 +2,12 @@ import { Publication } from 'model'
 
 const publications: Publication[] = [
   {
+    title: 'Graceful Termination in K8S - SIGTERM and UNIX processes',
+    description: 'In this article, we\'re going to cover UNIX process signals and SIGTERM signals in particular. We will cover how to handle them with practical examples using Node, TypeScript, Docker and Kind local cluster.',
+    url: 'https://blog.p3ld3v.dev/graceful-termination-in-k8s-sigterm-and-unix-processes',
+    date: '2022-11-07'
+  },
+  {
     title: 'macOS FS vs Linux FS - case sensitivity',
     description: 'In this article, I will overview the case-sensitivity difference between macOS default filesystem (FS) and Linux filesystem with some practical examples and gotchas',
     url: 'https://blog.p3ld3v.dev/macos-fs-vs-linux-fs-case-sensitivity',

@@ -65,7 +65,8 @@ export default class App extends React.Component<{}, HomeState> {
         </div>
 
         <div className="App bootstra-enable-cursor container col-md-8 col-sm-11 text-left"
-        style={{ marginTop: '30px' }}hidden={this.state.loadProgress !== 100} >
+
+        style={{ marginTop: '30px', maxWidth: 800 }}hidden={this.state.loadProgress !== 100} >
           <NavBar />
           <RouterProvider router={router} />
           <footer className='fixed-bottom'>

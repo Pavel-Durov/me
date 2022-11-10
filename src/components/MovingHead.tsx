@@ -1,15 +1,15 @@
 import React from 'react'
 
-import FRONT_CLOSED_EYES from 'assets/moving_head/front_closed_eyes.jpg'
-import DOWN from 'assets/moving_head/down.jpg'
-import DOWN_LEFT from 'assets/moving_head/down_left.jpg'
-import DOWN_RIGHT from 'assets/moving_head/down_right.jpg'
-import FRONT from 'assets/moving_head/front.jpg'
-import LEFT from 'assets/moving_head/left.jpg'
-import RIGHT from 'assets/moving_head/right.jpg'
-import UP from 'assets/moving_head/up.jpg'
-import UP_LEFT from 'assets/moving_head/up_left.jpg'
-import UP_RIGHT from 'assets/moving_head/up_right.jpg'
+import FRONT_CLOSED_EYES from 'assets/moving_head/front_closed_eyes.png'
+import DOWN from 'assets/moving_head/down.png'
+import DOWN_LEFT from 'assets/moving_head/down_left.png'
+import DOWN_RIGHT from 'assets/moving_head/down_right.png'
+import FRONT from 'assets/moving_head/front.png'
+import LEFT from 'assets/moving_head/left.png'
+import RIGHT from 'assets/moving_head/right.png'
+import UP from 'assets/moving_head/up.png'
+import UP_LEFT from 'assets/moving_head/up_left.png'
+import UP_RIGHT from 'assets/moving_head/up_right.png'
 
 interface MovingHeadState {
   image: string

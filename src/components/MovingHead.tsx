@@ -11,6 +11,9 @@ import UP from 'assets/moving_head/up.png'
 import UP_LEFT from 'assets/moving_head/up_left.png'
 import UP_RIGHT from 'assets/moving_head/up_right.png'
 
+import { throttle, interval, Observable, timeout, Observer } from 'rxjs'
+import { logger } from 'common/logger'
+
 interface MovingHeadState {
   image: string
   direction: Direction
@@ -27,7 +30,7 @@ enum Direction {
   RIGHT,
   FRONT,
   INSIDE,
-  MIDDLE
+  MIDDLE,
 }
 
 const IMAGES = {
@@ -50,9 +53,13 @@ export default class MovingHead extends React.Component<{}, MovingHeadState> {
     this.state = { image: FRONT, direction: Direction.FRONT }
   }
 
+  getHeadRect (): DOMRect {
+    const elem = document.getElementById('moving-head-img') as HTMLElement
+    return elem.getBoundingClientRect()
+  }
+
   getDirection (x: number, y: number): Direction {
-    const i = document.getElementById('moving-head-img') as HTMLElement
-    const rect = i.getBoundingClientRect()
+    const rect = this.getHeadRect()
     let result = Direction.FRONT
     if (y < rect.top) {
       result = Direction.UP
@@ -84,32 +91,65 @@ export default class MovingHead extends React.Component<{}, MovingHeadState> {
   }
 
   isInMiddleRect (x: number, y: number, rect: DOMRect, padding = 20): boolean {
-    return (x > rect.x + padding && x < rect.right - padding) && (y > rect.y + padding && y < rect.bottom - padding)
+    return x > rect.x + padding && x < rect.right - padding && y > rect.y + padding && y < rect.bottom - padding
   }
 
   updateImage (x: number, y: number): void {
     const direction = this.getDirection(x, y)
-    this.setState({ image: IMAGES[direction], direction })
+    if (direction !== this.state.direction) {
+      this.setState({ image: IMAGES[direction], direction })
+    }
   }
 
-  componentDidMount (): void {
+  observeMovementsEvents (observer: Observer<any>): void {
     window.addEventListener('mousemove', ({ clientX, clientY }) => {
-      this.updateImage(clientX, clientY)
+      observer.next({ clientX, clientY })
     })
     window.addEventListener('touchstart', (touch) => {
       const { clientX, clientY } = touch.touches[0]
-      this.updateImage(clientX, clientY)
+      observer.next({ clientX, clientY })
     })
     window.addEventListener('touchmove', (touch) => {
       const { clientX, clientY } = touch.touches[0]
-      this.updateImage(clientX, clientY)
+      observer.next({ clientX, clientY })
     })
+    observer.next(null)
+  }
+
+  defaultState (): void {
+    this.setState({ image: IMAGES[Direction.MIDDLE], direction: Direction.MIDDLE })
+    setTimeout(() => {
+      this.setState({ image: IMAGES[Direction.FRONT], direction: Direction.FRONT })
+    }, 400)
+  }
+
+  sub (): void {
+    this.defaultState()
+    new Observable(this.observeMovementsEvents)
+      .pipe(
+        throttle(() => interval(10)),
+        timeout({ each: 5000 })
+      )
+      .subscribe({
+        next: (a: any) => {
+          if (a !== null) {
+            this.updateImage(a.clientX, a.clientY)
+          }
+        },
+        error: () => {
+          this.sub()
+        }
+      })
+  }
+
+  componentDidMount (): void {
+    this.sub()
   }
 
   render (): React.ReactNode {
     return (
       <div>
-          <img id='moving-head-img' src={this.state.image} style={{ width: 100 }}/>
+        <img id="moving-head-img" src={this.state.image} style={{ width: 100 }} />
       </div>
     )
   }

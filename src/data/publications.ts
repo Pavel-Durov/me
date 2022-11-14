@@ -2,6 +2,12 @@ import { Publication } from 'model'
 
 const publications: Publication[] = [
   {
+    title: 'Hexagonal Architecture/Ports and Adapters, DDD, DI and IoC',
+    description: 'In this article, I will overview the concept of Hexagonal Architecture (HA), the problem it addresses, its benefits, implications and some practical examples illustrated via code and diagrams.There\'re many sources on this topic. My source is not the most detailed one, but my intention is to simplify the idea as much as I can and break it down to its core concepts and explain its jargon.',
+    url: 'https://blog.p3ld3v.dev/hexagonal-architectureports-and-adapters-ddd-di-and-ioc',
+    date: '2022-11-14'
+  },
+  {
     title: 'Graceful Termination in K8S - SIGTERM and UNIX processes',
     description: 'In this article, we\'re going to cover UNIX process signals and SIGTERM signals in particular. We will cover how to handle them with practical examples using Node, TypeScript, Docker and Kind local cluster.',
     url: 'https://blog.p3ld3v.dev/graceful-termination-in-k8s-sigterm-and-unix-processes',

@@ -13,7 +13,6 @@ import UP_RIGHT from 'assets/moving_head/up_right.png'
 
 import { throttle, interval, Observable, timeout, Observer } from 'rxjs'
 import { logger } from 'common/logger'
-
 interface MovingHeadState {
   image: string
   direction: Direction
@@ -97,6 +96,7 @@ export default class MovingHead extends React.Component<{}, MovingHeadState> {
   updateImage (x: number, y: number): void {
     const direction = this.getDirection(x, y)
     if (direction !== this.state.direction) {
+      logger.debug('updateImage', IMAGES[direction])
       this.setState({ image: IMAGES[direction], direction })
     }
   }
@@ -128,7 +128,7 @@ export default class MovingHead extends React.Component<{}, MovingHeadState> {
     new Observable(this.observeMovementsEvents)
       .pipe(
         throttle(() => interval(10)),
-        timeout({ each: 5000 })
+        timeout({ each: 3000 })
       )
       .subscribe({
         next: (a: any) => {

@@ -18,6 +18,7 @@ import talks from 'data/talks'
 import { values, inspirationalQuotes } from 'data/engineeringPhilosophy'
 import { summary, education, workExperience } from 'data/cv'
 import { contact } from 'data/contact'
+import { Figlet } from 'components/figlet/Figlet'
 declare global {
   interface Window {
     _386: any
@@ -65,5 +66,10 @@ export const router = createBrowserRouter([
   {
     path: '/asset-wall',
     element: <AssetWall />
+  },
+  {
+    path: '/Figlet',
+    element: <Figlet />
   }
+
 ])

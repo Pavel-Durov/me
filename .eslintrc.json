@@ -20,5 +20,11 @@
     "rules": {
       "@typescript-eslint/triple-slash-reference": "off",
       "react/react-in-jsx-scope": "off"
-    }
+    },
+    "ignorePatterns": [
+        "figlet.js",
+        "node_modules/",
+        "dist/",
+        "build/"
+    ]
 }

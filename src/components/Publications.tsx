@@ -4,10 +4,10 @@ export function Publications ({ publications }: { publications: Publication[] })
   return (
     <>
       <section>
-        <h1>Publications</h1>
+        <div className='kimchi-h1'>Publications</div>
          {publications.map((pub, idx) => (
         <div key={idx} className="card" >
-          <h2>{pub.date}</h2>
+          <div className='kimchi-h1'>{pub.date}</div>
           <div className="card-header">
             <a href={pub.url}>{pub.title}</a>
           </div>

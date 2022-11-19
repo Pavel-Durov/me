@@ -3,7 +3,8 @@ import { Contact as Model } from 'model'
 export function Contact ({ contact }: { contact: Model }): JSX.Element {
   return (
     <section>
-      <h1>{contact.title}</h1>
+
+      <div className='kimchi-h1'>{contact.title}</div>
       <div className="jumbotron">
         <p>{contact.contactMessage}</p>
         <p className="lead">

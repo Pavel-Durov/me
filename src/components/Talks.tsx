@@ -3,10 +3,11 @@ import { Talk } from 'model'
 export function Talks ({ talks }: { talks: Talk[] }): JSX.Element {
   return (
     <section>
-      <h1>Talks</h1>
+
+      <div className='kimchi-h1'>Talks</div>
       {talks.map((talk, idx) => (
         <div key={idx} className="card">
-          <h2>{talk.date}</h2>
+          <div className='kimchi-h1'>{talk.date}</div>
           <div className="card-header">
             <a href={talk.url}>{talk.title}</a>
           </div>

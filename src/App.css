@@ -1,9 +1,9 @@
 .App {
   text-align: center;
-  height: 100%;
   height: calc(100vh - 30px);
   margin-top: 40px;
-  max-width: 800px;
+  font-size: 2em;
+  line-height: 1em;
 }
 
 .App-logo {
@@ -41,8 +41,28 @@
   }
 }
 
-@media screen and (max-width: 575.71px) {
-  body { padding-top: 70px; }
+.moving-head-image {
+  width: 200px;
+}
+@media screen and (max-width: 770) {
+  .App {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .App {
+    padding-top: 80px;
+    font-size: 1.3em !important;
+    line-height: 1em;
+  }
+  h1 {
+    font-size: 1.2em !important;
+  }
+  h2 {
+    font-size: 1.2em !important;
+    padding: 1px;
+  }
 }
 
 .scrollable {
@@ -50,7 +70,7 @@
   overflow-y: 'scroll';
 }
 
-.kimchi-box{
+.kimchi-box {
   text-align: center;
   display: block;
   padding: 10px 15px;
@@ -70,10 +90,22 @@
   overflow-y: auto;
 }
 
-.kimchi-list ul li{
+.kimchi-list ul li {
   list-style-type: none;
 }
-.kimchi-list div:hover{
+
+.kimchi-list div:hover {
   list-style-type: none;
   background-color: black;
+}
+
+.kimchi-purple-mark {
+  color: #f5f;
+  word-wrap: break-word;
+}
+
+.kimchi-h1 {
+  background-color: #00aaaa;
+  color: black !important;
+  padding-left: 15px;
 }

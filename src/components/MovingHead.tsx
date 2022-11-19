@@ -149,7 +149,7 @@ export default class MovingHead extends React.Component<{}, MovingHeadState> {
   render (): React.ReactNode {
     return (
       <div>
-        <img id="moving-head-img" src={this.state.image} style={{ width: 100 }} />
+        <img id="moving-head-img" src={this.state.image} className="moving-head-image" />
       </div>
     )
   }

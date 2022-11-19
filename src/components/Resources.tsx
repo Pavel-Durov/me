@@ -54,9 +54,10 @@ export class Resources extends React.Component<{ references: Model[] }, { refere
           <div className="kimchi-list" style={{ width: '50%' }}>
             {this.state.items.map((item, idx) => (
               <div key={idx} onClick={(e) => this.itemSelected(idx)}>
-                <p>
-                <code>{item.title}</code>
+                <p className='kimchi-purple-mark'>
+                  {item.title}
                 </p>
+
                 <p>
                   [{item?.tags.join(', ')}]
                 </p>

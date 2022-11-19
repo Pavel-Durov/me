@@ -5,10 +5,10 @@ export function Cv ({ summary, education, workExperience }:
   return (
     <>
       <div id="cv" role="tabpanel">
-        <h1>Summary</h1>
+        <div className='kimchi-h1'>Summary</div>
         <p className='m-2'> {summary}</p>
 
-        <h1 id="education">Education</h1>
+        <div className='kimchi-h1' id="education">Education</div>
 
         <div className="table table-hover m-2">
           {education.map((edu, idx) => (
@@ -16,14 +16,14 @@ export function Cv ({ summary, education, workExperience }:
           ))}
         </div>
 
-        <h1>Experience</h1>
+        <div className='kimchi-h1'>Experience</div>
         <div>
           {workExperience.map((exp, idx) => (
             <div key={idx}>
               <div>
-                <h2>
-                  {exp.company} 👉 {exp.title}. {exp.date}
-                </h2>
+                  <div className='kimchi-h1'>
+                    {exp.company} 👉 {exp.title}. {exp.date}
+                  </div>
               </div>
               <div className='m-2'>
                   <p>{exp.description}</p>

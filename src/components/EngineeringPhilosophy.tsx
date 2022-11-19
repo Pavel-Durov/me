@@ -3,7 +3,7 @@ export function EngineeringPhilosophy ({ values, quotes }: { values: PhilosophyV
   return (
     <>
       <section>
-        <h1>Engineering Philosophy</h1>
+        <div className='kimchi-h1'>Engineering Philosophy</div>
         <p>Each value should be considered in its context + apply your judgment - *you are a human, not a machine*</p>
         {values.map((val, idx) => (
           <div key={idx}>
@@ -15,7 +15,8 @@ export function EngineeringPhilosophy ({ values, quotes }: { values: PhilosophyV
             </ul>
           </div>
         ))}
-        <h1>Inspirational Quotes</h1>
+
+        <div className='kimchi-h1'>Inspirational Quotes</div>
         <ul>
           {quotes.map((quote, idx) => (
             <li key={idx} className="m-2">

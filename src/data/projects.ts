@@ -47,7 +47,7 @@ const projects: Project[] = [
   },
   {
     url: 'https://github.com/Pavel-Durov/WHQ',
-    title: 'etrace',
+    title: 'WHQ',
     description:
       'Open source contributor. Command-line environment a-la WinDbg for executing SOS commands without having SOS available. It is based on the ClrMD library that is essentially a managed replacement for SOS',
     techStack: 'C#'

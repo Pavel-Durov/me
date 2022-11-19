@@ -2,6 +2,57 @@ import { Reference } from 'model'
 
 export const references: Reference[] = [
   {
+    
+    url: 'https://martinfowler.com/bliki/DarkLaunching.html',
+    title: 'Dark Launching',
+    description:'Dark launching a feature means taking a new or changed back-end behavior and calling it from existing users without the users being able to tell it\'s being called. It\'s done to assess the additional load and performance impacts upon the system before making a public announcement of the new capability.',
+    tags: ['dark launching', 'feature', 'back-end', 'release']
+  },
+  {
+    
+    url: 'https://www.youtube.com/watch?v=OH5I3V-FVTo&ab_channel=Confluent',
+    title: 'If Streaming Is the Answer, Why Are We Still Doing Batch? ',
+    description:'In this episode, Kris talks to a panel of industry experts with decades of experience building and implementing data systems. They discuss the state of streaming adoption today, if streaming will ever fully replace batch, and whether it even could (or should). Is micro batching the natural stepping stone between batch and streaming? Will there ever be a unified understanding on how data should be processed over time? Is the lack of agreement on best practices for data streaming an insurmountable obstacle to widespread adoption? What exactly is holding teams back from fully adopting a streaming model? ',
+    tags: ['kafka','streaming','batch'],
+  },
+  {
+    url: 'https://alistair.cockburn.us/hexagonal-architecture/',
+    title: 'The Pattern: Ports and Adapters (Object Structural)',
+    description:'Overview of the pattern - hexagonal-architecture',
+    tags: ['hexagonal-architecture', 'ports-and-adapters', 'architecture'],
+  },
+  {
+    url: 'https://dl.acm.org/doi/10.1145/359576.359585',
+    title: 'Communicating sequential processes',
+    description:'This paper suggests that input and output are basic primitives of programming and that parallel composition of communicating sequential processes is a fundamental program structuring method. When combined with a development of Dijkstra\'s guarded command, these concepts are surprisingly versatile. Their use is illustrated by sample solutions of a variety of a familiar programming exercises.',
+    tags: ['communication', 'concurrency', 'processes', 'research'],
+  },
+  {
+    url: 'https://dev.to/karanpratapsingh/csp-vs-actor-model-for-concurrency-1cpg',
+    title: 'CSP vs Actor model for concurrency ',
+    description: 'CSP vs Actor model for concurrency ',
+    tags: ['csp', 'actor model', 'concurrency']
+  },
+  {
+    url: 'https://go.dev/talks/2012/concurrency.slide#1',
+    title: 'Go Concurrency Patterns',
+    description:'Presentation on Go Concurrency Patterns',
+    tags: ['go', 'concurrency', 'slides'],
+  },
+  {
+    url: 'https://learning.codefresh.io/path-player?courseid=gitops-with-argo&unit=gitops-with-argo_6177da00c04a0Unit',
+    title: 'Andrew Lee',
+    description:'GitOps is a set of best practices where the entire code delivery process is controlled via Git, including infrastructure and application definition as code and automation to complete updates and rollbacks.',
+    tags: ['ci/cd', 'gitops', 'argo', 'kubernetes'],
+  }
+
+  {
+    url: 'https://go.dev/blog/defer-panic-and-recover',
+    title: 'Defer, Panic, and Recover',
+    description: 'Go has the usual mechanisms for control flow: if, for, switch, goto. It also has the go statement to run code in a separate goroutine. Here I’d like to discuss some of the less common ones: defer, panic, and recover.',
+    tags: ['go', 'golang', 'programming', 'software development', 'error handling', 'control flow', 'defer', 'panic', 'recover']
+  },
+  {
     url: 'https://tratt.net/laurie/research/pubs/html/bolz_tratt__the_impact_of_metatracing_on_vm_design_and_implementation/',
     title: 'The Impact of Meta-Tracing on VM Design and Implementation',
     description: 'Most modern languages are implemented using Virtual Machines (VMs). While the best VMs use Just-In-Time (JIT) compilers to achieve good performance, JITs are costly to implement, and few VMs therefore come with one. The RPython language allows tracing JIT VMs to be automatically created from an interpreter, changing the economics of VM implementation. In this paper, we explain, through two concrete VMs, how meta-tracing RPython VMs can be designed and optimised, and, experimentally, the performance levels one might reasonably expect from them. ',

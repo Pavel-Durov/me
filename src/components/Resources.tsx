@@ -1,18 +1,18 @@
 import { getBgClass } from 'components/Utils'
-import { Reference } from 'model'
+import { Resources as Model } from 'model'
 
-export function Resources ({ resources }: { resources: Reference[] }): JSX.Element {
+export function Resources ({ references }: { references: Model[] }): JSX.Element {
   return (
     <>
       <section>
         <h1>Resources</h1>
-        {resources.map((resource, idx) => (
+        {references.map((reference, idx) => (
           <div key={idx} className={getBgClass(idx)}>
             <div className="card-header">
-              <a href={resource.url}>{resource.title}</a>
+              <a href={reference.url}>{reference.title}</a>
             </div>
             <div className="card-body">
-              <p>{resource.description}</p>
+              <p>{reference.description}</p>
             </div>
           </div>
         ))}

@@ -1,6 +1,6 @@
-import { Reference } from 'model'
+import { Resources } from 'model'
 
-export const references: Reference[] = [
+const resources: Resources[] = [
   {
     url: 'http://wiki.c2.com/?SeparationOfConcerns',
     title: 'Separation of Concerns',
@@ -392,3 +392,5 @@ export const references: Reference[] = [
     tags: ['architecture', 'hexagonal architecture']
   }
 ]
+
+export default resources

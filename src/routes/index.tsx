@@ -11,6 +11,7 @@ import { Identity } from 'components/Identity'
 import { EngineeringPhilosophy } from 'components/EngineeringPhilosophy'
 import { AssetWall } from 'components/AssetWall'
 
+import resources from 'data/resources'
 import identities from 'data/identities'
 import projects from 'data/projects'
 import publications from 'data/publications'
@@ -18,6 +19,7 @@ import talks from 'data/talks'
 import { values, inspirationalQuotes } from 'data/engineeringPhilosophy'
 import { summary, education, workExperience } from 'data/cv'
 import { contact } from 'data/contact'
+import { Resources } from 'components/Resources'
 declare global {
   interface Window {
     _386: any
@@ -65,5 +67,10 @@ export const router = createBrowserRouter([
   {
     path: '/asset-wall',
     element: <AssetWall />
+  },
+  {
+    path: '/resources',
+    element: <Resources references={resources}/>
   }
+
 ])

@@ -49,7 +49,7 @@ export interface Contact {
   pgpKey: string
 }
 
-export interface Reference {
+export interface Resources {
   url: string
   title: string
   description: string

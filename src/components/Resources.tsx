@@ -1,7 +1,7 @@
 import { getBgClass } from 'components/Utils'
-import { Project } from 'model'
+import { Reference } from 'model'
 
-export function Resources ({ resources }: { resources: Project[] }): JSX.Element {
+export function Resources ({ resources }: { resources: Reference[] }): JSX.Element {
   return (
     <>
       <section>

@@ -48,3 +48,10 @@ export interface Contact {
   email: string
   pgpKey: string
 }
+
+export interface Reference {
+  url: string
+  title: string
+  description: string
+  tags: string[]
+}

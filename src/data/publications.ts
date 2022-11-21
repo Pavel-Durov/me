@@ -2,6 +2,12 @@ import { Publication } from 'model'
 
 const publications: Publication[] = [
   {
+    title: 'Progressive Delivery - Application deployment strategies: configurable and gradual deployments with minimised downtime.',
+    description: 'This article will cover Progressive Delivery techniques such as Feature Flags, A/B Testing, Ring Deployment, Dark Launching, Blue/Green and Canary deployments with high-level illustrations and a general concept overview.',
+    url: 'https://blog.p3ld3v.dev/progressive-delivery',
+    date: '2022-11-21'
+  },
+  {
     title: 'Hexagonal Architecture/Ports and Adapters, DDD, DI and IoC',
     description: 'In this article, I will overview the concept of Hexagonal Architecture (HA), the problem it addresses, its benefits, implications and some practical examples illustrated via code and diagrams.There\'re many sources on this topic. My source is not the most detailed one, but my intention is to simplify the idea as much as I can and break it down to its core concepts and explain its jargon.',
     url: 'https://blog.p3ld3v.dev/hexagonal-architectureports-and-adapters-ddd-di-and-ioc',

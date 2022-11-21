@@ -2,6 +2,13 @@ import { Resources } from 'model'
 
 const resources: Resources[] = [
   {
+    url: 'https://refactoring.guru/design-patterns',
+    title: 'Design patterns',
+    description:
+      'Design patterns are typical solutions to common problems in software design. Each pattern is like a blueprint that you can customize to solve a particular design problem in your code.',
+    tags: ['design-patterns', 'architecture', 'software-engineering']
+  },
+  {
     url: 'http://wiki.c2.com/?SeparationOfConcerns',
     title: 'Separation of Concerns',
     description:

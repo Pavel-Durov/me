@@ -2,6 +2,12 @@ import { Resources } from 'model'
 
 const resources: Resources[] = [
   {
+    url: 'https://www.npmjs.com/package/dependency-cruiser',
+    title: 'Dependency Cruiser',
+    description: 'Validate and visualise dependencies. With your rules. JavaScript. TypeScript. CoffeeScript. ES6, CommonJS, AMD.',
+    tags: ['dependency', 'cruiser', 'npm', 'package', 'visual']
+  },
+  {
     url: 'https://github.com/golang-standards/project-layout',
     title: 'Golang project structure best practices',
     description:

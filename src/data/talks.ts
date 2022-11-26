@@ -8,6 +8,12 @@ const talks: Talk[] = [
     url: 'https://www.youtube.com/watch?v=JBhyXc4gaSE&t=1857s'
   },
   {
+    date: '2022-05-09',
+    title: 'Protobufs',
+    description: 'Protobufs, forward, backward and full compatibility and supportive tools',
+    url: 'https://docs.google.com/presentation/d/1WAAljjz5_2AZE5O5yafN6HXJdKGfBp6r/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
+  },
+  {
     date: '2021-05-14',
     title: 'Apache Cassandra',
     description:
@@ -40,13 +46,6 @@ const talks: Talk[] = [
     url: 'https://docs.google.com/presentation/d/1b8NyNbgaAeo9zWzJ8_HbbJidqnO8_ko_/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {
-    date: '2021-02-26',
-    title: 'Introduction to Web Assembly',
-    description: 'Introduction to WebAssembly. WebAssembly is a new type of low-level assembly-like language that can be run in modern web browsers',
-    url: 'https://docs.google.com/presentation/d/1f_Sw-YtEmb81Zm5QwY5FFiOUuthC7sFa/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
-  },
-
-  {
     date: '2022-05-13',
     title: 'Disaster recovery, disaster',
     description:
@@ -60,10 +59,10 @@ const talks: Talk[] = [
     url: 'https://docs.google.com/presentation/d/1b5w6nOfy9tmif0cAW-BovqJUy9uzpMn7/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {
-    date: '2020-05-09',
-    title: 'Protobufs',
-    description: 'Protobufs, forward, backward and full compatibility and supportive tools',
-    url: 'https://docs.google.com/presentation/d/1WAAljjz5_2AZE5O5yafN6HXJdKGfBp6r/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
+    date: '2020-09-15',
+    title: 'Introduction to WebAssembly (WASM)',
+    description: 'Introduction to WebAssembly. WebAssembly is a new type of low-level assembly-like language that can be run in modern web browsers',
+    url: 'https://docs.google.com/presentation/d/1f_Sw-YtEmb81Zm5QwY5FFiOUuthC7sFa/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {
     date: '2020-04-17',

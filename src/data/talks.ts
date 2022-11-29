@@ -1,6 +1,13 @@
 import { Talk } from 'model'
 const talks: Talk[] = [
   {
+    date: '2022-11-29',
+    title: 'Research Proposal - Language Composition',
+    description:
+      'Language Composition research proposal presentation as part of my admission for part-time PhD',
+    url: 'https://drive.proton.me/urls/F47YJ3K78W#qoRPMFB6xO0S'
+  },
+  {
     date: '2022-06-13',
     title: 'A universal all-in-one intelligent payments shopping app - Enginears Podcast',
     description:

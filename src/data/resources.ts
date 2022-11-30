@@ -2,6 +2,12 @@ import { Resources } from 'model'
 
 const resources: Resources[] = [
   {
+    url: 'https://www.youtube.com/watch?v=GgCA2USI5iQ&ab_channel=CNCF%5BCloudNativeComputingFoundation%5D',
+    title: 'Webinar: Kubernetes and Networks: Why is This So Dang Hard?',
+    description: 'Tim Hockin presents a webinar where he looks at different models for integrating Kubernetes into your network in both single-cluster and multi-cluster environments. He looks at IPs, gateway configurations, and how to navigate security boundaries, describing pros and cons of each solution, so that developers can make the best choice for their particular environment.',
+    tags: ['webinar', 'kubernetes', 'network', 'Tim Hockin']
+  },
+  {
     url: 'https://www.npmjs.com/package/dependency-cruiser',
     title: 'Dependency Cruiser',
     description: 'Validate and visualise dependencies. With your rules. JavaScript. TypeScript. CoffeeScript. ES6, CommonJS, AMD.',

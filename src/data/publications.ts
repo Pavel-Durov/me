@@ -2,7 +2,13 @@ import { Publication } from 'model'
 
 const publications: Publication[] = [
   {
-    title: 'Progressive Delivery - Application deployment strategies: configurable and gradual deployments with minimised downtime.',
+    title: 'Cross Platform CLI application with GO and Cobra',
+    description: 'This article will cover the process and the involved components of building a Command-Line Interface (CLI)[1] application using the GO programming language. We will cover the required libraries, directory structure, configuration files, testing, and Cross-Platform build process',
+    url: 'https://blog.p3ld3v.dev/cross-platform-cli-application-with-go-and-cobra',
+    date: '2022-12-02'
+  },
+  {
+    title: 'Progressive Delivery - Application deployment strategies: configurable and gradual deployments with minimised downtime',
     description: 'This article will cover Progressive Delivery techniques such as Feature Flags, A/B Testing, Ring Deployment, Dark Launching, Blue/Green and Canary deployments with high-level illustrations and a general concept overview.',
     url: 'https://blog.p3ld3v.dev/progressive-delivery',
     date: '2022-11-21'

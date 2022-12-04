@@ -1,6 +1,13 @@
 import { Resources } from 'model'
 
+//
 const resources: Resources[] = [
+  {
+    url: 'https://archive.vcu.edu/english/engweb/transcendentalism/',
+    title: 'Transcendentalism',
+    description: 'The web of American Transcendentalism, collection of resources and links',
+    tags: ['philosophy', 'transcendentalism', 'history']
+  },
   {
     url: 'https://www.youtube.com/watch?v=GgCA2USI5iQ&ab_channel=CNCF%5BCloudNativeComputingFoundation%5D',
     title: 'Webinar: Kubernetes and Networks: Why is This So Dang Hard?',

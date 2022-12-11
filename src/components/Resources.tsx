@@ -44,14 +44,14 @@ export class Resources extends React.Component<{ references: Model[] }, { refere
 
   render (): JSX.Element {
     return (
-      <section className='kimchi-box'>
+      <section className='kimchi-box' style={{ height: '90%' }}>
         <div >
           <span>Search:</span>
           <input type="text" className="form-control" onChange={(e) => this.onTextChange(e.target.value)}/>
         </div>
         <br/>
-        <section style={{ display: 'flex' }}>
-          <div className="kimchi-list" style={{ width: '50%' }}>
+        <section style={{ display: 'flex', height: '100%' }}>
+          <div className="kimchi-list" style={{ width: '50%', height: '90%' }}>
             {this.state.items.map((item, idx) => (
               <div key={idx} onClick={(e) => this.itemSelected(idx)}>
                 <p className='kimchi-purple-mark'>

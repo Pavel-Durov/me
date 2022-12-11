@@ -68,7 +68,12 @@ export default class App extends React.Component<{}, HomeState> {
           <NavBar />
           <RouterProvider router={router} />
           <footer className='fixed-bottom'>
-            <p className="text-center">© 1990 - {(new Date()).getFullYear()}</p>
+
+            <p className="text-center">
+              <span>©</span>
+              <a href="https://unlicense.org/" style={{ marginLeft: 10, marginRight: 10 }}>UNLICENSE</a>
+              <span>1990 - {(new Date()).getFullYear()}</span>
+              </p>
           </footer>
         </div>
       </div>

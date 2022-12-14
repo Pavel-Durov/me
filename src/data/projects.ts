@@ -2,6 +2,12 @@ import { Project } from 'model'
 
 const projects: Project[] = [
   {
+    url: 'https://github.com/EladLeev/kubeseal-convert',
+    title: 'kubeseal-convert',
+    description: 'kubeseal-convert aims to reduce the friction of importing secrets from a pre-existing secret management systems (e.g. Vault, AWS Secrets Manager, etc) into a SealedSecret.',
+    techStack: 'go, kubernetes, kubeseal'
+  },
+  {
     url: 'https://github.com/Pavel-Durov/kimchi.py',
     title: 'Kimchi.Py',
     description: 'Interpreter called Kimchi, Inspired by a book "Writing An Interpreter In Go" but writen in RPython.',
@@ -42,21 +48,21 @@ const projects: Project[] = [
     url: 'https://github.com/goldshtn/etrace',
     title: 'etrace',
     description:
-      'This Project uses various technologies for extracting Windows process handles data from a given context. Based on ClrMd, WCT, MiniDump and other Windows APIs at its core.',
+      'etrace is a command-line tool for realtime tracing of ETW events and for processing existing .etl recording files. It was inspired by the Microsoft ELT tool.',
     techStack: 'C#'
   },
   {
     url: 'https://github.com/Pavel-Durov/WHQ',
     title: 'WHQ',
     description:
-      'Open source contributor. Command-line environment a-la WinDbg for executing SOS commands without having SOS available. It is based on the ClrMD library that is essentially a managed replacement for SOS',
+      'This Project uses various technologies for extracting Windows process handles data from a given context. Based on ClrMd, WCT, MiniDump and other Windows APIs at its core.',
     techStack: 'C#'
   },
   {
     url: 'https://github.com/Pavel-Durov/SymMath',
     title: 'SymMath',
     description:
-      'A tool for quick math symbols insertion. Tested with Microsoft Word, but can be used in any text editor - as long as you got the right fonts installed :).  ',
+      'A tool for quick math symbols insertion. Tested with Microsoft Word, but can be used in any text editor - as long as you got the right fonts installed :).',
     techStack: 'C#'
   },
   {

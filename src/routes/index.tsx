@@ -70,7 +70,7 @@ export const router = createBrowserRouter([
   },
   {
     path: '/resources',
-    element: <Resources references={resources}/>
+    element: <Resources resources={resources}/>
   }
 
 ])

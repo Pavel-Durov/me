@@ -1,7 +1,48 @@
-import { Resources } from 'model'
+import { Resource } from 'model'
 
-//
-const resources: Resources[] = [
+export default [
+  {
+    url: 'https://www.youtube.com/watch?v=5XgBd6rjuDQ&ab_channel=CNCF%5BCloudNativeComputingFoundation%5D',
+    title: 'Fuzzing ping(8)… and finding a 24 year old bug.',
+    description: 'FreeBSD had a security fluctuation in their implementation of ping(8) the other day. As someone who has done a lot of work on ping(8) in OpenBSD this tickled my interests.',
+    tags: ['security', 'ping', 'fuzzing', 'bug']
+  },
+  {
+    url: 'https://aws.amazon.com/blogs/compute/visualize-and-create-your-serverless-workloads-with-aws-application-composer/?ref=console.dev',
+    title: 'Visualize and create your serverless workloads with AWS Application Composer',
+    description: 'In distributed systems, empowering teams is a cultural shift needed for enabling developers to help translate business capabilities into code.This doesn’t mean every team works in isolation. Different teams or even new-joiners must understand what they are building to contribute to a project. The best way to understand architecture quickly is by using diagrams. Unfortunately, architectural diagrams are often outdated. Often, when releasing a workload in production, there are already discrepancies from the initial design and infrastructure. Developers new to building serverless applications can face a learning curve when composing applications from multiple AWS services. They must understand how to configure each service, and then learn and write infrastructure as code (IaC) to deploy their application.',
+    tags: ['aws', 'devops', 'dx', 'aws', 'application-composer']
+  },
+  {
+    url: 'https://redpanda.com/blog/remote-read-replicas-for-distributing-work',
+    title: 'Remote Read Replicas for Distributing Work',
+    description: 'Remote Read Replicas are read-only topics on one cluster that mirror a topic on a different cluster. They can be used to serve any consumer without increasing the load on a production cluster. When a user has a Redpanda topic with archival storage enabled, they can create a separate cluster for the consumer and populate its topics from the cloud storage. (You can find the documentation for Remote Read Replicas here.)',
+    tags: ['redpanda', 'architecture', 'remote-read-replicas']
+  },
+  {
+    url: 'https://redpanda.com/blog/tiered-storage-architecture-shadow-indexing-deep-dive',
+    title: 'How we built Shadow Indexing, the subsystem powering Redpanda’s tiered storage capabilities',
+    description: 'One of the key premises of Redpanda is unification of real-time and historical data by giving users the ability to store infinite data. However, in the modern cloud, the price of storage often dominates the price of all computing resources. The cost of object storage is vastly lower than the cost of the local disk attached to a compute node. Furthermore, object storage is often more reliable than the nodes themselves. To these ends, we created Shadow Indexing, a capability that allows us to capitalize on the 99.995% guaranteed reliability of the tier-4 datacenter.',
+    tags: ['redpanda', 'architecture', 'shadow-indexing']
+  },
+  {
+    url: 'http://www.paulgraham.com/ds.html',
+    title: 'Do Things that Don\'t Scale',
+    description: 'Paul Graham\'s essay on how to start a startup',
+    tags: ['startup', 'entrepreneurship', 'stories']
+  },
+  {
+    url: 'https://davidcummings.org/2015/11/13/video-of-the-week-blitzscaling-session-1-household-stage/',
+    title: 'Video of the Week: Blitzscaling Session 1',
+    description: 'Recording of Blitzscaling online course',
+    tags: ['blitzcaling', 'entrepreneurship', 'stories']
+  },
+  {
+    url: 'https://www.dothingsthatdontscale.com/',
+    title: 'Do Things That Don’t Scale',
+    description: 'a crowdsourced collection of unscalable startup hacks and stories',
+    tags: ['startup', 'entrepreneurship', 'stories']
+  },
   {
     url: 'https://archive.vcu.edu/english/engweb/transcendentalism/',
     title: 'Transcendentalism',
@@ -63,7 +104,7 @@ const resources: Resources[] = [
   },
   {
     url: 'http://paulgraham.com/avg.html',
-    title: 'Andrew Lee',
+    title: 'Beating the Averages',
     description:
       "If you do everything the way the average startup does it, you should expect average performance. The problem here is, average performance means that you'll go out of business. The survival rate for startups is way less than fifty percent. So if you're running a startup, you had better be doing something odd. If not, you're in trouble.",
     tags: ['list', 'startup']
@@ -92,9 +133,9 @@ const resources: Resources[] = [
   },
   {
     url: 'https://www.youtube.com/watch?v=OH5I3V-FVTo&ab_channel=Confluent',
-    title: 'If Streaming Is the Answer, Why Are We Still Doing Batch? ',
+    title: 'If Streaming Is the Answer, Why Are We Still Doing Batch?',
     description:
-      'In this episode, Kris talks to a panel of industry experts with decades of experience building and implementing data systems. They discuss the state of streaming adoption today, if streaming will ever fully replace batch, and whether it even could (or should). Is micro batching the natural stepping stone between batch and streaming? Will there ever be a unified understanding on how data should be processed over time? Is the lack of agreement on best practices for data streaming an insurmountable obstacle to widespread adoption? What exactly is holding teams back from fully adopting a streaming model? ',
+      'In this episode, Kris talks to a panel of industry experts with decades of experience building and implementing data systems. They discuss the state of streaming adoption today, if streaming will ever fully replace batch, and whether it even could (or should). Is micro batching the natural stepping stone between batch and streaming? Will there ever be a unified understanding on how data should be processed over time? Is the lack of agreement on best practices for data streaming an insurmountable obstacle to widespread adoption? What exactly is holding teams back from fully adopting a streaming model?',
     tags: ['kafka', 'streaming', 'batch']
   },
   {
@@ -112,8 +153,8 @@ const resources: Resources[] = [
   },
   {
     url: 'https://dev.to/karanpratapsingh/csp-vs-actor-model-for-concurrency-1cpg',
-    title: 'CSP vs Actor model for concurrency ',
-    description: 'CSP vs Actor model for concurrency ',
+    title: 'CSP vs Actor model for concurrency',
+    description: 'CSP vs Actor model for concurrency',
     tags: ['csp', 'actor model', 'concurrency']
   },
   {
@@ -124,7 +165,7 @@ const resources: Resources[] = [
   },
   {
     url: 'https://learning.codefresh.io/path-player?courseid=gitops-with-argo&unit=gitops-with-argo_6177da00c04a0Unit',
-    title: 'Andrew Lee',
+    title: 'Get Certified for GitOps with Argo',
     description:
       'GitOps is a set of best practices where the entire code delivery process is controlled via Git, including infrastructure and application definition as code and automation to complete updates and rollbacks.',
     tags: ['ci/cd', 'gitops', 'argo', 'kubernetes']
@@ -141,7 +182,7 @@ const resources: Resources[] = [
     url: 'https://tratt.net/laurie/research/pubs/html/bolz_tratt__the_impact_of_metatracing_on_vm_design_and_implementation/',
     title: 'The Impact of Meta-Tracing on VM Design and Implementation',
     description:
-      'Most modern languages are implemented using Virtual Machines (VMs). While the best VMs use Just-In-Time (JIT) compilers to achieve good performance, JITs are costly to implement, and few VMs therefore come with one. The RPython language allows tracing JIT VMs to be automatically created from an interpreter, changing the economics of VM implementation. In this paper, we explain, through two concrete VMs, how meta-tracing RPython VMs can be designed and optimised, and, experimentally, the performance levels one might reasonably expect from them. ',
+      'Most modern languages are implemented using Virtual Machines (VMs). While the best VMs use Just-In-Time (JIT) compilers to achieve good performance, JITs are costly to implement, and few VMs therefore come with one. The RPython language allows tracing JIT VMs to be automatically created from an interpreter, changing the economics of VM implementation. In this paper, we explain, through two concrete VMs, how meta-tracing RPython VMs can be designed and optimised, and, experimentally, the performance levels one might reasonably expect from them.',
     tags: ['rpython', 'jit', 'vm', 'meta-tracing', 'pypy', 'research']
   },
   {
@@ -162,7 +203,7 @@ const resources: Resources[] = [
     url: 'https://arxiv.org/abs/2201.09268',
     title: 'Two-level Just-in-Time Compilation with One Interpreter and One Engine',
     description:
-      'Modern, powerful virtual machines such as those running Java or JavaScript support multi-tier JIT compilation and optimization features to achieve their high performance. However, implementing and maintaining several compilers/optimizers that interact with each other requires hard-working VM developers. In this paper, we propose a technique to realize two-level JIT compilation in RPython without implementing several interpreters or compilers from scratch. As a preliminary realization, we created adaptive RPython, which performs both baseline JIT compilation based on threaded code and tracing JIT compilation. We also implemented a small programming language with it. Furthermore, we preliminarily evaluated the performance of that small language, and our baseline JIT compilation ran 1.77x faster than the interpreter-only execution. Furthermore, we observed that when we apply an optimal JIT compilation for different target methods, the performance was mostly the same as the one optimizing JIT compilation strategy, saving about 40 % of the compilation code size. ',
+      'Modern, powerful virtual machines such as those running Java or JavaScript support multi-tier JIT compilation and optimization features to achieve their high performance. However, implementing and maintaining several compilers/optimizers that interact with each other requires hard-working VM developers. In this paper, we propose a technique to realize two-level JIT compilation in RPython without implementing several interpreters or compilers from scratch. As a preliminary realization, we created adaptive RPython, which performs both baseline JIT compilation based on threaded code and tracing JIT compilation. We also implemented a small programming language with it. Furthermore, we preliminarily evaluated the performance of that small language, and our baseline JIT compilation ran 1.77x faster than the interpreter-only execution. Furthermore, we observed that when we apply an optimal JIT compilation for different target methods, the performance was mostly the same as the one optimizing JIT compilation strategy, saving about 40 % of the compilation code size.',
     tags: ['jit', 'rpython', 'python', 'compiler', 'optimization', 'research']
   },
   {
@@ -195,7 +236,7 @@ const resources: Resources[] = [
 
   {
     url: 'https://www.youtube.com/watch?v=tc4ROCJYbm0&ab_channel=AT%26TTechChannel',
-    title: ' AT&T Archives: The UNIX Operating System ',
+    title: 'AT&T Archives: The UNIX Operating System',
     description:
       'In the late 1960s, Bell Laboratories computer scientists Dennis Ritchie and Ken Thompson started work on a project that was inspired by an operating system called Multics, a joint project of MIT, GE, and Bell Labs. The host and narrator of this film, Victor Vyssotsky, also had worked on the Multics project. Ritchie and Thompson, recognizing some of the problems with the Multics OS, set out to create a more useful, flexible, and portable system for programmers to work with.',
     tags: ['unix', 'operating system', 'history']
@@ -222,8 +263,8 @@ const resources: Resources[] = [
 
   {
     url: 'https://www.youtube.com/watch?v=OzGdYPFfimM&ab_channel=TKSJa',
-    title: ' MikroTik Tutorial 77',
-    description: 'Limiting the download speeds of certain file types ',
+    title: 'MikroTik Tutorial 77',
+    description: 'Limiting the download speeds of certain file types',
     tags: ['mikrotik', 'tutorial', 'networking']
   },
   {
@@ -234,7 +275,7 @@ const resources: Resources[] = [
   },
   {
     url: 'https://www.youtube.com/watch?v=7OZLImVRvro&t=533s&ab_channel=EncodeClub',
-    title: ' Intro to libp2p with Filecoin ',
+    title: 'Intro to libp2p with Filecoin',
     description:
       'libp2p is a modular system of protocols, specifications and libraries that enable the development of peer-to-peer network applications. Find out more here: https://libp2p.io/',
     tags: ['libp2p', 'p2p', 'filecoin']
@@ -254,9 +295,9 @@ const resources: Resources[] = [
   },
   {
     url: 'https://www.youtube.com/watch?v=kBdfcR-8hEY&ab_channel=HarvardUniversity',
-    title: 'Justice: What\'s The Right Thing To Do? Episode 01 "THE MORAL SIDE OF MURDER" ',
+    title: 'Justice: What\'s The Right Thing To Do? Episode 01 "THE MORAL SIDE OF MURDER"',
     description:
-      'If you had to choose between (1) killing one person to save the lives of five others and (2) doing nothing even though you knew that five people would die right before your eyes if you did nothing—what would you do?  What would be the right thing to do?  ',
+      'If you had to choose between (1) killing one person to save the lives of five others and (2) doing nothing even though you knew that five people would die right before your eyes if you did nothing-what would you do?  What would be the right thing to do?',
     tags: ['philosophy', 'ethics', 'harvard']
   },
   {
@@ -389,7 +430,7 @@ const resources: Resources[] = [
     url: 'https://dl.acm.org/doi/10.1145/2542142.2542146',
     title: 'Unipycation: a case study in cross-language tracing',
     description:
-      'Language composition approaches have traditionally suffered from poor performance. In this paper we hypothesise that meta-tracing provides a means to compose independent language interpreters while retaining the performance levels of each. ',
+      'Language composition approaches have traditionally suffered from poor performance. In this paper we hypothesise that meta-tracing provides a means to compose independent language interpreters while retaining the performance levels of each.',
     tags: ['language composition', 'meta-tracing', 'performance', 'research']
   },
   {
@@ -424,6 +465,4 @@ const resources: Resources[] = [
     url: 'https://www.youtube.com/watch?v=th4AgBcrEHA',
     tags: ['architecture', 'hexagonal architecture']
   }
-]
-
-export default resources
+] as Resource[]

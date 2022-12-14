@@ -108,3 +108,32 @@
   color: black !important;
   padding-left: 15px;
 }
+
+.stroke-through {
+  /* background: lightyellow; */
+
+  text-decoration: underline;
+  text-underline-offset: -40%; /* <-- this */
+  
+  text-decoration-skip-ink: none;
+}
+
+
+.strikethrough {
+  position: relative;
+}
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 35%;
+  right: 0;
+  border-top: 3px solid;
+  border-color: inherit;
+  
+  -webkit-transform:rotate(-40deg);
+  -moz-transform:rotate(-40deg);
+  -ms-transform:rotate(-40deg);
+  -o-transform:rotate(-40deg);
+  transform:rotate(-40deg);
+}

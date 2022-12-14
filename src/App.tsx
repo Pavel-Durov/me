@@ -70,7 +70,7 @@ export default class App extends React.Component<{}, HomeState> {
           <footer className='fixed-bottom'>
 
             <p className="text-center">
-              <span>©</span>
+              <span className='strikethrough'>©</span>
               <a href="https://unlicense.org/" style={{ marginLeft: 10, marginRight: 10 }}>UNLICENSE</a>
               <span>1990 - {(new Date()).getFullYear()}</span>
               </p>

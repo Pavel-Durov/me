@@ -54,9 +54,9 @@ export function NavBar (): JSX.Element {
                 <a href={'/'} className="dropdown-item">
                   Home
                 </a>
-                <a href={'/asset-wall'} className="dropdown-item">
+                {/* <a href={'/asset-wall'} className="dropdown-item">
                   Asset Wall
-                </a>
+                </a> */}
               </div>
             </li>
           </ul>

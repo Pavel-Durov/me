@@ -8,7 +8,7 @@ export function Identity ({ identities }: { identities: OnlineId[] }): JSX.Eleme
       <ul className="list-group">
         {identities.map((identity, idx) => (
           <li key={idx} className="list-group-item">
-            <a href={identity.url}>{identity.name}</a>
+            <a href={identity.url} target="_blank" rel="noreferrer">{identity.name}</a>
           </li>
         ))}
       </ul>

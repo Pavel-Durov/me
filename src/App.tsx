@@ -66,9 +66,10 @@ export default class App extends React.Component<{}, HomeState> {
 
         <div className="App bootstra-enable-cursor container col-md-8 col-sm-11 text-left" hidden={this.state.loadProgress !== 100} >
           <NavBar />
-          <RouterProvider router={router} />
+          <div style={{ paddingBottom: 100 }}>
+            <RouterProvider router={router}/>
+          </div>
           <footer className='fixed-bottom'>
-
             <p className="text-center">
               <span className='strikethrough'>©</span>
               <a href="https://unlicense.org/" style={{ marginLeft: 10, marginRight: 10 }}>UNLICENSE</a>

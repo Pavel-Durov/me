@@ -24,9 +24,9 @@ export class Resources extends React.Component<{ resources: Model[] }, { resourc
         items: this.props.resources
       })
     } else {
-      const filtered = this.props.resources.filter(({ title, tags }) =>
-        title.toLowerCase().includes(text.toLowerCase()) || tags.join(',').toLowerCase().includes(text.toLowerCase())
-      )
+      const filtered = this.props.resources.filter(function ({ title, tags }) {
+        return title.toLowerCase().includes(text.toLowerCase()) || tags.join(',').toLowerCase().includes(text.toLowerCase())
+      })
       this.setState({
         items: filtered
       })

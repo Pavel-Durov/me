@@ -64,17 +64,20 @@ export default class App extends React.Component<{}, HomeState> {
           <div></div>
         </div>
 
-        <div className="App bootstra-enable-cursor container col-md-8 col-sm-11 text-left" hidden={this.state.loadProgress !== 100} >
+        <div className="App bootstra-enable-cursor container col-md-8 col-sm-11 text-left" hidden={this.state.loadProgress !== 100}>
           <NavBar />
           <div style={{ paddingBottom: 100 }}>
-            <RouterProvider router={router}/>
+            <RouterProvider router={router} />
           </div>
-          <footer className='fixed-bottom'>
+          <footer className="fixed-bottom">
             <p className="text-center">
-              <span className='strikethrough'>©</span>
-              <a href="https://unlicense.org/" style={{ marginLeft: 10, marginRight: 10 }}>UNLICENSE</a>
-              <span>1990 - {(new Date()).getFullYear()}</span>
-              </p>
+              <span className="strikethrough">©</span>
+              <a href="https://unlicense.org/" style={{ marginLeft: 10, marginRight: 10 }}>
+                UNLICENSE
+              </a>
+              <span>1990 - {new Date().getFullYear()}</span>
+              <span> v.{process.env.REACT_APP_VERSION}</span>
+            </p>
           </footer>
         </div>
       </div>

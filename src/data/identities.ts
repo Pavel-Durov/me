@@ -13,7 +13,7 @@ const identities = [
   { name: 'Hashnote', url: 'https://blog.p3ld3v.dev' },
   { name: 'Medium', url: 'https://pav3ldurov.medium.com' },
   { name: 'Chess.com', url: 'https://www.chess.com/member/p3ld3v' },
-  { name: 'nate', url: 'https://nate-tech.app/profile/kimchi' }
+  { name: 'Exercism', url: 'https://exercism.org/profiles/Pavel-Durov' }
 ]
 
 export default identities

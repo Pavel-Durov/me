@@ -2,6 +2,12 @@ import { Resource } from 'model'
 
 export default [
   {
+    url: 'https://wepresent.wetransfer.com/stories/manifesto-ai-weiwei',
+    title: 'WePresent | A manifesto for life and art by artist Ai Weiwei',
+    description: 'Chinese artist Ai Weiwei is one of the most important creatives and activists working today. Here, he shares his 10 rules for art and living',
+    tags: ['aiweiwei', 'art', 'manifesto']
+  },
+  {
     url: 'https://www.youtube.com/watch?v=5XgBd6rjuDQ&ab_channel=CNCF%5BCloudNativeComputingFoundation%5D',
     title: 'Fuzzing ping(8)… and finding a 24 year old bug.',
     description: 'FreeBSD had a security fluctuation in their implementation of ping(8) the other day. As someone who has done a lot of work on ping(8) in OpenBSD this tickled my interests.',

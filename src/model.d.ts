@@ -55,3 +55,8 @@ export interface Resource {
   description: string
   tags: string[]
 }
+
+export interface PersonalStatement {
+  title: string
+  content: string
+}

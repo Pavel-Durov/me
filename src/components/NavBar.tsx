@@ -5,7 +5,7 @@ export function NavBar (): JSX.Element {
   return (
     <>
       <div className="navbar navbar-expand-md fixed-top navbar-dark bg-primary">
-        <img src={Profile} style={{ margin: '1px', width: 30, padding: '5px' }}/>
+        <img src={Profile} style={{ margin: '1px', width: 30, padding: '5px' }} />
 
         <mark>[p3ld3v]</mark>
 
@@ -35,12 +35,6 @@ export function NavBar (): JSX.Element {
                 <a href={'/contact'} className="dropdown-item">
                   Contact
                 </a>
-                <a href={'/projects'} className="dropdown-item">
-                  Projects
-                </a>
-                <a href={'/talks'} className="dropdown-item">
-                  Talks
-                </a>
                 <a href={'./cv'} className="dropdown-item">
                   Cv
                 </a>
@@ -49,6 +43,15 @@ export function NavBar (): JSX.Element {
                 </a>
                 <a href={'./resources'} className="dropdown-item">
                   Resources
+                </a>
+                <a href={'/talks'} className="dropdown-item">
+                  Talks
+                </a>
+                <a href={'./personal-statement'} className="dropdown-item">
+                  Personal Statement
+                </a>
+                <a href={'/projects'} className="dropdown-item">
+                  Projects
                 </a>
                 <div className="dropdown-divider"></div>
                 <a href={'/'} className="dropdown-item">

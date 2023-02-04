@@ -10,6 +10,7 @@ import { Contact } from 'components/Contact'
 import { Identity } from 'components/Identity'
 import { EngineeringPhilosophy } from 'components/EngineeringPhilosophy'
 import { AssetWall } from 'components/AssetWall'
+import { Resources } from 'components/Resources'
 
 import resources from 'data/resources'
 import identities from 'data/identities'
@@ -19,7 +20,9 @@ import talks from 'data/talks'
 import { values, inspirationalQuotes } from 'data/engineeringPhilosophy'
 import { summary, education, workExperience } from 'data/cv'
 import { contact } from 'data/contact'
-import { Resources } from 'components/Resources'
+import personalStatementData from 'data/personalStatement'
+import { PersonalStatement } from 'components/PersonalStatment'
+
 declare global {
   interface Window {
     _386: any
@@ -71,6 +74,10 @@ export const router = createBrowserRouter([
   {
     path: '/resources',
     element: <Resources resources={resources}/>
+  },
+  {
+    path: '/personal-statement',
+    element: <PersonalStatement title={personalStatementData.title} content={personalStatementData.content}/>
   }
 
 ])

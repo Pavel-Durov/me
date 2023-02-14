@@ -2,6 +2,12 @@ import { Resource } from 'model'
 
 export default [
   {
+    url: 'https://tratt.net/laurie/blog/2020/which_parsing_approach.html',
+    title: 'Which Parsing Approach?',
+    description: 'We all know that parsing is an important part of designing and implementing programming languages, but it’s the equivalent of Brussels sprouts: good for the diet, but a taste that only a select few enjoy. Unfortunately, I’ve come to realise that our general distaste for parsing is problematic. While many of us think that we’ve absorbed the advances of the 1960s into our collective understanding, I fear that we have regressed, and that we are often making inappropriate decisions about parsing. If that sounds accusatory, I don’t mean it to be: I spent over 20 years assuming that parsing is easy and that I didn’t need to understand it properly in order to use it well. Alas, reality has been a cruel teacher, and in this post I want to share some of the lessons I’ve been forced to slowly learn and acknowledge.',
+    tags: ['parsing', 'ast']
+  },
+  {
     url: 'https://wepresent.wetransfer.com/stories/manifesto-ai-weiwei',
     title: 'WePresent | A manifesto for life and art by artist Ai Weiwei',
     description: 'Chinese artist Ai Weiwei is one of the most important creatives and activists working today. Here, he shares his 10 rules for art and living',

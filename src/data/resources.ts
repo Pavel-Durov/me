@@ -2,6 +2,18 @@ import { Resource } from 'model'
 
 export default [
   {
+    url: 'https://tratt.net/laurie/blog/2023/why_we_need_to_know_lr_and_recursive_descent_parsing_techniques.html',
+    title: 'Why We Need to Know LR and Recursive Descent Parsing Techniques',
+    description: 'Laurence Tratt\'s argument for LR parsing',
+    tags: ['parsing', 'compilers']
+  },
+  {
+    url: 'https://pavpanchekha.com/blog/top-down-lr.html',
+    title: 'Top-down LR parsing',
+    description: 'Pavel Panchekha post about Top-down LR parsing',
+    tags: ['parsing', 'compilers']
+  },
+  {
     url: 'https://tratt.net/laurie/blog/2020/which_parsing_approach.html',
     title: 'Which Parsing Approach?',
     description: 'We all know that parsing is an important part of designing and implementing programming languages, but it’s the equivalent of Brussels sprouts: good for the diet, but a taste that only a select few enjoy. Unfortunately, I’ve come to realise that our general distaste for parsing is problematic. While many of us think that we’ve absorbed the advances of the 1960s into our collective understanding, I fear that we have regressed, and that we are often making inappropriate decisions about parsing. If that sounds accusatory, I don’t mean it to be: I spent over 20 years assuming that parsing is easy and that I didn’t need to understand it properly in order to use it well. Alas, reality has been a cruel teacher, and in this post I want to share some of the lessons I’ve been forced to slowly learn and acknowledge.',

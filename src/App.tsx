@@ -51,6 +51,12 @@ export default class App extends React.Component<{}, HomeState> {
         }, i * this.state.loadFactor)
       }
     }
+    window.addEventListener('mousemove', function (event) {
+      console.table({
+        'mouse x': event.clientX,
+        'mouse y': event.clientY
+      })
+    })
   }
 
   render (): React.ReactNode {
@@ -63,13 +69,14 @@ export default class App extends React.Component<{}, HomeState> {
           </div>
           <div></div>
         </div>
-
+        <div className='banner-top'>
+        </div>
         <div className="App bootstra-enable-cursor container col-md-8 col-sm-11 text-left" hidden={this.state.loadProgress !== 100}>
           <NavBar />
           <div style={{ paddingBottom: 100 }}>
             <RouterProvider router={router} />
           </div>
-          <footer className="fixed-bottom">
+          <footer className="bottom">
             <p className="text-center">
               <span className="strikethrough">©</span>
               <a href="https://unlicense.org/" style={{ marginLeft: 10, marginRight: 10 }}>
@@ -79,6 +86,8 @@ export default class App extends React.Component<{}, HomeState> {
               <span> v.{process.env.REACT_APP_VERSION}</span>
             </p>
           </footer>
+        </div>
+        <div className='banner-buttom'>
         </div>
       </div>
     )

@@ -1,9 +1,43 @@
+body {
+  /* background-image: url("./assets/retro-box.png");
+  background-repeat: no-repeat;
+  background-size: 70% auto;
+  background-position: center top;
+  background-attachment: fixed; */
+}
+.banner-top {
+  height: 100px;
+  width: 100%;
+  background-image: url("./assets/retro-box.png");
+  background-repeat: no-repeat;
+  /* background-size: 70% auto; */
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.banner-buttom {
+  height: 300px;
+  /* width: 100%; */
+  background-image: url("./assets/retro-box.png");
+  background-repeat: no-repeat;
+  background-size: 70% auto;
+  background-position: center bottom;
+  background-attachment: fixed;
+  /* background-position-y:  -50%; */
+}
+
 .App {
-  text-align: center;
-  height: calc(100vh - 30px);
-  margin-top: 40px;
-  font-size: 2em;
+  /* text-align: center; */
+  /* height: calc(100vh - 30px); */
+  font-size: 1.4em;
   line-height: 1em;
+  height: 400px !important;
+  width: 32% !important;
+  overflow-y: scroll;
+  background: #000084;
+  position: relative;
+  margin-top: 7.5%;
+  
 }
 
 .App-logo {
@@ -52,7 +86,7 @@
 
 @media screen and (max-width: 770px) {
   .App {
-    padding-top: 80px;
+    /* padding-top: 80px; */
     font-size: 1.3em !important;
     line-height: 1em;
   }
@@ -65,7 +99,7 @@
   }
 }
 
-.scrollable {
+.scrollable bo{
   overflow: 'auto';
   overflow-y: 'scroll';
 }

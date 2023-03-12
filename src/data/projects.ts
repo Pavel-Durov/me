@@ -2,10 +2,16 @@ import { Project } from 'model'
 
 const projects: Project[] = [
   {
+    url: 'https://github.com/softdevteam/pavel.yaiwr',
+    title: ' Yet Another Interpreter Written In Rust',
+    description: 'Interpreter written in Rust, based on grmtools. Part of my PhD at Kings\' College.',
+    techStack: 'compilers, rust, grmtool, yacc'
+  },
+  {
     url: 'https://github.com/EladLeev/kubeseal-convert',
     title: 'kubeseal-convert',
     description: 'kubeseal-convert aims to reduce the friction of importing secrets from a pre-existing secret management systems (e.g. Vault, AWS Secrets Manager, etc) into a SealedSecret.',
-    techStack: 'go, kubernetes, kubeseal'
+    techStack: 'Go, kubernetes, kubeseal'
   },
   {
     url: 'https://github.com/Pavel-Durov/kimchi.py',
@@ -29,7 +35,7 @@ const projects: Project[] = [
     url: 'https://github.com/Pavel-Durov/dotfiles',
     title: 'dotfiles',
     description: 'dotfiles for my debian and macos',
-    techStack: ''
+    techStack: 'Bash'
   },
   {
     url: 'https://github.com/dumconstantin/ramda-loader',

@@ -13,6 +13,7 @@ export function Projects ({ projects }: { projects: Project[] }): JSX.Element {
             </div>
             <div className="card-body">
               <p>{project.description}</p>
+              <p> - {project.techStack}</p>
             </div>
           </div>
         ))}

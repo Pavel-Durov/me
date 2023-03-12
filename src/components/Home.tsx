@@ -1,6 +1,6 @@
 import React from 'react'
 
-import MovingHead from './MovingHead'
+import MovingHead from 'components/MovingHead/MovingHead'
 
 export class Home extends React.Component {
   render (): React.ReactNode {

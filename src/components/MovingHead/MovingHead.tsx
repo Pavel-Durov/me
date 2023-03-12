@@ -11,10 +11,13 @@ import UP from 'assets/moving_head/up.png'
 import UP_LEFT from 'assets/moving_head/up_left.png'
 import UP_RIGHT from 'assets/moving_head/up_right.png'
 
-import { throttle, interval, Observable, timeout, Observer } from 'rxjs'
+import { throttle, interval, Observable, timeout, Observer, Subscription } from 'rxjs'
 import { logger } from 'common/logger'
+import 'components/MovingHead/MovingHead.css'
+
 interface MovingHeadState {
   image: string
+  textBackground: string
   direction: Direction
 }
 
@@ -47,9 +50,11 @@ const IMAGES = {
   [Direction.MIDDLE]: FRONT_CLOSED_EYES
 }
 export default class MovingHead extends React.Component<{}, MovingHeadState> {
+  textBackgroundSub: Subscription
   constructor (props: any) {
     super(props)
-    this.state = { image: FRONT, direction: Direction.FRONT }
+    this.textBackgroundSub = Subscription.EMPTY
+    this.state = { image: FRONT, direction: Direction.FRONT, textBackground: '' }
   }
 
   getHeadRect (): DOMRect {
@@ -86,6 +91,7 @@ export default class MovingHead extends React.Component<{}, MovingHeadState> {
         }
       }
     }
+
     return result
   }
 
@@ -98,6 +104,11 @@ export default class MovingHead extends React.Component<{}, MovingHeadState> {
     if (direction !== this.state.direction) {
       logger.debug('updateImage', IMAGES[direction])
       this.setState({ image: IMAGES[direction], direction })
+      if (direction === Direction.MIDDLE) {
+        this.startText()
+      } else {
+        this.resetBackgroundText()
+      }
     }
   }
 
@@ -142,14 +153,38 @@ export default class MovingHead extends React.Component<{}, MovingHeadState> {
       })
   }
 
+  startText (): void {
+    const prevSub = this.textBackgroundSub
+    const newInterval = interval(100)
+    this.textBackgroundSub = newInterval.subscribe((observable: any) => {
+      const randomHex = Array.from({ length: 666 }, () => '0123456789abcdef'.charAt(Math.floor(Math.random() * 16))).join('')
+      this.setState({
+        textBackground: randomHex
+      })
+    })
+    prevSub.unsubscribe()
+  }
+
+  resetBackgroundText (): void {
+    this.textBackgroundSub.unsubscribe()
+    this.setState({ textBackground: '' })
+  }
+
   componentDidMount (): void {
     this.sub()
   }
 
   render (): React.ReactNode {
     return (
-      <div>
-        <img id="moving-head-img" src={this.state.image} className="moving-head-image" />
+      <div className="moving-head-container">
+        <div className="moving-head">
+          <div className="moving-head-text-background">
+            <p>{this.state.textBackground}</p>
+          </div>
+          <div className='moving-head-img-container'>
+            <img id="moving-head-img" src={this.state.image} className="moving-head-image" />
+          </div>
+        </div>
       </div>
     )
   }

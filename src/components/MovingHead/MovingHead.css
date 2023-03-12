@@ -1,0 +1,21 @@
+.moving-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.moving-head > div {
+  position: absolute;
+}
+
+.moving-head-image {
+  width: 200px;
+}
+
+.moving-head-text-background {
+  width: 200px;
+  height: 200px;
+  overflow-wrap: break-word;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}

@@ -36,14 +36,13 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.moving-head-image {
-  width: 200px;
-}
+
 @media screen and (max-width: 770) {
   .App {
     padding-top: 40px;
@@ -56,9 +55,11 @@
     font-size: 1.3em !important;
     line-height: 1em;
   }
+
   h1 {
     font-size: 1.2em !important;
   }
+
   h2 {
     font-size: 1.2em !important;
     padding: 1px;
@@ -113,7 +114,8 @@
   /* background: lightyellow; */
 
   text-decoration: underline;
-  text-underline-offset: -40%; /* <-- this */
+  text-underline-offset: -40%;
+  /* <-- this */
 
   text-decoration-skip-ink: none;
 }
@@ -121,6 +123,7 @@
 .strikethrough {
   position: relative;
 }
+
 .strikethrough:before {
   position: absolute;
   content: '';
@@ -138,7 +141,10 @@
 }
 
 .prevent-select {
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
 }

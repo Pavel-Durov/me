@@ -3,7 +3,7 @@ import { Project } from 'model'
 const projects: Project[] = [
   {
     url: 'https://github.com/softdevteam/pavel.yaiwr',
-    title: ' Yet Another Interpreter Written In Rust',
+    title: 'Yet Another Interpreter Written In Rust',
     description: 'Interpreter written in Rust, based on grmtools. Part of my PhD at Kings\' College.',
     techStack: 'compilers, rust, grmtool, yacc'
   },

@@ -7,7 +7,7 @@ export function NavBar (): JSX.Element {
       <div className="navbar navbar-expand-md fixed-top navbar-dark bg-primary">
         <img src={Profile} style={{ margin: '1px', width: 30, padding: '5px' }} />
 
-        <mark>[p3ld3v]</mark>
+        <mark>[P3LD3V]</mark>
 
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav">
@@ -18,7 +18,7 @@ export function NavBar (): JSX.Element {
             </li>
             <li className="nav-item">
               <a href={'/publications'} className="nav-link">
-                Publications
+                Texts
               </a>
             </li>
             <li className="nav-item">

@@ -4,7 +4,7 @@ export function Publications ({ publications }: { publications: Publication[] })
   return (
     <>
       <section>
-        <div className='kimchi-h1'>Publications</div>
+        <div className='kimchi-h1'>Texts</div>
          {publications.map((pub, idx) => (
         <div key={idx} className="card" >
           <div className='kimchi-h1'>{pub.date}</div>

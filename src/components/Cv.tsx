@@ -12,7 +12,7 @@ export function Cv ({ summary, education, workExperience }:
 
         <div className="table table-hover m-2">
           {education.map((edu, idx) => (
-            <div key={idx}>{edu.title}</div>
+            <div key={idx}> - {edu.title}</div>
           ))}
         </div>
 

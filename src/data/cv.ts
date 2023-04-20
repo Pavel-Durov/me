@@ -6,8 +6,10 @@ export const summary =
 export const education: Education[] = [
   { title: 'Sela College, Israel - Software development - 2013 - 2014 - Magna Cum Laude' },
   { title: 'Open University, Israel - BSc Computer Science - 2014 – 2017' },
-  { title: 'Birkbeck, University of London, UK - BSc (Hons) in Computing, First Class Honours - 2018 – 2022' }
+  { title: 'Birkbeck, University of London, UK - BSc (Hons) in Computing, First Class Honours - 2018 – 2022' },
+  { title: 'King\'s College London, Computer Science Research MPhil/PhD (Part-time) - 2023 – 2030' }
 ]
+
 export const workExperience: WorkExperience[] = [
   {
     company: 'nate (UK/US)',

@@ -2,6 +2,13 @@ import { Publication } from 'model'
 
 const publications: Publication[] = [
   {
+    title: 'Writing interpreter in Rust using grmtools',
+    description:
+      'This article overviews the process of writing an interpreter with Rust programming language. We will use the grmtools Rust crate to help with the parsing. We will define tokens of our language and create math addition and multiplication expressions as well as cover some basic terms and concepts related to writing an interpreter as we go',
+    url: 'https://blog.p3ld3v.dev/writing-interpreter-in-rust-using-grmtools',
+    date: '2023-03-21'
+  },
+  {
     title: 'Programming Languages Composition',
     description:
       'There is a variety of Programming Languages (PL) today, each with its speciality and features. But still, traditional software is written using a single programming language. We have tools and processes that allow language compositions, but these tools are cumbersome, slow and complex. This article will overview the Programming Language Composition (PLC) problem space and the applied composition techniques.',

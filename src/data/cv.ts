@@ -4,13 +4,20 @@ export const summary =
   'I am an autodidact full-stack software engineer experienced in developing and leading projects from scratch to enterprise product on various environments I am a quick learner with a passion for software internals, technology and design. I contribute to open-source projects and learn new technologies and theoretical fields in my spare time. My main technical interests are Programming Languages, Linux, Functional Programming, distributed systems and platform engineering.'
 
 export const education: Education[] = [
-  { title: 'Sela College, Israel - Software development - 2013 - 2014 - Magna Cum Laude' },
-  { title: 'Open University, Israel - BSc Computer Science - 2014 – 2017' },
+  { title: 'King\'s College London, Computer Science Research MPhil/PhD (Part-time) - 2023 – 2030' },
   { title: 'Birkbeck, University of London, UK - BSc (Hons) in Computing, First Class Honours - 2018 – 2022' },
-  { title: 'King\'s College London, Computer Science Research MPhil/PhD (Part-time) - 2023 – 2030' }
+  { title: 'Open University, Israel - BSc Computer Science - 2014 – 2017' },
+  { title: 'Sela College, Israel - Software development - 2013 - 2014 - Magna Cum Laude' }
 ]
 
 export const workExperience: WorkExperience[] = [
+  {
+    company: 'Flutter',
+    title: 'Technical advisor',
+    date: 'Mar 2023 - PRESENT',
+    description: 'Mar 2023 - PRESENT',
+    techStack: ''
+  },
   {
     company: 'nate (UK/US)',
     title: 'Tech Lead, CTO, Principle Engineer',

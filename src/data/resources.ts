@@ -1,6 +1,25 @@
 import { Resource } from 'model'
 
 export default [
+
+  {
+    url: 'https://css.csail.mit.edu/6.858/2010/labs/dr-docs/using.html',
+    title: 'Usage Model for DynamoRIO',
+    description: 'Overview of how to use DynamoRIO, introduction level',
+    tags: ['runtime', 'dynamic', 'dynamorio', 'performance', 'process-vm', 'vm']
+  },
+  {
+    url: 'https://eli.thegreenplace.net/2011/09/06/stack-frame-layout-on-x86-64',
+    title: 'Stack frame layout on x86-64',
+    description: 'Article about the stack frame layout of the newer 64-bit version of the x86 architecture, x64.',
+    tags: ['cpu', 'intel', 'stack', 'x86', 'x64']
+  },
+  {
+    url: 'https://blog.feabhas.com/2021/07/cmake-part-1-the-dark-arts/',
+    title: 'CMake Part 1 – The Dark Arts',
+    description: 'The dark arts of cmake, project ocnfiguration and managment.',
+    tags: ['c++', 'cmake', 'project managment']
+  },
   {
     url: 'https://tratt.net/laurie/blog/2023/why_we_need_to_know_lr_and_recursive_descent_parsing_techniques.html',
     title: 'Why We Need to Know LR and Recursive Descent Parsing Techniques',

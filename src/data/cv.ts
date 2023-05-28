@@ -1,7 +1,7 @@
 import { Education, WorkExperience } from 'model'
 
 export const summary =
-  'I am an autodidact full-stack software engineer experienced in developing and leading projects from scratch to enterprise product on various environments I am a quick learner with a passion for software internals, technology and design. I contribute to open-source projects and learn new technologies and theoretical fields in my spare time. My main technical interests are Programming Languages, Linux, Functional Programming, distributed systems and platform engineering.'
+  'I am an autodidact software engineer with experience in developing and leading projects from scratch to enterprise products. I am passionate about Open Source, Compilers, Linux, Distributed Systems and Software Architecture. I am a quick learner, a creative problem solver and a knowledge-driven technology enthusiast. I believe in a no-blame culture, direct feedback and accountability. I strive towards efficiency but I’m not fanatic, I see myself as a realist with an optimistic point of view.'
 
 export const education: Education[] = [
   { title: 'King\'s College London, Computer Science Research MPhil/PhD (Part-time) - 2023 – 2030' },

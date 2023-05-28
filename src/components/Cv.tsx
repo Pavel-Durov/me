@@ -22,7 +22,7 @@ export function Cv ({ summary, education, workExperience }:
             <div key={idx}>
               <div>
                   <div className='kimchi-h1'>
-                    {exp.company} 👉 {exp.title}. {exp.date}
+                    {exp.company} {'>'} {exp.title}. {exp.date}
                   </div>
               </div>
               <div className='m-2'>

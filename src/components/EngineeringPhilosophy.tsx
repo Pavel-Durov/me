@@ -2,31 +2,30 @@ import { PhilosophyValue } from 'model'
 export function EngineeringPhilosophy ({ values, quotes }: { values: PhilosophyValue[], quotes: string[] }): JSX.Element {
   return (
     <>
-      <section>
+      <div>
         <div className='kimchi-h1'>Engineering Philosophy</div>
-        <p>Each value should be considered in its context + apply your judgment - *you are a human, not a machine*</p>
+
+        <p className='m-2'> Each value should be considered in its context + apply your judgment - *you are a human, not a machine*</p>
         {values.map((val, idx) => (
           <div key={idx}>
             <span className='text-primary'>{val.value}</span>
-            <ul>
+            <div className="table table-hover m-2">
               {val.sub.map((sub, idx) => (
-                <li className="m-2" key={idx}>{sub}</li>
+                <div key={idx}> - {sub}</div>
               ))}
-            </ul>
+            </div>
           </div>
         ))}
 
         <div className='kimchi-h1'>Inspirational Quotes</div>
-        <ul>
+
+        <div className="table table-hover m-2">
+
           {quotes.map((quote, idx) => (
-            <li key={idx} className="m-2">
-              <span className='text-secondary'>
-              {quote}
-                </span>
-            </li>
+            <div key={idx}> - {quote}</div>
           ))}
-        </ul>
-      </section>
+        </div>
+      </div>
     </>
   )
 }

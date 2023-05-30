@@ -16,7 +16,7 @@ const projects: Project[] = [
   {
     url: 'https://github.com/Pavel-Durov/kimchi.py',
     title: 'Kimchi.Py',
-    description: 'Interpreter called Kimchi, Inspired by a book "Writing An Interpreter In Go" but writen in RPython.',
+    description: 'An interpreter called Kimchi. Inspired by the book "Writing An Interpreter In Go" but written in RPython.',
     techStack: 'RPython, PyPy'
   },
   {
@@ -74,7 +74,7 @@ const projects: Project[] = [
   {
     url: 'https://github.com/Pavel-Durov/by.far.the.best.interpreter.ever.made',
     title: 'By far the best interpreter ever made',
-    description: 'Open source contributor. Command-line tool for realtime tracing of ETW events and for processing existing .etl recording files',
+    description: 'Interpreter written in GO, based on the book "Writing An Interpreter In Go"',
     techStack: 'RPython, PyPy'
   },
 

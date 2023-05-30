@@ -39,6 +39,7 @@ export interface WorkExperience {
   date: string
   description: string
   techStack: string
+  achievements: string[]
 }
 
 export interface Contact {

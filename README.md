@@ -7,6 +7,7 @@
 
 [Github Actions](https://docs.github.com/en/actions)
 
+[Infra README](./infra/README.md)
 
 ## Tools that made it possible
 
@@ -19,4 +20,3 @@
 - [Fonts](https://int10h.org/oldschool-pc-fonts/readme/)
 
 - [JIMP](https://www.npmjs.com/package/jimp)
-

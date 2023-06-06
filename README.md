@@ -5,6 +5,10 @@
 
 [Vercel Project](https://vercel.com/pav3ldurov/pavel-personal-website)
 
+[Github Actions](https://docs.github.com/en/actions)
+
+[Infra README](./infra/README.md)
+
 ## Tools that made it possible
 
 - [Vercel](https://drkimchi.vercel.app/)
@@ -16,4 +20,3 @@
 - [Fonts](https://int10h.org/oldschool-pc-fonts/readme/)
 
 - [JIMP](https://www.npmjs.com/package/jimp)
-

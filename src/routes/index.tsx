@@ -22,6 +22,8 @@ import { summary, education, workExperience } from 'data/cv'
 import { contact } from 'data/contact'
 import personalStatementData from 'data/personalStatement'
 import { PersonalStatement } from 'components/PersonalStatment'
+import { codeSnippets } from 'data/interviewQuestions'
+import { InterviewQuestions } from 'components/InterviewQuestions'
 
 declare global {
   interface Window {
@@ -74,6 +76,10 @@ export const router = createBrowserRouter([
   {
     path: '/resources',
     element: <Resources resources={resources}/>
+  },
+  {
+    path: '/interview-questions',
+    element: <InterviewQuestions codeSnippets={codeSnippets}/>
   },
   {
     path: '/personal-statement',

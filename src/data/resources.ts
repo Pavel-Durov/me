@@ -1,7 +1,6 @@
 import { Resource } from 'model'
 
 export default [
-
   {
     url: 'https://css.csail.mit.edu/6.858/2010/labs/dr-docs/using.html',
     title: 'Usage Model for DynamoRIO',

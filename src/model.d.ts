@@ -61,3 +61,8 @@ export interface PersonalStatement {
   title: string
   content: string
 }
+
+export interface CodeSnippet {
+  text: string
+  language: string
+}

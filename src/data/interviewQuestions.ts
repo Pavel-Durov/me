@@ -2,9 +2,9 @@ import { CodeSnippet } from 'model'
 
 export const codeSnippets: CodeSnippet[] = [
   {
-    text: `// What would be the output of this program after 1 second? 
-// What would be the output of this program after 5 second?
-(async function () {
+    title: 'Js: All Promises',
+    language: 'javascript',
+    text: `(async function () {
     const intervalPromise = new Promise((resolve) =>
       setInterval(function () {
         console.log("interval 2000");
@@ -19,12 +19,47 @@ export const codeSnippets: CodeSnippet[] = [
     const result = await Promise.race([intervalPromise, timeoutPromise]);
     console.log({ result });
   })();  
-`,
-    language: 'javascript'
+`
   },
   {
-    text: 'let a = 1;',
-    language: 'rust'
+    title: 'Go: Channel Ping Pong',
+    language: 'go',
+    text: `package main
+
+import (
+  "fmt"
+  "time"
+)
+
+func ping(c chan string) {
+  pongs := 0
+  time.Sleep(time.Second * 2)
+  for {
+    c <- "ping"
+    fmt.Println(<-c)
+    if pongs == 2 {
+      fmt.Printf("got %d pongs\n", pongs)
+      break
+    }
+    pongs++
+  }
+}
+
+func pong(c chan string) {
+  for {
+    fmt.Println(<-c)
+    c <- "pong"
+  }
+}
+
+func main() {
+  c := make(chan string)
+  go ping(c)
+  go pong(c)
+  var input string
+  fmt.Scanln(&input)
+}
+    `
   }
 
 ]

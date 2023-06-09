@@ -1,7 +1,42 @@
 import { Resource } from 'model'
 
 export default [
-
+  {
+    url: 'https://dl.acm.org/doi/pdf/10.1145/3316415',
+    title: 'From Hack to Elaborate Technique—A Survey on Binary Rewriting',
+    description: 'A survey on binary rewriting',
+    tags: ['binary', 'rewriting', 'research', 'performance']
+  },
+  {
+    url: 'http://program-transformation.org/Transform/ProgramTransformation.html',
+    title: 'Program Transformation',
+    description: 'Program-transformation.org is dedicated to collecting, organizing and disseminating information about all aspects of program transformation in order to share results across communities',
+    tags: ['program-transformation', 'transformation', 'programming', 'research']
+  },
+  {
+    url: 'https://dynimize.com/talks/DynimizerPerconaLive2018.pdf',
+    title: 'Accelerating MySQL withJIT Compilers',
+    description: 'Slides from PerconaLive2018',
+    tags: ['dynimize', 'mysql', 'performance', 'research']
+  },
+  {
+    url: 'https://xl10.github.io/blog/drcctprof.html',
+    title: 'DrCCTProf: A Fine-grained Profiler for ARM Eco-system',
+    description: 'A Fine-grained Profiler for ARM Eco-system ',
+    tags: ['performance', 'profiling', 'research']
+  },
+  {
+    url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8811970',
+    title: 'Redundant Loads: A Software Inefficiency Indicator',
+    description: 'Academic paper on redundant loads profiling and optimisations with LOADSPY',
+    tags: ['perf', 'ebpf', 'bcc', 'linux', 'performance', 'profiling', 'research']
+  },
+  {
+    url: 'https://www.brendangregg.com/linuxperf.html',
+    title: 'Linux Performance',
+    description: 'This page links to various Linux performance material I\'ve created, including the tools maps on the right. These use a large font size to suit slide decks. You can also print them out for your office wall',
+    tags: ['perf', 'ebpf', 'bcc', 'linux', 'performance', 'research']
+  },
   {
     url: 'https://css.csail.mit.edu/6.858/2010/labs/dr-docs/using.html',
     title: 'Usage Model for DynamoRIO',

@@ -2,6 +2,12 @@ import { Resource } from 'model'
 
 export default [
   {
+    url: 'https://ryhl.io/blog/async-what-is-blocking/',
+    title: 'Async: What is blocking?',
+    description: 'Alice Rhyl (one of the Tokio devs) blog post on blocking in async code.',
+    tags: ['async', 'blocking', 'tokio', 'rust']
+  },
+  {
     url: 'https://dl.acm.org/doi/pdf/10.1145/3316415',
     title: 'From Hack to Elaborate Technique—A Survey on Binary Rewriting',
     description: 'A survey on binary rewriting',

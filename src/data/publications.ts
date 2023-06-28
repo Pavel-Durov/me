@@ -2,6 +2,13 @@ import { Publication } from 'model'
 
 const publications: Publication[] = [
   {
+    title: 'Loops and Opcodes in Lua',
+    description:
+      'This article overviews the programming language Lua loops as well as the instructions used to implement them. We will demonstrate Lua syntax and the appropriate instructions for for, while and repeat loops. This topic might be a bit esoteric, but I find it fascinating - what happens behind the scenes in programming language implementations',
+    url: 'https://medium.com/@p3ld3v/loops-and-opcodes-in-lua-c3e02bae31c0',
+    date: '2023-06-28'
+  },
+  {
     title: 'Writing interpreter in Rust using grmtools',
     description:
       'This article overviews the process of writing an interpreter with Rust programming language. We will use the grmtools Rust crate to help with the parsing. We will define tokens of our language and create math addition and multiplication expressions as well as cover some basic terms and concepts related to writing an interpreter as we go',

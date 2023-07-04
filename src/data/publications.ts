@@ -2,16 +2,16 @@ import { Publication } from 'model'
 
 const publications: Publication[] = [
   {
-    title: 'Loops and Opcodes in Lua',
-    description: 'This article overviews the programming language Lua loops as well as the instructions used to implement them.',
-    url: 'https://medium.com/@p3ld3v/loops-and-opcodes-in-lua-c3e02bae31c0',
-    date: '2023-06-29'
-  },
-  {
     title: 'Hello World with Make and CMake',
     description: 'In this article, we are going to cover Make and Cmake tools on a very high level. We will illustrate its applications with a simple C++ “hello world” program.',
     url: 'https://p3ld3v.medium.com/c-hello-world-with-make-and-cmake-97740bd9dd7e',
     date: '2023-07-04'
+  },
+  {
+    title: 'Loops and Opcodes in Lua',
+    description: 'This article overviews the programming language Lua loops as well as the instructions used to implement them.',
+    url: 'https://medium.com/@p3ld3v/loops-and-opcodes-in-lua-c3e02bae31c0',
+    date: '2023-06-29'
   },
   {
     title: 'Writing interpreter in Rust using grmtools',

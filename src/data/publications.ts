@@ -2,6 +2,12 @@ import { Publication } from 'model'
 
 const publications: Publication[] = [
   {
+    title: 'Benchmarking Programs with Hyperfine',
+    description: 'In this article, we will cover basic concepts of software benchmarking and its challenges as well as practical applications using Hyperfine benchmarking tool.',
+    url: 'https://p3ld3v.medium.com/benchmarking-programs-with-hyperfine-3e226f4df382',
+    date: '2023-07-17'
+  },
+  {
     title: 'Hello World with Make and CMake',
     description: 'In this article, we are going to cover Make and Cmake tools on a very high level. We will illustrate its applications with a simple C++ “hello world” program.',
     url: 'https://p3ld3v.medium.com/c-hello-world-with-make-and-cmake-97740bd9dd7e',

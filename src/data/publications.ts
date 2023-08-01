@@ -2,6 +2,12 @@ import { Publication } from 'model'
 
 const publications: Publication[] = [
   {
+    title: 'Faster Python with PyPy (updated)',
+    description: 'In this article, we explore the usage of PyPy and RPython applications, focusing on the latest version of PyPy to date. We will compare runtime performance between PyPy and CPython and talk briefly about their implementation. This article serves as an update to a previous publication — A Gentle Introduction to PyPy — Faster Python With Minimal Changes.',
+    url: 'https://medium.com/@p3ld3v/faster-python-with-pypy-updated-dfd74212ec81',
+    date: '2023-08-01'
+  },
+  {
     title: 'Hello World with Make and CMake',
     description: 'In this article, we are going to cover Make and Cmake tools on a very high level. We will illustrate its applications with a simple C++ “hello world” program.',
     url: 'https://p3ld3v.medium.com/c-hello-world-with-make-and-cmake-97740bd9dd7e',

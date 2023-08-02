@@ -2,6 +2,12 @@ import { Resource } from 'model'
 
 export default [
   {
+    url: 'https://www.inkandswitch.com/',
+    title: 'Ink & Switch',
+    description: 'Computers can aid humans in our most noble endeavors: art, science, thinking, self-improvement. But today’s dominant computing platforms increasingly work against the needs of creative professionals. Ink & Switch is an independent research lab working on this problem.',
+    tags: ['research', 'decentralised', 'lab']
+  },
+  {
     url: 'https://ryhl.io/blog/async-what-is-blocking/',
     title: 'Async: What is blocking?',
     description: 'Alice Rhyl (one of the Tokio devs) blog post on blocking in async code.',

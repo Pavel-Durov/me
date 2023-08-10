@@ -2,6 +2,13 @@ import { Resource } from 'model'
 
 export default [
   {
+    title: 'try_repeat',
+    url: 'https://tratt.net/laurie/src/try_repeat/',
+    description:
+      'try_repeat tries to run a command n times, exiting early if the command exits with a non-zero exit code. This is useful when trying to find intermittent failures in a command',
+    tags: ['tools', 'utils', 'unix', 'debugging']
+  },
+  {
     url: 'https://tavianator.com/2023/bfs_3.0.html?ref=console.dev',
     title: 'BFS 3.0',
     description: 'bfs is a tool written to do breadth-first search through a filesystem',
@@ -10,13 +17,15 @@ export default [
   {
     url: 'https://martinfowler.com/articles/practical-test-pyramid.html',
     title: 'The Practical Test Pyramid',
-    description: 'The "Test Pyramid" is a metaphor that tells us to group software tests into buckets of different granularity. It also gives an idea of how many tests we should have in each of these groups',
+    description:
+      'The "Test Pyramid" is a metaphor that tells us to group software tests into buckets of different granularity. It also gives an idea of how many tests we should have in each of these groups',
     tags: ['testing', 'quality', 'martin-fowler']
   },
   {
     url: 'https://www.inkandswitch.com/',
     title: 'Ink & Switch',
-    description: 'Computers can aid humans in our most noble endeavors: art, science, thinking, self-improvement. But today’s dominant computing platforms increasingly work against the needs of creative professionals. Ink & Switch is an independent research lab working on this problem.',
+    description:
+      'Computers can aid humans in our most noble endeavors: art, science, thinking, self-improvement. But today’s dominant computing platforms increasingly work against the needs of creative professionals. Ink & Switch is an independent research lab working on this problem.',
     tags: ['research', 'decentralised', 'lab']
   },
   {
@@ -34,7 +43,8 @@ export default [
   {
     url: 'http://program-transformation.org/Transform/ProgramTransformation.html',
     title: 'Program Transformation',
-    description: 'Program-transformation.org is dedicated to collecting, organizing and disseminating information about all aspects of program transformation in order to share results across communities',
+    description:
+      'Program-transformation.org is dedicated to collecting, organizing and disseminating information about all aspects of program transformation in order to share results across communities',
     tags: ['program-transformation', 'transformation', 'programming', 'research']
   },
   {
@@ -58,7 +68,8 @@ export default [
   {
     url: 'https://www.brendangregg.com/linuxperf.html',
     title: 'Linux Performance',
-    description: 'This page links to various Linux performance material I\'ve created, including the tools maps on the right. These use a large font size to suit slide decks. You can also print them out for your office wall',
+    description:
+      "This page links to various Linux performance material I've created, including the tools maps on the right. These use a large font size to suit slide decks. You can also print them out for your office wall",
     tags: ['perf', 'ebpf', 'bcc', 'linux', 'performance', 'research']
   },
   {
@@ -82,7 +93,7 @@ export default [
   {
     url: 'https://tratt.net/laurie/blog/2023/why_we_need_to_know_lr_and_recursive_descent_parsing_techniques.html',
     title: 'Why We Need to Know LR and Recursive Descent Parsing Techniques',
-    description: 'Laurence Tratt\'s argument for LR parsing',
+    description: "Laurence Tratt's argument for LR parsing",
     tags: ['parsing', 'compilers']
   },
   {
@@ -94,7 +105,8 @@ export default [
   {
     url: 'https://tratt.net/laurie/blog/2020/which_parsing_approach.html',
     title: 'Which Parsing Approach?',
-    description: 'We all know that parsing is an important part of designing and implementing programming languages, but it’s the equivalent of Brussels sprouts: good for the diet, but a taste that only a select few enjoy. Unfortunately, I’ve come to realise that our general distaste for parsing is problematic. While many of us think that we’ve absorbed the advances of the 1960s into our collective understanding, I fear that we have regressed, and that we are often making inappropriate decisions about parsing. If that sounds accusatory, I don’t mean it to be: I spent over 20 years assuming that parsing is easy and that I didn’t need to understand it properly in order to use it well. Alas, reality has been a cruel teacher, and in this post I want to share some of the lessons I’ve been forced to slowly learn and acknowledge.',
+    description:
+      'We all know that parsing is an important part of designing and implementing programming languages, but it’s the equivalent of Brussels sprouts: good for the diet, but a taste that only a select few enjoy. Unfortunately, I’ve come to realise that our general distaste for parsing is problematic. While many of us think that we’ve absorbed the advances of the 1960s into our collective understanding, I fear that we have regressed, and that we are often making inappropriate decisions about parsing. If that sounds accusatory, I don’t mean it to be: I spent over 20 years assuming that parsing is easy and that I didn’t need to understand it properly in order to use it well. Alas, reality has been a cruel teacher, and in this post I want to share some of the lessons I’ve been forced to slowly learn and acknowledge.',
     tags: ['parsing', 'ast']
   },
   {
@@ -106,31 +118,35 @@ export default [
   {
     url: 'https://www.youtube.com/watch?v=5XgBd6rjuDQ&ab_channel=CNCF%5BCloudNativeComputingFoundation%5D',
     title: 'Fuzzing ping(8)… and finding a 24 year old bug.',
-    description: 'FreeBSD had a security fluctuation in their implementation of ping(8) the other day. As someone who has done a lot of work on ping(8) in OpenBSD this tickled my interests.',
+    description:
+      'FreeBSD had a security fluctuation in their implementation of ping(8) the other day. As someone who has done a lot of work on ping(8) in OpenBSD this tickled my interests.',
     tags: ['security', 'ping', 'fuzzing', 'bug']
   },
   {
     url: 'https://aws.amazon.com/blogs/compute/visualize-and-create-your-serverless-workloads-with-aws-application-composer/?ref=console.dev',
     title: 'Visualize and create your serverless workloads with AWS Application Composer',
-    description: 'In distributed systems, empowering teams is a cultural shift needed for enabling developers to help translate business capabilities into code.This doesn’t mean every team works in isolation. Different teams or even new-joiners must understand what they are building to contribute to a project. The best way to understand architecture quickly is by using diagrams. Unfortunately, architectural diagrams are often outdated. Often, when releasing a workload in production, there are already discrepancies from the initial design and infrastructure. Developers new to building serverless applications can face a learning curve when composing applications from multiple AWS services. They must understand how to configure each service, and then learn and write infrastructure as code (IaC) to deploy their application.',
+    description:
+      'In distributed systems, empowering teams is a cultural shift needed for enabling developers to help translate business capabilities into code.This doesn’t mean every team works in isolation. Different teams or even new-joiners must understand what they are building to contribute to a project. The best way to understand architecture quickly is by using diagrams. Unfortunately, architectural diagrams are often outdated. Often, when releasing a workload in production, there are already discrepancies from the initial design and infrastructure. Developers new to building serverless applications can face a learning curve when composing applications from multiple AWS services. They must understand how to configure each service, and then learn and write infrastructure as code (IaC) to deploy their application.',
     tags: ['aws', 'devops', 'dx', 'aws', 'application-composer']
   },
   {
     url: 'https://redpanda.com/blog/remote-read-replicas-for-distributing-work',
     title: 'Remote Read Replicas for Distributing Work',
-    description: 'Remote Read Replicas are read-only topics on one cluster that mirror a topic on a different cluster. They can be used to serve any consumer without increasing the load on a production cluster. When a user has a Redpanda topic with archival storage enabled, they can create a separate cluster for the consumer and populate its topics from the cloud storage. (You can find the documentation for Remote Read Replicas here.)',
+    description:
+      'Remote Read Replicas are read-only topics on one cluster that mirror a topic on a different cluster. They can be used to serve any consumer without increasing the load on a production cluster. When a user has a Redpanda topic with archival storage enabled, they can create a separate cluster for the consumer and populate its topics from the cloud storage. (You can find the documentation for Remote Read Replicas here.)',
     tags: ['redpanda', 'architecture', 'remote-read-replicas']
   },
   {
     url: 'https://redpanda.com/blog/tiered-storage-architecture-shadow-indexing-deep-dive',
     title: 'How we built Shadow Indexing, the subsystem powering Redpanda’s tiered storage capabilities',
-    description: 'One of the key premises of Redpanda is unification of real-time and historical data by giving users the ability to store infinite data. However, in the modern cloud, the price of storage often dominates the price of all computing resources. The cost of object storage is vastly lower than the cost of the local disk attached to a compute node. Furthermore, object storage is often more reliable than the nodes themselves. To these ends, we created Shadow Indexing, a capability that allows us to capitalize on the 99.995% guaranteed reliability of the tier-4 datacenter.',
+    description:
+      'One of the key premises of Redpanda is unification of real-time and historical data by giving users the ability to store infinite data. However, in the modern cloud, the price of storage often dominates the price of all computing resources. The cost of object storage is vastly lower than the cost of the local disk attached to a compute node. Furthermore, object storage is often more reliable than the nodes themselves. To these ends, we created Shadow Indexing, a capability that allows us to capitalize on the 99.995% guaranteed reliability of the tier-4 datacenter.',
     tags: ['redpanda', 'architecture', 'shadow-indexing']
   },
   {
     url: 'http://www.paulgraham.com/ds.html',
-    title: 'Do Things that Don\'t Scale',
-    description: 'Paul Graham\'s essay on how to start a startup',
+    title: "Do Things that Don't Scale",
+    description: "Paul Graham's essay on how to start a startup",
     tags: ['startup', 'entrepreneurship', 'stories']
   },
   {
@@ -154,7 +170,8 @@ export default [
   {
     url: 'https://www.youtube.com/watch?v=GgCA2USI5iQ&ab_channel=CNCF%5BCloudNativeComputingFoundation%5D',
     title: 'Webinar: Kubernetes and Networks: Why is This So Dang Hard?',
-    description: 'Tim Hockin presents a webinar where he looks at different models for integrating Kubernetes into your network in both single-cluster and multi-cluster environments. He looks at IPs, gateway configurations, and how to navigate security boundaries, describing pros and cons of each solution, so that developers can make the best choice for their particular environment.',
+    description:
+      'Tim Hockin presents a webinar where he looks at different models for integrating Kubernetes into your network in both single-cluster and multi-cluster environments. He looks at IPs, gateway configurations, and how to navigate security boundaries, describing pros and cons of each solution, so that developers can make the best choice for their particular environment.',
     tags: ['webinar', 'kubernetes', 'network', 'Tim Hockin']
   },
   {
@@ -167,7 +184,7 @@ export default [
     url: 'https://github.com/golang-standards/project-layout',
     title: 'Golang project structure best practices',
     description:
-      'This is a basic layout for Go application projects. It\'s not an official standard defined by the core Go dev team; however, it is a set of common historical and emerging project layout patterns in the Go ecosystem. Some of these patterns are more popular than others. It also has a number of small enhancements along with several supporting directories common to any large enough real world application.',
+      "This is a basic layout for Go application projects. It's not an official standard defined by the core Go dev team; however, it is a set of common historical and emerging project layout patterns in the Go ecosystem. Some of these patterns are more popular than others. It also has a number of small enhancements along with several supporting directories common to any large enough real world application.",
     tags: ['go', 'golang', 'software-engineering', 'project-structure', 'project-layout']
   },
   {

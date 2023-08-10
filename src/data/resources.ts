@@ -2,6 +2,18 @@ import { Resource } from 'model'
 
 export default [
   {
+    url: 'https://tavianator.com/2023/bfs_3.0.html?ref=console.dev',
+    title: 'BFS 3.0',
+    description: 'bfs is a tool written to do breadth-first search through a filesystem',
+    tags: ['filesystem', 'tools', 'bfs', 'utils', 'unix']
+  },
+  {
+    url: 'https://martinfowler.com/articles/practical-test-pyramid.html',
+    title: 'The Practical Test Pyramid',
+    description: 'The "Test Pyramid" is a metaphor that tells us to group software tests into buckets of different granularity. It also gives an idea of how many tests we should have in each of these groups',
+    tags: ['testing', 'quality', 'martin-fowler']
+  },
+  {
     url: 'https://www.inkandswitch.com/',
     title: 'Ink & Switch',
     description: 'Computers can aid humans in our most noble endeavors: art, science, thinking, self-improvement. But today’s dominant computing platforms increasingly work against the needs of creative professionals. Ink & Switch is an independent research lab working on this problem.',

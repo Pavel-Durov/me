@@ -1,16 +1,18 @@
 import { createBrowserRouter } from 'react-router-dom'
 
-import { Home } from 'components/Home'
 import { Error } from 'routes/error'
-import { Cv } from 'components/Cv'
-import { Publications } from 'components/Publications'
-import { Projects } from 'components/Projects'
-import { Talks } from 'components/Talks'
-import { Contact } from 'components/Contact'
-import { Identity } from 'components/Identity'
-import { EngineeringPhilosophy } from 'components/EngineeringPhilosophy'
-import { AssetWall } from 'components/AssetWall'
-import { Resources } from 'components/Resources'
+// Pages
+import { Home } from 'pages/Home'
+import { Cv } from 'pages/Cv'
+import { Publications } from 'pages/Publications'
+import { Projects } from 'pages/Projects'
+import { Talks } from 'pages/Talks'
+import { Contact } from 'pages/Contact'
+import { Identity } from 'pages/Identity'
+import { EngineeringPhilosophy } from 'pages/EngineeringPhilosophy'
+import { AssetWall } from 'pages/AssetWall'
+import { Resources } from 'pages/Resources'
+import { PersonalStatement } from 'pages/PersonalStatment'
 
 import resources from 'data/resources'
 import identities from 'data/identities'
@@ -21,7 +23,6 @@ import { values, inspirationalQuotes } from 'data/engineeringPhilosophy'
 import { summary, education, workExperience } from 'data/cv'
 import { contact } from 'data/contact'
 import personalStatementData from 'data/personalStatement'
-import { PersonalStatement } from 'components/PersonalStatment'
 
 declare global {
   interface Window {

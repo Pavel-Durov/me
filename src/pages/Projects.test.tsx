@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react'
 
 import projects from 'data/projects'
-import { Projects } from 'components/Projects'
+import { Projects } from 'pages/Projects'
 
 test('renders Resources', () => {
   render(<Projects projects={projects} />)

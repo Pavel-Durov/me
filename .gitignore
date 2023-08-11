@@ -61,3 +61,6 @@ terraform.rc
 
 # Ingore lock file
 .terraform.lock.hcl
+
+# cosine beta extention
+.cosine

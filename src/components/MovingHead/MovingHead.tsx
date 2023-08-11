@@ -44,7 +44,6 @@ const IMAGES = {
   [Direction.DOWN_RIGHT]: DOWN_RIGHT,
   [Direction.LEFT]: LEFT,
   [Direction.RIGHT]: RIGHT,
-  [Direction.UP]: UP,
   [Direction.FRONT]: FRONT,
   [Direction.INSIDE]: FRONT,
   [Direction.MIDDLE]: FRONT_CLOSED_EYES

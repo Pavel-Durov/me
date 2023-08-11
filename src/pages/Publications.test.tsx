@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import { Publications } from 'components/Publications'
+import { Publications } from 'pages/Publications'
 
 test('renders NavBar', () => {
   render(<Publications publications={

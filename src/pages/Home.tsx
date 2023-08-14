@@ -1,6 +1,8 @@
 import React from 'react'
+// import ReactMarkdown from 'react-markdown'
 
 import MovingHead from 'components/MovingHead/MovingHead'
+import Test from 'data/recepies/Test.mdx'
 
 export class Home extends React.Component {
   render (): React.ReactNode {
@@ -16,6 +18,10 @@ export class Home extends React.Component {
           the time. I like learning. Most of my knowledge comes from books, other humans and life experiences. I am fluent in English, Hebrew and Russian and currently learning
           Greek.
         </p>
+        {/* <ReactMarkdown>
+          {rawMd}
+        </ReactMarkdown> */}
+        <Test/>
       </div>
     )
   }

@@ -2,6 +2,12 @@ import { Resource } from 'model'
 
 export default [
   {
+    url: 'https://curtclifton.net/papers/MoseleyMarks06a.pdf',
+    title: 'Out of the Tar Pit',
+    description: 'Paper on complexity of software and how to manage it',
+    tags: ['complexity', 'software', 'research']
+  },
+  {
     title: 'try_repeat',
     url: 'https://tratt.net/laurie/src/try_repeat/',
     description:

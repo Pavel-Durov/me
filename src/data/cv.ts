@@ -1,14 +1,14 @@
-import { Education, WorkExperience } from 'model'
+import { Education, WorkExperience } from 'model';
 
 export const summary =
-  'I am an autodidact software engineer with experience scaling and leading businesses from zero to 50 engineers. I am passionate about Open Source, Compilers, Linux, Distributed Systems and Software Architecture. <br/> I am a quick learner, a creative problem solver and a knowledge-driven technology enthusiast. I believe in a no-blame culture, direct feedback and accountability. I strive towards efficiency but I’m not a fanatic, I see myself as a realist with an optimistic point of view. More about my engineering philosophy can be found here.'
+  'I am an autodidact software engineer with experience scaling and leading businesses from zero to 50 engineers. I am passionate about Open Source, Compilers, Linux, Distributed Systems and Software Architecture. <br/> I am a quick learner, a creative problem solver and a knowledge-driven technology enthusiast. I believe in a no-blame culture, direct feedback and accountability. I strive towards efficiency but I’m not a fanatic, I see myself as a realist with an optimistic point of view. More about my engineering philosophy can be found here.';
 
 export const education: Education[] = [
   { title: "King's College London, Computer Science Research MPhil/PhD (Part-time) - 2023 – 2030" },
   { title: 'Birkbeck, University of London, UK - BSc (Hons) in Computing, First Class Honours - 2018 – 2022' },
   { title: 'Open University, Israel - BSc Computer Science - 2014 – 2017' },
   { title: 'Sela College, Israel - Software development - 2013 - 2014 - Magna Cum Laude' }
-]
+];
 
 export const workExperience: WorkExperience[] = [
   {
@@ -37,7 +37,8 @@ export const workExperience: WorkExperience[] = [
       'Improved system stability and scalability by introducing and supporting test strategies across the engineering function',
       'Mentored engineers, organised technical workshops and tech talks'
     ],
-    techStack: 'TypeScript, Python, Go, Bash, Terraform, AWS, MongoDB, PostgreSQL, Kubernetes, Docker, Traefik, Git, CircleCi and more'
+    techStack:
+      'TypeScript, Python, Go, Bash, Terraform, AWS, MongoDB, PostgreSQL, Kubernetes, Docker, Traefik, Git, CircleCi and more'
   },
   {
     company: 'Starcount (UK)',
@@ -45,15 +46,21 @@ export const workExperience: WorkExperience[] = [
     date: 'Aug 2018 - Jan 2019',
     description: 'Working as a backend engineer alongside to data engineering team on data-driven applications',
     achievements: ['Released first MVP version of the data-analytics tool'],
-    techStack: 'TypeScript, JavaScript, Node, KoaJs, ES6/7, Lodash, PostgreSQL, AWS, SQS, Athena, Docker, Circleci, Git, Linux, Bash'
+    techStack:
+      'TypeScript, JavaScript, Node, KoaJs, ES6/7, Lodash, PostgreSQL, AWS, SQS, Athena, Docker, Circleci, Git, Linux, Bash'
   },
   {
     company: 'Grosvenor Systems (UK)',
     title: 'Web Tech Lead',
     date: 'Dec 2017 - July 2018',
     description: 'Tech lead of web development engineering team Working on legacy system into web transformation',
-    achievements: ['Managed migration from Angular 1 to Angular 4', 'Introduced CI/CD processes', 'Migrated from Windows to Linux based development'],
-    techStack: 'TypeScript, JavaScript, Node, Angular, Redux, Webpack, Mocha, Karma, Selenium, AWS, GCP, Linux, Docker, Git'
+    achievements: [
+      'Managed migration from Angular 1 to Angular 4',
+      'Introduced CI/CD processes',
+      'Migrated from Windows to Linux based development'
+    ],
+    techStack:
+      'TypeScript, JavaScript, Node, Angular, Redux, Webpack, Mocha, Karma, Selenium, AWS, GCP, Linux, Docker, Git'
   },
 
   {
@@ -80,7 +87,8 @@ export const workExperience: WorkExperience[] = [
     date: 'Oct 2014 - May 2017',
     description: 'Worked on various in-house and outsourced projects as a developer and tech consultant',
     achievements: ['Delivered multiple MVPs for outsourced and in-house projects'],
-    techStack: 'Java, C#, C/C++, JS/TS, Scala, Unity, Azure, AWS, Neo4j, MongoDb, Kafka, Xamarin, Ionic, iOS, Android, .Net Core, React, Git'
+    techStack:
+      'Java, C#, C/C++, JS/TS, Scala, Unity, Azure, AWS, Neo4j, MongoDb, Kafka, Xamarin, Ionic, iOS, Android, .Net Core, React, Git'
   },
 
   {
@@ -91,4 +99,4 @@ export const workExperience: WorkExperience[] = [
     description: 'Worked on a mobile system with multiple GoPro cameras, controlled by an Android client',
     techStack: 'Java, C#, Android, .NET Web Api, MySQL'
   }
-]
+];

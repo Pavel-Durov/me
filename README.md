@@ -1,6 +1,8 @@
 [![Build and Test](https://github.com/Pavel-Durov/me/actions/workflows/build_test_react.yml/badge.svg)](https://github.com/Pavel-Durov/me/actions/workflows/build_test_react.yml)
 [![pages-build-deployment](https://github.com/Pavel-Durov/me/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Pavel-Durov/me/actions/workflows/pages/pages-build-deployment)
 
+![Snyk](https://snyk.io/test/github/Pavel-Durov/me/4.x/badge.svg)
+
 # My website
 
 [Vercel Project](https://vercel.com/pav3ldurov/pavel-personal-website)

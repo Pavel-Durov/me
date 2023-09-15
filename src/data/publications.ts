@@ -1,21 +1,24 @@
-import { Publication } from 'model'
+import { Publication } from 'model';
 
 const publications: Publication[] = [
   {
     title: 'Faster Python with PyPy (updated)',
-    description: 'In this article, we explore the usage of PyPy and RPython applications, focusing on the latest version of PyPy to date. We will compare runtime performance between PyPy and CPython and talk briefly about their implementation. This article serves as an update to a previous publication — A Gentle Introduction to PyPy — Faster Python With Minimal Changes.',
+    description:
+      'In this article, we explore the usage of PyPy and RPython applications, focusing on the latest version of PyPy to date. We will compare runtime performance between PyPy and CPython and talk briefly about their implementation. This article serves as an update to a previous publication — A Gentle Introduction to PyPy — Faster Python With Minimal Changes.',
     url: 'https://medium.com/@p3ld3v/faster-python-with-pypy-updated-dfd74212ec81',
     date: '2023-08-01'
   },
   {
     title: 'Hello World with Make and CMake',
-    description: 'In this article, we are going to cover Make and Cmake tools on a very high level. We will illustrate its applications with a simple C++ “hello world” program.',
+    description:
+      'In this article, we are going to cover Make and Cmake tools on a very high level. We will illustrate its applications with a simple C++ “hello world” program.',
     url: 'https://p3ld3v.medium.com/c-hello-world-with-make-and-cmake-97740bd9dd7e',
     date: '2023-07-04'
   },
   {
     title: 'Loops and Opcodes in Lua',
-    description: 'This article overviews the programming language Lua loops as well as the instructions used to implement them.',
+    description:
+      'This article overviews the programming language Lua loops as well as the instructions used to implement them.',
     url: 'https://medium.com/@p3ld3v/loops-and-opcodes-in-lua-c3e02bae31c0',
     date: '2023-06-29'
   },
@@ -41,7 +44,8 @@ const publications: Publication[] = [
     date: '2022-12-02'
   },
   {
-    title: 'Progressive Delivery - Application deployment strategies: configurable and gradual deployments with minimised downtime',
+    title:
+      'Progressive Delivery - Application deployment strategies: configurable and gradual deployments with minimised downtime',
     description:
       'This article will cover Progressive Delivery techniques such as Feature Flags, A/B Testing, Ring Deployment, Dark Launching, Blue/Green and Canary deployments with high-level illustrations and a general concept overview.',
     url: 'https://blog.p3ld3v.dev/progressive-delivery',
@@ -84,7 +88,8 @@ const publications: Publication[] = [
   },
   {
     title: 'PyPy,Python and performance benchmarking',
-    description: 'My short experience with the PyPy that I was only recently exposed to. This article complements the Writing an Interpreter with PyPy tutorial from 2011',
+    description:
+      'My short experience with the PyPy that I was only recently exposed to. This article complements the Writing an Interpreter with PyPy tutorial from 2011',
     url: 'https://blog.p3ld3v.dev/pypypython-and-performance-benchmarking',
     date: '2022-10-10'
   },
@@ -127,7 +132,8 @@ const publications: Publication[] = [
   },
   {
     title: 'Introduction to Mvvmcross Platform',
-    description: 'brief overview on the basic concepts of mvvmcross platform. We will explore the mvvmcross project architecture and its classes',
+    description:
+      'brief overview on the basic concepts of mvvmcross platform. We will explore the mvvmcross project architecture and its classes',
     url: 'https://www.codeproject.com/Articles/863695/Introduction-to-Mvvmcross-Platform',
     date: '2014-06-03'
   },
@@ -145,9 +151,10 @@ const publications: Publication[] = [
   },
   {
     title: 'Hosted Javascript-WinRT duplex communication',
-    description: '.NET WebView hosted Html/Javascript application on Winrt Platform and how to establish the communication between both sides',
+    description:
+      '.NET WebView hosted Html/Javascript application on Winrt Platform and how to establish the communication between both sides',
     url: 'https://www.codeproject.com/Articles/1008161/Hosted-Javascript-WinRT-duplex-communication',
     date: '2014-07-09'
   }
-]
-export default publications
+];
+export default publications;

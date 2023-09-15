@@ -1,11 +1,11 @@
-import { getBgClass } from 'components/Utils'
-import { Project } from 'model'
+import { getBgClass } from 'components/Utils';
+import { Project } from 'model';
 
-export function Projects ({ projects }: { projects: Project[] }): JSX.Element {
+export function Projects({ projects }: { projects: Project[] }): JSX.Element {
   return (
     <>
       <section>
-        <div className='kimchi-h1'>Projects</div>
+        <div className="kimchi-h1">Projects</div>
         {projects.map((project, idx) => (
           <div key={idx} className={getBgClass(idx)}>
             <div className="card-header">
@@ -19,5 +19,5 @@ export function Projects ({ projects }: { projects: Project[] }): JSX.Element {
         ))}
       </section>
     </>
-  )
+  );
 }

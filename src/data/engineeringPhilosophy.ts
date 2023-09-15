@@ -1,5 +1,4 @@
-
-import { PhilosophyValue } from 'model'
+import { PhilosophyValue } from 'model';
 
 export const values: PhilosophyValue[] = [
   {
@@ -13,10 +12,7 @@ export const values: PhilosophyValue[] = [
   },
   {
     value: 'Avoid premature optimizations',
-    sub: [
-      'Do not optimize for the unknown',
-      'Forget about small efficiencies, say about 97% of the time'
-    ]
+    sub: ['Do not optimize for the unknown', 'Forget about small efficiencies, say about 97% of the time']
   },
   {
     value: 'Let the code speak for itself',
@@ -43,7 +39,7 @@ export const values: PhilosophyValue[] = [
       'Focus on what improvements can be made instead of what went wrong'
     ]
   }
-]
+];
 
 export const inspirationalQuotes = [
   '"Don\'t cling to a mistake because you spent so much time making it." - Aubrey de Grey',
@@ -51,4 +47,4 @@ export const inspirationalQuotes = [
   '"I don\'t trust anything until it runs… In fact, I don\'t trust anything until it runs twice." - Andrew Gelman',
   '"Failure is expected, failure is not an odd case. Design systems that help you identify failure. Design systems that can recover from failure." - JBD',
   '"Everything should be made as simple as possible, but not simpler." - Albert Einstein'
-]
+];

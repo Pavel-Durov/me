@@ -14,6 +14,6 @@ const identities = [
   { name: 'Medium', url: 'https://p3ld3v.medium.com/' },
   { name: 'Chess.com', url: 'https://www.chess.com/member/p3ld3v' },
   { name: 'Exercism', url: 'https://exercism.org/profiles/Pavel-Durov' }
-]
+];
 
-export default identities
+export default identities;

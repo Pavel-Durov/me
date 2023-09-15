@@ -1,4 +1,4 @@
-import { Resource } from 'model'
+import { Resource } from 'model';
 
 export default [
   {
@@ -118,7 +118,8 @@ export default [
   {
     url: 'https://wepresent.wetransfer.com/stories/manifesto-ai-weiwei',
     title: 'WePresent | A manifesto for life and art by artist Ai Weiwei',
-    description: 'Chinese artist Ai Weiwei is one of the most important creatives and activists working today. Here, he shares his 10 rules for art and living',
+    description:
+      'Chinese artist Ai Weiwei is one of the most important creatives and activists working today. Here, he shares his 10 rules for art and living',
     tags: ['aiweiwei', 'art', 'manifesto']
   },
   {
@@ -183,7 +184,8 @@ export default [
   {
     url: 'https://www.npmjs.com/package/dependency-cruiser',
     title: 'Dependency Cruiser',
-    description: 'Validate and visualise dependencies. With your rules. JavaScript. TypeScript. CoffeeScript. ES6, CommonJS, AMD.',
+    description:
+      'Validate and visualise dependencies. With your rules. JavaScript. TypeScript. CoffeeScript. ES6, CommonJS, AMD.',
     tags: ['dependency', 'cruiser', 'npm', 'package', 'visual']
   },
   {
@@ -217,7 +219,8 @@ export default [
   {
     url: 'https://github.com/cue-lang/cue',
     title: 'The CUE Data Constraint Language',
-    description: 'CUE is an open source data constraint language which aims to simplify tasks involving defining and using data.',
+    description:
+      'CUE is an open source data constraint language which aims to simplify tasks involving defining and using data.',
     tags: ['cue', 'data', 'language']
   },
   {
@@ -301,7 +304,17 @@ export default [
     title: 'Defer, Panic, and Recover',
     description:
       'Go has the usual mechanisms for control flow: if, for, switch, goto. It also has the go statement to run code in a separate goroutine. Here I’d like to discuss some of the less common ones: defer, panic, and recover.',
-    tags: ['go', 'golang', 'programming', 'software development', 'error handling', 'control flow', 'defer', 'panic', 'recover']
+    tags: [
+      'go',
+      'golang',
+      'programming',
+      'software development',
+      'error handling',
+      'control flow',
+      'defer',
+      'panic',
+      'recover'
+    ]
   },
   {
     url: 'https://tratt.net/laurie/research/pubs/html/bolz_tratt__the_impact_of_metatracing_on_vm_design_and_implementation/',
@@ -376,7 +389,8 @@ export default [
   {
     url: 'https://unexpected-go.com/',
     title: 'unexpected-go',
-    description: 'This small site is oriented to developers learning golang that want to see the unexpected, at least for a newcomer, behaviors in the language.',
+    description:
+      'This small site is oriented to developers learning golang that want to see the unexpected, at least for a newcomer, behaviors in the language.',
     tags: ['golang', 'go']
   },
   {
@@ -476,7 +490,8 @@ export default [
   {
     url: 'https://www.youtube.com/watch?v=1n9KMqssn54&ab_channel=PyConSweden',
     title: 'Using PyPy instead of Python for speed by Niklas Bivald',
-    description: 'Using PyPy - a faster version of Python for long running applications - as a first step to speed up your application.',
+    description:
+      'Using PyPy - a faster version of Python for long running applications - as a first step to speed up your application.',
     tags: ['python', 'pypy', 'speed', 'performance']
   },
 
@@ -535,7 +550,8 @@ export default [
   {
     url: 'https://www.infoq.com/presentations/Facebook-Release-Process/',
     title: 'The Facebook Mobile Release Process',
-    description: 'Christian Legnitto offers insight in some of the tools and processes used by Facebook for pushing new updates to their mobile apps.',
+    description:
+      'Christian Legnitto offers insight in some of the tools and processes used by Facebook for pushing new updates to their mobile apps.',
     tags: ['release', 'process', 'mobile', 'continuous delivery']
   },
   {
@@ -590,4 +606,4 @@ export default [
     url: 'https://www.youtube.com/watch?v=th4AgBcrEHA',
     tags: ['architecture', 'hexagonal architecture']
   }
-] as Resource[]
+] as Resource[];

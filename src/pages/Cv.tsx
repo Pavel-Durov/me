@@ -1,6 +1,10 @@
-import { Education, WorkExperience } from 'model'
+import { Education, WorkExperience } from 'model';
 
-export function Cv ({ summary, education, workExperience }: { summary: string, education: Education[], workExperience: WorkExperience[] }): JSX.Element {
+export function Cv({
+  summary,
+  education,
+  workExperience
+}: { summary: string; education: Education[]; workExperience: WorkExperience[] }): JSX.Element {
   return (
     <>
       <div role="tabpanel">
@@ -46,5 +50,5 @@ export function Cv ({ summary, education, workExperience }: { summary: string, e
         </div>
       </div>
     </>
-  )
+  );
 }

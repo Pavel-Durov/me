@@ -6,12 +6,14 @@ export function Publications({ publications }: { publications: Publication[] }):
       <section>
         <div className="kimchi-h1">Texts</div>
         {publications.map((pub, idx) => (
-          <div key={idx} className="card">
-            <div className="kimchi-h1">{pub.date}</div>
+          <div className="card">
             <div className="card-header">
               <a href={pub.url}>{pub.title}</a>
             </div>
-            <div className="card-body">{pub.description}</div>
+            <div className="card-body">
+              <p>{pub.description}</p>
+              <p> - {pub.date}</p>
+            </div>
           </div>
         ))}
       </section>

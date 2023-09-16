@@ -12,30 +12,27 @@ export const education: Education[] = [
 
 export const workExperience: WorkExperience[] = [
   {
-    company: 'Flutter',
-    title: 'Technical advisor',
-    date: 'Mar 2023 - PRESENT',
-    description: 'Mar 2023 - PRESENT',
-    achievements: [],
-    techStack: ''
-  },
-  {
     company: 'nate (UK/US)',
     title: 'Tech Lead, CTO, Principle Engineer',
     date: 'Jan 2019 - Current',
     description:
       'Joined as one of the first employees as a Software Engineer and naturally progressed to Tech Lead, CTO, and finally Principal Engineer. My role as a technical leader included mentorship, setting technical direction, technology evaluation, platform engineering and applied research.',
     achievements: [
-      'Scaled engineering team from a team of one to a multi-team function in London and NY',
+      'Built and led the engineering function of 50 engineers across London and NY',
+      'Built a Platform team and facilitated Platform Engineering culture',
       'Delivered company OKRs in tight deadlines - Seed Round and Series A',
       'Facilitated engineering hiring process and technical interview structure',
-      'Reduced TTP (Time To Production) by 50% on CD pipelines',
-      'Improved SLA by introducing on-call and escalation processes',
-      'Improved DX (Developer Experience) by introducing cloud observability, tooling and platform support',
-      'Improved systems design and cross-team collaboration by facilitating Architecture Advisory Forum (AAF)',
+      'Streamlined CD Pipelines - Reduced TTP (Time To Production) by 50% ',
+      'Enhanced operational support by introducing on-call and escalation processes',
+      'Facilitated operational support, escalation policies and effective incident management',
+      'Improved DX (Developer Experience) via observability and platform tooling support',
+      'Improved system design and cross-team collaboration by facilitating Architecture Advisory Forum (AAF)',
       'Initiated and completed successful migration to Kubernetes on AWS EKS',
-      'Improved system stability and scalability by introducing and supporting test strategies across the engineering function',
-      'Mentored engineers, organised technical workshops and tech talks'
+      'Improved system stability via test automation strategies and processes',
+      'Mentored engineers through technical workshops, tech talks, and individual support, fostering continuous skill development and professional growth.',
+      'Worked closely with cross-functional teams on product and technical roadmaps while  making that all non-functional requirements are met',
+      'Collaborated closely with the Data Science team, facilitating effective communication and strategic architectural planning',
+      'Played a key role in creating and preserving an inclusive and dynamic engineering and office culture, driving motivation, productivity, and team cohesion'
     ],
     techStack:
       'TypeScript, Python, Go, Bash, Terraform, AWS, MongoDB, PostgreSQL, Kubernetes, Docker, Traefik, Git, CircleCi and more'
@@ -45,7 +42,10 @@ export const workExperience: WorkExperience[] = [
     title: 'Backend Engineer',
     date: 'Aug 2018 - Jan 2019',
     description: 'Working as a backend engineer alongside to data engineering team on data-driven applications',
-    achievements: ['Released first MVP version of the data-analytics tool'],
+    achievements: [
+      'Worked alongside the data engineering team to develop and maintain data-driven applications.',
+      'Successfully launched the first MVP version of a data analytics tool, enabling effective geo-location data analysis.'
+    ],
     techStack:
       'TypeScript, JavaScript, Node, KoaJs, ES6/7, Lodash, PostgreSQL, AWS, SQS, Athena, Docker, Circleci, Git, Linux, Bash'
   },
@@ -55,9 +55,10 @@ export const workExperience: WorkExperience[] = [
     date: 'Dec 2017 - July 2018',
     description: 'Tech lead of web development engineering team Working on legacy system into web transformation',
     achievements: [
-      'Managed migration from Angular 1 to Angular 4',
-      'Introduced CI/CD processes',
-      'Migrated from Windows to Linux based development'
+      'Led a high-performance web development team, providing guidance and mentorship to achieve set goals and objectives.',
+      'Successfully executed the migration from Angular 1 to Angular 4, enhancing system efficiency and delivering improved user experience.',
+      'Implemented CI/CD processes to streamline development operations, resulting in accelerated software delivery and increased productivity.',
+      'Manged the transition from Windows to a Linux-based development environment, optimizing system performance and reducing operational costs.'
     ],
     techStack:
       'TypeScript, JavaScript, Node, Angular, Redux, Webpack, Mocha, Karma, Selenium, AWS, GCP, Linux, Docker, Git'

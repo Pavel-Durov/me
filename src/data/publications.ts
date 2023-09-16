@@ -2,6 +2,12 @@ import { Publication } from 'model';
 
 const publications: Publication[] = [
   {
+    title: 'SDK DX and Code Evolution',
+    description: 'This article delves into SDKs (Software Development Kit), covering their development, maintenance, and the crucial aspects of DX (Developer Experience). We will explore DX core principles with TypeScript examples and examine code evolution.',
+    url: 'https://medium.com/better-programming/sdk-dx-and-code-evolution-f75a74e864e2',
+    date: '2023-09-15'
+  },
+  {
     title: 'Faster Python with PyPy (updated)',
     description:
       'In this article, we explore the usage of PyPy and RPython applications, focusing on the latest version of PyPy to date. We will compare runtime performance between PyPy and CPython and talk briefly about their implementation. This article serves as an update to a previous publication — A Gentle Introduction to PyPy — Faster Python With Minimal Changes.',

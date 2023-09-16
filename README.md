@@ -13,7 +13,7 @@
 
 ## Tools that made it possible
 
-- [Vercel](https://drkimchi.vercel.app/)
+- [Vercel](https://vercel.com/pav3ldurov)
 
 - [Github Actions](https://docs.github.com/en/actions)
 

@@ -3,7 +3,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import { Error } from 'routes/error';
 // Pages
 import { Home } from 'pages/Home';
-import { Cv } from 'pages/Cv';
+import { Markdown } from 'pages/Markdown/Markdown';
 import { Publications } from 'pages/Publications';
 import { Projects } from 'pages/Projects';
 import { Talks } from 'pages/Talks';
@@ -20,12 +20,14 @@ import projects from 'data/projects';
 import publications from 'data/publications';
 import talks from 'data/talks';
 import { values, inspirationalQuotes } from 'data/engineeringPhilosophy';
-import { summary, education, workExperience } from 'data/cv';
 import { contact } from 'data/contact';
 import personalStatementData from 'data/personalStatement';
 
+import MdCv from 'data/md/cv.md';
+
 declare global {
   interface Window {
+    // biome-ignore lint/suspicious/noExplicitAny: <explanation>
     _386: any;
   }
 }
@@ -41,7 +43,7 @@ export const router = createBrowserRouter([
   },
   {
     path: '/cv',
-    element: <Cv summary={summary} education={education} workExperience={workExperience} />
+    element: <Markdown getContent={() => fetch(MdCv).then((res) => res.text())} />
   },
   {
     path: '/id',

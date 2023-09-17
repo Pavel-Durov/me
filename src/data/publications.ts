@@ -3,7 +3,8 @@ import { Publication } from 'model';
 const publications: Publication[] = [
   {
     title: 'SDK DX and Code Evolution',
-    description: 'This article delves into SDKs (Software Development Kit), covering their development, maintenance, and the crucial aspects of DX (Developer Experience). We will explore DX core principles with TypeScript examples and examine code evolution.',
+    description:
+      'This article delves into SDKs (Software Development Kit), covering their development, maintenance, and the crucial aspects of DX (Developer Experience). We will explore DX core principles with TypeScript examples and examine code evolution.',
     url: 'https://medium.com/better-programming/sdk-dx-and-code-evolution-f75a74e864e2',
     date: '2023-09-15'
   },

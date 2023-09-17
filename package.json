@@ -20,10 +20,11 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.11.65",
-    "@types/react": "^18.0.21",
+    "@types/react": "^18.2.21",
     "@types/react-dom": "^18.0.6",
     "bootstrap": "^5.2.2",
     "jquery": "^3.6.1",
+    "markdown-to-jsx": "^7.3.2",
     "pino": "^8.7.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
@@ -31,7 +32,7 @@
     "react-router-dom": "^6.15.0",
     "react-scripts": "^5.0.1",
     "rxjs": "^7.5.7",
-    "typescript": "*",
+    "typescript": "4.9.5",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {

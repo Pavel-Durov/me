@@ -5,7 +5,7 @@ export function NavBar(): JSX.Element {
   return (
     <>
       <div className="navbar navbar-expand-md fixed-top navbar-dark bg-primary">
-        <img src={Profile} style={{ margin: '1px', width: 30, padding: '5px' }} alt="Spining head"/>
+        <img src={Profile} style={{ margin: '1px', width: 30, padding: '5px' }} alt="Spining head" />
 
         <mark>[P3LD3V]</mark>
 

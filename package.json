@@ -22,7 +22,7 @@
     "@types/node": "^16.18.46",    
     "@types/react-dom": "^18.0.6",
     "@types/react": "^18.2.21",
-    "bootstrap": "^5.2.2",
+    "bootstrap": "^5.3.1",
     "jquery": "^3.7.1",
     "markdown-to-jsx": "^7.3.2",
     "pino": "^8.15.0",

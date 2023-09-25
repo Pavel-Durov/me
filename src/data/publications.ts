@@ -2,6 +2,13 @@ import { Publication } from 'model';
 
 const publications: Publication[] = [
   {
+    title: 'Writing an Interpreter in Rust: AST (part 2)',
+    description:
+      'We are continuing our journey of implementing an interpreter called Coconut in Rust! Here, we will delve into the concept of AST (Abstract Syntax Tree) and transition from parse-time evaluation to AST-time.',
+    url: 'https://medium.com/better-programming/writing-an-interpreter-in-rust-ast-part-2-59fd20dbc60f',
+    date: '2023-09-23'
+  },
+  {
     title: 'SDK DX and Code Evolution',
     description:
       'This article delves into SDKs (Software Development Kit), covering their development, maintenance, and the crucial aspects of DX (Developer Experience). We will explore DX core principles with TypeScript examples and examine code evolution.',

@@ -24,6 +24,7 @@ import { contact } from 'data/contact';
 import personalStatementData from 'data/personalStatement';
 
 import MdCv from 'data/md/cv.md';
+import { TitleGenerator } from 'pages/TitleGenerator/TitleGenerator';
 
 declare global {
   interface Window {
@@ -76,6 +77,10 @@ export const router = createBrowserRouter([
   {
     path: '/resources',
     element: <Resources resources={resources} />
+  },
+  {
+    path: '/title-generator',
+    element: <TitleGenerator />
   },
   {
     path: '/personal-statement',

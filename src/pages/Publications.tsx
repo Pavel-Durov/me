@@ -6,7 +6,7 @@ export function Publications({ publications }: { publications: Publication[] }):
       <section>
         <div className="kimchi-h1">Texts</div>
         {publications.map((pub, idx) => (
-          <div className="card">
+          <div className="card" key={`id-${idx}`}>
             <div className="card-header">
               <a href={pub.url}>{pub.title}</a>
             </div>

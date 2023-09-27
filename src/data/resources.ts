@@ -2,6 +2,18 @@ import { Resource } from 'model';
 
 export default [
   {
+    url: 'https://blog.subnetzero.io/post/building-language-vm-part-01/',
+    title: 'Building a Language VM: Part 01',
+    description: 'Building a Language VM: Part 01',
+    tags: ['vm', 'compiler', 'interpreter', 'language', 'rust']
+  },
+  {
+    url: 'https://github.com/Rydgel/monkey-rust',
+    title: 'Monkey Rust',
+    description: 'Monkey interpreter in Rust',
+    tags: ['monkey', 'interpreter', 'rust']
+  },
+  {
     url: 'https://curtclifton.net/papers/MoseleyMarks06a.pdf',
     title: 'Out of the Tar Pit',
     description: 'Paper on complexity of software and how to manage it',

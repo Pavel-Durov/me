@@ -152,7 +152,7 @@ export function TitleGenerator(): JSX.Element {
         </ul>
 
         <textarea
-          placeholder='Type here'
+          placeholder="Type here"
           onInput={(e: ChangeEvent<HTMLTextAreaElement>) => {
             setText(e.target.value);
             render();

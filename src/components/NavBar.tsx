@@ -47,11 +47,14 @@ export function NavBar(): JSX.Element {
                 <a href={'/talks'} className="dropdown-item">
                   Talks
                 </a>
-                <a href={'./personal-statement'} className="dropdown-item">
+                <a href={'/personal-statement'} className="dropdown-item">
                   Personal Statement
                 </a>
                 <a href={'/projects'} className="dropdown-item">
                   Projects
+                </a>
+                <a href={'/title-generator'} className="dropdown-item">
+                  ASCII Title Generator
                 </a>
                 <div className="dropdown-divider" />
                 <a href={'/'} className="dropdown-item">

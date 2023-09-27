@@ -1,0 +1,26 @@
+pre {
+  padding: 50px;
+}
+
+select.custom-select {
+  appearance: none;
+  background: transparent no-repeat right center;
+  background-size: 20px; /* Adjust the icon size */
+  border: 1px solid #ccc;
+  padding: 5px 30px 5px 10px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+ul {
+  margin-left: 0;
+  padding: 0.2em;
+}
+textarea {
+  
+}
+
+textarea {
+  padding: 10px; /* Adjust padding as needed */
+  width: 100%; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+}

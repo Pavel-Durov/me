@@ -2,6 +2,20 @@ import { Publication } from 'model';
 
 const publications: Publication[] = [
   {
+    title: 'Writing an Interpreter in Rust: Bytecode and Stack-Based VM (Part 3)',
+    description:
+      'In this article, we will explore Bytecode advantages and its implementation within the Coconut interpreter. We will also discuss Bytecode evaluation in stack-based virtual machines and compare them to other alternatives.',
+    url: 'https://medium.com/better-programming/writing-an-interpreter-in-rust-bytecode-and-stack-based-vm-part-3-943af4acf9e0',
+    date: '2020-10-01'
+  },
+  {
+    title: 'Writing an Interpreter in Rust: AST (part 2)',
+    description:
+      'We are continuing our journey of implementing an interpreter called Coconut in Rust! Here, we will delve into the concept of AST (Abstract Syntax Tree) and transition from parse-time evaluation to AST-time.',
+    url: 'https://medium.com/better-programming/writing-an-interpreter-in-rust-ast-part-2-59fd20dbc60f',
+    date: '2020-09-22'
+  },
+  {
     title: 'SDK DX and Code Evolution',
     description:
       'This article delves into SDKs (Software Development Kit), covering their development, maintenance, and the crucial aspects of DX (Developer Experience). We will explore DX core principles with TypeScript examples and examine code evolution.',

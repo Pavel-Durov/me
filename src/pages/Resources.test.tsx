@@ -7,6 +7,6 @@ test('renders Resources', () => {
   render(<Resources resources={resources} />);
   for (const resource of resources) {
     const p = screen.queryAllByText(resource.title);
-    expect(p.length).toBeGreaterThan(0) 
+    expect(p.length).toBeGreaterThan(0);
   }
 });

@@ -2,7 +2,7 @@ import { OnlineId } from 'model';
 
 export function Identity({ identities }: { identities: OnlineId[] }): JSX.Element {
   return (
-    <section>
+    <section className="kimchi-page">
       <div className="kimchi-h1">Identity</div>
       <ul className="list-group">
         {identities.map((identity, idx) => (

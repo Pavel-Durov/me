@@ -4,7 +4,7 @@ export function EngineeringPhilosophy({
   quotes
 }: { values: PhilosophyValue[]; quotes: string[] }): JSX.Element {
   return (
-    <>
+    <section className="kimchi-page">
       <div>
         <div className="kimchi-h1">Engineering Philosophy</div>
 
@@ -31,6 +31,6 @@ export function EngineeringPhilosophy({
           ))}
         </div>
       </div>
-    </>
+    </section>
   );
 }

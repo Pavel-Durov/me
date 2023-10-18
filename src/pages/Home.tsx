@@ -11,7 +11,7 @@ export class Home extends React.Component<{}, { text: string }, {}> {
 
   render(): React.ReactNode {
     return (
-      <div>
+      <section className="kimchi-page">
         <div style={{ textAlign: 'center', padding: 10 }}>
           <MovingHead />
         </div>
@@ -24,7 +24,7 @@ export class Home extends React.Component<{}, { text: string }, {}> {
           doing other stuff most of the time. I like learning. Most of my knowledge comes from books, other humans and
           life experiences. I am fluent in English, Hebrew and Russian and currently learning Greek.
         </p>
-      </div>
+      </section>
     );
   }
 }

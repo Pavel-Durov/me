@@ -40,7 +40,7 @@ export class Resources extends React.Component<
 
   render(): JSX.Element {
     return (
-      <section className="kimchi-box" style={{ height: '90%' }}>
+      <section className="kimchi-box kimchi-page" style={{ height: '90%' }}>
         <div>
           <span>Search:</span>
           <input type="text" className="form-control" onChange={(e) => this.onTextChange(e.target.value)} />

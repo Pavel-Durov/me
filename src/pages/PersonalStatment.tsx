@@ -2,7 +2,7 @@ import { PersonalStatement as model } from 'model';
 
 export function PersonalStatement({ title, content }: model): JSX.Element {
   return (
-    <>
+    <section className="kimchi-page">
       <div className="kimchi-h1">{title}</div>
 
       <div style={{ marginTop: 10 }}>
@@ -12,6 +12,6 @@ export function PersonalStatement({ title, content }: model): JSX.Element {
           </div>
         ))}
       </div>
-    </>
+    </section>
   );
 }

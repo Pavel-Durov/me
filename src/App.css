@@ -139,7 +139,6 @@
   -o-transform: rotate(-40deg);
   transform: rotate(-40deg);
 }
-
 .prevent-select {
   -webkit-user-select: none;
   /* Safari */
@@ -147,4 +146,8 @@
   /* IE 10 and IE 11 */
   user-select: none;
   /* Standard syntax */
+}
+
+.kimchi-page {
+  padding-top: 10px;
 }

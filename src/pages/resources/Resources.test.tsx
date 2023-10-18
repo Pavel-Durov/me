@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { Resources } from 'pages/Resources';
+import { Resources } from 'pages/resources/Resources';
 
 import resources from 'data/resources';
 

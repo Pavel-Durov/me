@@ -3,15 +3,15 @@ import { createBrowserRouter } from 'react-router-dom';
 import { Error } from 'routes/error';
 // Pages
 import { Home } from 'pages/Home';
-import { Markdown } from 'pages/Markdown/Markdown';
-import { Publications } from 'pages/Publications';
-import { Projects } from 'pages/Projects';
+import { Markdown } from 'components/Markdown/Markdown';
+import { Publications } from 'pages/publications/Publications';
+import { Projects } from 'pages/projects/Projects';
 import { Talks } from 'pages/Talks';
 import { Contact } from 'pages/Contact';
 import { Identity } from 'pages/Identity';
 import { EngineeringPhilosophy } from 'pages/EngineeringPhilosophy';
 import { AssetWall } from 'pages/AssetWall';
-import { Resources } from 'pages/Resources';
+import { Resources } from 'pages/resources/Resources';
 import { PersonalStatement } from 'pages/PersonalStatment';
 
 import resources from 'data/resources';
@@ -24,7 +24,7 @@ import { contact } from 'data/contact';
 import personalStatementData from 'data/personalStatement';
 
 import MdCv from 'data/md/cv.md';
-import { TitleGenerator } from 'pages/TitleGenerator/TitleGenerator';
+import { TitleGenerator } from 'components/TitleGenerator/TitleGenerator';
 
 declare global {
   interface Window {

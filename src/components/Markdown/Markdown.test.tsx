@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import { Markdown } from 'pages/Markdown/Markdown';
+import { Markdown } from 'components/Markdown/Markdown';
 
 test('expected to render h2', async () => {
   render(<Markdown getContent={() => Promise.resolve('## Hello World')} />);

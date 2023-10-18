@@ -2,7 +2,7 @@ import { Talk } from 'model';
 
 export function Talks({ talks }: { talks: Talk[] }): JSX.Element {
   return (
-    <section>
+    <section className="kimchi-page">
       <div className="kimchi-h1">Talks</div>
       {talks.map((talk, idx) => (
         <div key={idx} className="card">

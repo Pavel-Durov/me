@@ -2,6 +2,18 @@ import { Resource } from 'model';
 
 export default [
   {
+    url: 'https://notes.eatonphil.com/2023-10-01-intercepting-and-modifying-linux-system-calls-with-ptrace.html',
+    title: 'Intercepting and modifying Linux system calls with ptrace',
+    description: 'Intercepting and modifying Linux system calls with ptrace',
+    tags: ['linux', 'ptrace', 'syscall', 'debugging', 'security']
+  },
+  {
+    url: 'https://notes.eatonphil.com/2023-05-25-raft.html',
+    title: 'Raft Consensus Algorithm',
+    description: 'Raft Consensus Algorithm',
+    tags: ['raft', 'consensus', 'algorithm', 'go', 'golang']
+  },
+  {
     url: 'https://blog.subnetzero.io/post/building-language-vm-part-01/',
     title: 'Building a Language VM: Part 01',
     description: 'Building a Language VM: Part 01',

@@ -2,18 +2,25 @@ import { Publication } from 'model';
 
 const publications: Publication[] = [
   {
+    title: 'Writing Interpreter in Rust — Repl, Files, and Comments (Part 4)',
+    description:
+      'In this article, we will implement the REPL (Read-Eval-Print Loop), reorganise the project, and add file and comments support. It will be a collection of small changes that will extend the usability of our interpreter.',
+    url: 'https://medium.com/better-programming/writing-interpreter-in-rust-repl-files-and-comments-part-4-5a11d41613ba',
+    date: '2023-10-17'
+  },
+  {
     title: 'Writing an Interpreter in Rust: Bytecode and Stack-Based VM (Part 3)',
     description:
       'In this article, we will explore Bytecode advantages and its implementation within the Coconut interpreter. We will also discuss Bytecode evaluation in stack-based virtual machines and compare them to other alternatives.',
     url: 'https://medium.com/better-programming/writing-an-interpreter-in-rust-bytecode-and-stack-based-vm-part-3-943af4acf9e0',
-    date: '2020-10-01'
+    date: '2023-10-01'
   },
   {
     title: 'Writing an Interpreter in Rust: AST (part 2)',
     description:
       'We are continuing our journey of implementing an interpreter called Coconut in Rust! Here, we will delve into the concept of AST (Abstract Syntax Tree) and transition from parse-time evaluation to AST-time.',
     url: 'https://medium.com/better-programming/writing-an-interpreter-in-rust-ast-part-2-59fd20dbc60f',
-    date: '2020-09-22'
+    date: '2023-09-22'
   },
   {
     title: 'SDK DX and Code Evolution',

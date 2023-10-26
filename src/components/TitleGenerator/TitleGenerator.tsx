@@ -26,23 +26,23 @@ export function TitleGenerator(): JSX.Element {
   const [asciiText, setAsciiText] = useState('');
   const componentRef = useRef(null);
   const [screenshot, setScreenshot] = useState('');
-  const [selectedFont, setSelectedFont] = useState('Standard');
+  const [selectedFont, setSelectedFont] = useState('Electronic');
   const [selectedBackgroundColor, setSelectedBackgroundColor] = useState(Colors[0]);
   const [selectedTextColor, setSelectedTextColor] = useState(Colors[1]);
 
-  function render() {
-    renderAscii(selectedFont as figlet.Fonts, text);
+  async function render() {
+    await renderAscii(selectedFont as figlet.Fonts, text);
   }
 
   async function renderAscii(font: figlet.Fonts, content: string) {
     const { default: fontFile } = await import(`figlet/importable-fonts/${font}.js`);
     figlet.parseFont(font, fontFile);
-    figlet.text(content.trim(), { font }, (error: Error | null, result?: string) => {
+    figlet.text(content, { font }, async (error: Error | null, result?: string) => {
       if (error) {
         console.error(error);
       } else {
         setAsciiText(result as string);
-        updateScreenshot();
+        await updateScreenshot();
       }
     });
   }
@@ -51,6 +51,11 @@ export function TitleGenerator(): JSX.Element {
       const url = await domToImage.toPng(componentRef.current);
       setScreenshot(url);
     }
+  }
+  async function setRandomFont() {
+    const font = Fonts[Math.floor(Math.random() * Fonts.length)];
+    setSelectedFont(font);
+    await renderAscii(font as figlet.Fonts, text);
   }
   return (
     <section>
@@ -123,11 +128,14 @@ export function TitleGenerator(): JSX.Element {
         </ul>
         {/* Fonts */}
         <ul className="nav nav-pills">
+          <li>
+            <button type="button" className="btn btn-primary" onClick={setRandomFont}>Random Font</button>
+          </li>
           <li className="dropdown">
             <a className="dropdown-toggle" data-toggle="dropdown" href="#s">
               {selectedFont ? `font: ${selectedFont}` : 'Font'}
             </a>
-            <ul className="dropdown-menu">
+            <ul className="dropdown-menu" style={{maxHeight: '15em', overflow: 'scroll'}}>
               {Fonts.map((font, index) => (
                 <li className="active" key={`${index}-${font}-text`}>
                   {/* biome-ignore lint/a11y/useValidAnchor: <explanation> */}
@@ -149,6 +157,7 @@ export function TitleGenerator(): JSX.Element {
               ))}
             </ul>
           </li>
+          
         </ul>
 
         <textarea

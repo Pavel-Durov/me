@@ -3,6 +3,7 @@ import domToImage from 'dom-to-image';
 import figlet from 'figlet';
 import './TitleGenerator.css';
 import { Fonts } from './fonts';
+import { logger } from 'common/logger';
 
 const Colors = [
   '#D14',
@@ -30,21 +31,32 @@ export function TitleGenerator(): JSX.Element {
   const [selectedBackgroundColor, setSelectedBackgroundColor] = useState(Colors[0]);
   const [selectedTextColor, setSelectedTextColor] = useState(Colors[1]);
 
-  async function render() {
-    await renderAscii(selectedFont as figlet.Fonts, text);
+  async function render(renderText?: string) {
+    if (renderText) {
+      await renderAscii(selectedFont as figlet.Fonts, renderText);
+    } else {
+      await renderAscii(selectedFont as figlet.Fonts, text);
+    }
   }
 
   async function renderAscii(font: figlet.Fonts, content: string) {
     const { default: fontFile } = await import(`figlet/importable-fonts/${font}.js`);
     figlet.parseFont(font, fontFile);
-    figlet.text(content, { font }, async (error: Error | null, result?: string) => {
-      if (error) {
-        console.error(error);
-      } else {
-        setAsciiText(result as string);
-        await updateScreenshot();
-      }
-    });
+    try {
+      await new Promise((resolve, reject) => {
+        figlet.text(content, { font }, async (error: Error | null, result?: string) => {
+          if (error) {
+            reject(error);
+          } else {
+            setAsciiText(result as string);
+            await updateScreenshot();
+            resolve(result);
+          }
+        });
+      });
+    } catch (error) {
+      logger.error(error);
+    }
   }
   async function updateScreenshot() {
     if (componentRef.current) {
@@ -129,13 +141,15 @@ export function TitleGenerator(): JSX.Element {
         {/* Fonts */}
         <ul className="nav nav-pills">
           <li>
-            <button type="button" className="btn btn-primary" onClick={setRandomFont}>Random Font</button>
+            <button type="button" className="btn btn-primary" onClick={setRandomFont}>
+              Random Font
+            </button>
           </li>
           <li className="dropdown">
             <a className="dropdown-toggle" data-toggle="dropdown" href="#s">
               {selectedFont ? `font: ${selectedFont}` : 'Font'}
             </a>
-            <ul className="dropdown-menu" style={{maxHeight: '15em', overflow: 'scroll'}}>
+            <ul className="dropdown-menu" style={{ maxHeight: '15em', overflow: 'scroll' }}>
               {Fonts.map((font, index) => (
                 <li className="active" key={`${index}-${font}-text`}>
                   {/* biome-ignore lint/a11y/useValidAnchor: <explanation> */}
@@ -157,14 +171,13 @@ export function TitleGenerator(): JSX.Element {
               ))}
             </ul>
           </li>
-          
         </ul>
 
         <textarea
           placeholder="Type here"
-          onInput={(e: ChangeEvent<HTMLTextAreaElement>) => {
+          onChange={async (e: ChangeEvent<HTMLTextAreaElement>) => {
             setText(e.target.value);
-            render();
+            await render(e.target.value);
           }}
         />
       </section>

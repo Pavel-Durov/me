@@ -7124,7 +7124,7 @@
     }
 
     if (_386.scrollLock.listener) {
-      window.removeEventListener("scroll",_386.scrollLock.listener);
+      window.removeEventListener("scroll", _386.scrollLock.listener);
       _386.scrollLock.listener = false;
     } else {
       if (!('paddingStart' in _386.scrollLock)) {

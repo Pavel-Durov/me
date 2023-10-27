@@ -2,6 +2,12 @@ import { Publication } from 'model';
 
 const publications: Publication[] = [
   {
+    title: 'Intercepting Function Calls in C++ and Rust',
+    description: 'In this article, we will explore function call interception with two primary approaches: using the LD_PRELOAD environment variable and LD linker wrapper functions.',
+    url: 'https://medium.com/better-programming/intercepting-function-calls-in-c-and-rust-757bd634d96a',
+    date: '2023-10-27'
+  },
+  {
     title: 'Writing Interpreter in Rust — Repl, Files, and Comments (Part 4)',
     description:
       'In this article, we will implement the REPL (Read-Eval-Print Loop), reorganise the project, and add file and comments support. It will be a collection of small changes that will extend the usability of our interpreter.',

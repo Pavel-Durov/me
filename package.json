@@ -20,7 +20,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/figlet": "^1.5.6",
     "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.57",
+    "@types/node": "^16.18.58",
     "@types/react": "^18.2.22",
     "@types/react": "^18.2.25",
     "bootstrap": "^5.3.2",

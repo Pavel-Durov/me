@@ -3,7 +3,8 @@ import { Publication } from 'model';
 const publications: Publication[] = [
   {
     title: 'Intercepting Function Calls in C++ and Rust',
-    description: 'In this article, we will explore function call interception with two primary approaches: using the LD_PRELOAD environment variable and LD linker wrapper functions.',
+    description:
+      'In this article, we will explore function call interception with two primary approaches: using the LD_PRELOAD environment variable and LD linker wrapper functions.',
     url: 'https://medium.com/better-programming/intercepting-function-calls-in-c-and-rust-757bd634d96a',
     date: '2023-10-27'
   },

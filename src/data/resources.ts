@@ -2,6 +2,30 @@ import { Resource } from 'model';
 
 export default [
   {
+    url: 'https://sigops.org/s/conferences/hotos/2023/papers/ghemawat.pdf',
+    title: 'Towards Modern Development of Cloud Applications',
+    description: 'Alternative proposal to the microservices architecture',
+    tags: ['microservices', 'architecture', 'k8s', 'testing', 'scalability']
+  },
+  {
+    url: 'https://maskray.me/blog/2021-02-14-all-about-thread-local-storage',
+    title: 'All about thread-local storage',
+    description: 'Article about internals of thread-local storage',
+    tags: ['thread-local-storage', 'tls', 'internals', 'asm', 'cpp']
+  },
+  {
+    url: 'https://devcenter.heroku.com/articles/postgresql-concurrency',
+    title: 'PostgreSQL Concurrency with MVCC',
+    description: 'An article about Postgres Concurrency model and Multi Version Concurrency Control mechanism',
+    tags: ['postgres', 'concurrency', 'mvcc', 'performance']
+  },
+  {
+    url: 'https://www.designgurus.io/course-play/grokking-the-system-design-interview',
+    title: 'Grokking the System Design Interview',
+    description: 'System design interview online course',
+    tags: ['system-design', 'course', 'educational']
+  },
+  {
     url: 'https://notes.eatonphil.com/2023-10-01-intercepting-and-modifying-linux-system-calls-with-ptrace.html',
     title: 'Intercepting and modifying Linux system calls with ptrace',
     description: 'Intercepting and modifying Linux system calls with ptrace',

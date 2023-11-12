@@ -4,7 +4,8 @@ export default [
   {
     url: 'https://github.com/RUB-SysSec/JIT-Picker',
     title: 'JIT-Picking: Differential Fuzzing of JavaScript Engines',
-    description: 'JIT-Picker is a differential fuzzer capable of detecting subtle miscomputations in the JS JIT compilers of browsers.',
+    description:
+      'JIT-Picker is a differential fuzzer capable of detecting subtle miscomputations in the JS JIT compilers of browsers.',
     tags: ['fuzzing', 'javascript', 'security', 'research', 'paper']
   },
   {

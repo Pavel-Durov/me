@@ -2,6 +2,13 @@ import { Publication } from 'model';
 
 const publications: Publication[] = [
   {
+    title: 'Navigating the Rust-C++ Bridge: Sharing Object References Across Runtimes',
+    description:
+      'In this article, we will explore the complexities of Rust interoperability with C, focusing on the challenges of passing object references between the two languages. We will explore the differences in memory management between Rust and C, examining the issues that can arise. Through practical Rust code examples, we will showcase the problems and provide potential solutions.',
+    url: 'https://medium.com/@p3ld3v/navigating-the-rust-c-bridge-sharing-object-references-across-runtimes-3615e9503cd1',
+    date: '2021-11-12'
+  },
+  {
     title: 'Intercepting Function Calls in C++ and Rust',
     description:
       'In this article, we will explore function call interception with two primary approaches: using the LD_PRELOAD environment variable and LD linker wrapper functions.',

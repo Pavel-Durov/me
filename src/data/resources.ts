@@ -2,6 +2,13 @@ import { Resource } from 'model';
 
 export default [
   {
+    url: 'https://github.com/RUB-SysSec/JIT-Picker',
+    title: 'JIT-Picking: Differential Fuzzing of JavaScript Engines',
+    description:
+      'JIT-Picker is a differential fuzzer capable of detecting subtle miscomputations in the JS JIT compilers of browsers.',
+    tags: ['fuzzing', 'javascript', 'security', 'research', 'paper']
+  },
+  {
     url: 'https://sigops.org/s/conferences/hotos/2023/papers/ghemawat.pdf',
     title: 'Towards Modern Development of Cloud Applications',
     description: 'Alternative proposal to the microservices architecture',

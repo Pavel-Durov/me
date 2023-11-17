@@ -4,7 +4,7 @@ const projects: Project[] = [
   {
     url: 'https://github.com/Pavel-Durov/arsenal.games.scraper.ts',
     title: 'Arsenal Stadium games scraper and telegram bot',
-    description: "Scrapes arsenal's website for upcoming games and sends a message to a telegram bot.",
+    description: "Scrapes arsenal's website for upcoming games and sends a daily update to telegram channel.",
     techStack: 'node.js, typescript, cheerio, telegram-bot, github-actions'
   },
   {

@@ -1,17 +1,26 @@
 # Summary
 
-I am an autodidact software engineer with experience scaling and leading businesses from zero to 50 engineers. I am passionate about Open Source, Compilers, Linux, Distributed Systems and Software Architecture. <br/> I am a quick learner, a creative problem solver and a knowledge-driven technology enthusiast. I believe in a no-blame culture, direct feedback and accountability. I strive towards efficiency but I’m not a fanatic, I see myself as a realist with an optimistic point of view. More about my engineering philosophy can be found [here](https://p3ld3v.dev/engineering-philosophy).
+I am an autodidact software engineer with experience scaling and leading businesses from zero to 50 engineers. I am passionate about Open Source, Compilers, Linux, Distributed Systems and Software Architecture.
+
+I am a quick learner, a creative problem solver and a knowledge-driven technology enthusiast. I believe in a no-blame culture, direct feedback and accountability. I strive towards efficiency but I’m not a fanatic, I see myself as a realist with an optimistic point of view. More about my engineering philosophy can be found [here](https://p3ld3v.dev/engineering-philosophy).
 
 # Experience
+
+## AnuYoga, Israel — Technical Consultant (Volunteer)
+
+Mar 2022 - PRESENT
+
+Technical consulting for a non-profit health organisation, assisting with technical
+decisions and administration.
 
 ## nate, UK/US — Tech Lead > CTO > Principal Engineer 
 
 Jan 2019 - Jun 2023
 
 As a Tech Lead, I rapidly progressed to CTO and  Principal Engineer roles, successfully driving technical strategy, fostering innovation, and building high-performing engineering teams. My expertise spans mentorship, platform engineering, and applied research, empowering cross-functional collaboration while delivering on critical company objectives.
-Built and led the engineering function of 50 engineers across London and NY
-Built a Platform team and facilitated Platform Engineering culture
 
++ Built and led the engineering function of 50 engineers across London and NY
++ Built a Platform team and facilitated Platform Engineering culture.
 + Delivered company OKRs in tight deadlines - Pre-seed, Seed and A rounds
 + Facilitated engineering hiring process and technical interview structure
 + Streamlined CD Pipelines - Reduced TTP (Time To Production) by 50% 

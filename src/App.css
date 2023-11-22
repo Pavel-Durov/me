@@ -151,3 +151,7 @@
 .kimchi-page {
   padding-top: 10px;
 }
+
+.markdown ul {
+  padding-left: 1.5em
+}

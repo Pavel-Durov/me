@@ -9,5 +9,5 @@ export function Markdown({ getContent }: { getContent: () => Promise<string> }):
   useEffect(() => {
     getContent().then((text) => setContent(text));
   });
-  return <Md>{content}</Md>;
+  return <Md className="markdown kimchi-page">{content}</Md>;
 }

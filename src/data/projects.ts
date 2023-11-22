@@ -2,6 +2,12 @@ import { Project } from 'model';
 
 const projects: Project[] = [
   {
+    url: 'https://github.com/Pavel-Durov/arsenal.games.scraper.ts',
+    title: 'Arsenal Stadium games scraper and telegram bot',
+    description: "Scrapes arsenal's website for upcoming games and sends a daily update to telegram channel.",
+    techStack: 'node.js, typescript, cheerio, telegram-bot, github-actions'
+  },
+  {
     url: 'https://github.com/softdevteam/pavel.yaiwr',
     title: 'Yet Another Interpreter Written In Rust',
     description: "Interpreter written in Rust, based on grmtools. Part of my PhD at Kings' College.",

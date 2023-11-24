@@ -2,6 +2,13 @@ import { Resource } from 'model';
 
 export default [
   {
+    url: 'https://www.usenix.org/system/files/osdi23-zhou-zhe.pdf',
+    title: 'Userspace Bypass: Accelerating Syscall-intensive Applications',
+    description:
+      'This paper introduces Userspace Bypass (UB), an approach to accelerate syscall-intensive applications by transparently relocating userspace instructions into the kernel. UB achieves notable performance improvements, especially in I/O micro-benchmarks and Redis GET Requests Per Second (RPS) enhancements in a virtualized setting with KPTI enabled.',
+    tags: ['kernel', 'os', 'performance', 'optimisation', 'research', 'paper']
+  },
+  {
     url: 'https://github.com/RUB-SysSec/JIT-Picker',
     title: 'JIT-Picking: Differential Fuzzing of JavaScript Engines',
     description:
@@ -12,7 +19,7 @@ export default [
     url: 'https://sigops.org/s/conferences/hotos/2023/papers/ghemawat.pdf',
     title: 'Towards Modern Development of Cloud Applications',
     description: 'Alternative proposal to the microservices architecture',
-    tags: ['microservices', 'architecture', 'k8s', 'testing', 'scalability']
+    tags: ['microservices', 'architecture', 'k8s', 'testing', 'scalability', 'paper', 'research']
   },
   {
     url: 'https://maskray.me/blog/2021-02-14-all-about-thread-local-storage',

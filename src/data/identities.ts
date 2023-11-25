@@ -7,6 +7,10 @@ const identities = [
     url: 'https://stackoverflow.com/users/5321395/pavel-durov'
   },
   {
+    name: 'Strava',
+    url: 'https://www.strava.com/athletes/78355141'
+  },
+  {
     name: 'GoodReads',
     url: 'https://www.goodreads.com/user/show/154294414-pavel-durov'
   },

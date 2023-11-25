@@ -8,11 +8,13 @@
     "build": "./scripts/env.sh && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint 'src/**/*.{js,ts,json}'",
+    "lint": "biome format ./src/**",
     "lint:fix": "biome format ./src/** --write",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
-    "generate-head": "node ./scripts/manipulate_images.js"
+    "generate-head": "node ./scripts/manipulate_images.js",
+    "prepare": "husky install",
+    "commitlint": "commitlint --edit"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -39,21 +41,14 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.1.2",
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
     "@types/dom-to-image": "^2.6.5",
     "gh-pages": "^4.0.0",
+    "husky": "^8.0.3",
     "jimp": "^0.16.2",
     "prettier": "^2.7.1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "eslintIgnore": [
-    "*.bundle.js",
-    "world.js"
-  ],
   "browserslist": {
     "production": [
       ">0.2%",

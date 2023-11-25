@@ -64,3 +64,4 @@ terraform.rc
 
 # cosine beta extention
 .cosine
+.husky

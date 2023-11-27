@@ -2,6 +2,13 @@ import { Publication } from 'model';
 
 const publications: Publication[] = [
   {
+    title: 'File Comparison and Patching in Unix Environments and Git',
+    url: 'https://medium.com/gitconnected/file-comparison-and-patching-in-unix-environments-and-git-fc347085cde1',
+    date: '2021-11-27',
+    description:
+      'In this article, we will explore file comparison techniques through the practical utilization of diff and patch Unix command-line utilities. We will cover how to compare files using context and unified formats and illustrate how to generate and apply patch files as well as how to work with patch files in Git repositories.',
+  },
+  {
     title: 'Navigating the Rust-C++ Bridge: Sharing Object References Across Runtimes',
     description:
       'In this article, we will explore the complexities of Rust interoperability with C, focusing on the challenges of passing object references between the two languages. We will explore the differences in memory management between Rust and C, examining the issues that can arise. Through practical Rust code examples, we will showcase the problems and provide potential solutions.',

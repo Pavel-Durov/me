@@ -1,10 +1,10 @@
 ![Build and Test](https://github.com/Pavel-Durov/me/actions/workflows/build_test_react.yml/badge.svg) ![Snyk](https://snyk.io/test/github/Pavel-Durov/me/badge.svg)
 
-# My website
+# Pavel Durov's personal website
+
+[Link](https://p3ld3v.dev/)
 
 [Vercel Project](https://vercel.com/pav3ldurov/pavel-personal-website)
-
-[Github Actions](https://docs.github.com/en/actions)
 
 [Infra README](./infra/README.md)
 

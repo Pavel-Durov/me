@@ -6,7 +6,7 @@ const publications: Publication[] = [
     url: 'https://medium.com/gitconnected/file-comparison-and-patching-in-unix-environments-and-git-fc347085cde1',
     date: '2021-11-27',
     description:
-      'In this article, we will explore file comparison techniques through the practical utilization of diff and patch Unix command-line utilities. We will cover how to compare files using context and unified formats and illustrate how to generate and apply patch files as well as how to work with patch files in Git repositories.',
+      'In this article, we will explore file comparison techniques through the practical utilization of diff and patch Unix command-line utilities. We will cover how to compare files using context and unified formats and illustrate how to generate and apply patch files as well as how to work with patch files in Git repositories.'
   },
   {
     title: 'Navigating the Rust-C++ Bridge: Sharing Object References Across Runtimes',

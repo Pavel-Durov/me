@@ -1,4 +1,4 @@
-[![Build and Test](https://github.com/Pavel-Durov/me/actions/workflows/build_test_react.yml/badge.svg)](https://github.com/Pavel-Durov/me/actions/workflows/build_test_react.yml) ![Snyk](https://snyk.io/test/github/Pavel-Durov/me/badge.svg)
+![Build and Test](https://github.com/Pavel-Durov/me/actions/workflows/build_test_react.yml/badge.svg) ![Snyk](https://snyk.io/test/github/Pavel-Durov/me/badge.svg)
 
 # My website
 

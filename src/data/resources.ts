@@ -2,6 +2,24 @@ import { Resource } from 'model';
 
 export default [
   {
+    url: 'https://tratt.net/laurie/blog/2021/static_integer_types.html',
+    title: 'Static Integer Types',
+    description: 'Integers types and memmory layout on different architectures and runtimes',
+    tags: ['research', 'memory', 'layout', 'runtime', 'internals']
+  },
+  {
+    urls: 'https://lemire.me/blog/2023/12/12/measuring-the-size-of-the-cache-line-empirically/',
+    title: 'Measuring the size of the cache line empirically',
+    description: 'post about measuring the size of the cache line empirically on different artchitectures',
+    tags: ['cache', 'cpu', 'performance', 'research']
+  },
+  {
+    url: 'https://blog.llvm.org/posts/2021-03-26-the-new-pass-manager/',
+    title: 'LLVM: The New Pass Manager',
+    description: 'An Overview of the new LLVM Pass Manager',
+    tags: ['llvm', 'compiler', 'optimization', 'research', 'pass', 'opt']
+  },
+  {
     url: 'https://www.usenix.org/system/files/osdi23-zhou-zhe.pdf',
     title: 'Userspace Bypass: Accelerating Syscall-intensive Applications',
     description:

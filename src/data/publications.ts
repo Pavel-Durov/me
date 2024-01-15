@@ -2,6 +2,13 @@ import { Publication } from 'model';
 
 const publications: Publication[] = [
   {
+    title: 'Writing interpreter in Rust — Variables and Builtins (part-5)',
+    description:
+      'In this artickle we are going to build on top of the previous functionality of our interpreter. We will extend our Lexer and Parser and implement variable declaration and evaluation as well as a simple built-in function support.',
+    url: 'https://levelup.gitconnected.com/writing-interpreter-in-rust-variables-builtins-part-5-9d864966db07',
+    date: '2024-01-15'
+  },
+  {
     title: 'File Comparison and Patching in Unix Environments and Git',
     url: 'https://medium.com/gitconnected/file-comparison-and-patching-in-unix-environments-and-git-fc347085cde1',
     date: '2021-11-27',

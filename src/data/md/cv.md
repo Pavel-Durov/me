@@ -6,6 +6,29 @@ I am a quick learner, a creative problem solver and a knowledge-driven technolog
 
 # Experience
 
+## tree3, US — Technical Consultant (Contract)
+
+Nov 2023 - PRESENT
+
+Working on the Backend Services and Cloud platform as a technical consultant.
+
+- Documenting and streamlining infrastructure provisioning.
+- Improving developer support - tooling and processes.
+- Developing and maintaining scraping and data ingestion subsystems.
+
+TypeScript, Go, Python, C#, Bash, Redis, MariaDB, MongoDB, RabitMQ, Elasticsearch, Git, Github, GithubActions, AWS, Kubernetes, Flux, Terraform
+
+## King's College London, UK — Computer Science Research PhD (Part-time)
+
+Dec 2023 – PRESENT
+
+Part of a research team, working on enhancing programming language virtual machines performance. Currently working on the YK meta-tracing system project with a team of 5 researchers.
+
+- Open source contributor to the YK project, orchestrating the integration of JIT-compatible LLVM into the Lua interpreter and YK tracing subsystem for optimised performance and efficiency.
+- Conduct applied research in program performance profiling and enhancement domain.
+  
+C, C++, Rust, Lua, LLVM, Bash, Python, Linux, Git, Github, Bors, Buildbot, DynamoRIO
+
 ## AnuYoga, Israel — Technical Consultant (Volunteer)
 
 Mar 2022 - PRESENT

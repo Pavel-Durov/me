@@ -16,7 +16,7 @@ Working on the Backend Services and Cloud platform as a technical consultant.
 - Improving developer support - tooling and processes.
 - Developing and maintaining scraping and data ingestion subsystems.
 
-TypeScript, Go, Python, C#, Bash, Redis, MariaDB, MongoDB, RabitMQ, Git, Github. GithubActions, AWS, Kubernetes, Flux, Terraform
+TypeScript, Go, Python, C#, Bash, Redis, MariaDB, MongoDB, RabitMQ, Elasticsearch, Git, Github, GithubActions, AWS, Kubernetes, Flux, Terraform
 
 ## King's College London, UK — Computer Science Research PhD (Part-time)
 

@@ -2,6 +2,34 @@ import { Resource } from 'model';
 
 export default [
   {
+    url: 'https://www.zenrows.com/blog/perimeterx-bypass#how-perimeterx-work',
+    title: 'How to Bypass PerimeterX in 2024: The 6 Best Methods',
+    description:
+      'PerimeterX uses sophisticated server and client-side techniques to identify and block bots like your web scraper. This article provides a guide for bypassing PerimeterX.',
+    tags: ['perimeterx', 'bypass', 'security', 'web-scraping', 'bot-detection', 'research']
+  },
+  {
+    url: 'https://arxiv.org/pdf/1703.10873.pdf',
+    title: 'Open Programming Language Interpreters',
+    description:
+      'This paper presents the concept of open programming language interpreters, a model to support them and a prototype implementation in the Neverlang framework for modular development of programming languages',
+    tags: ['research', 'interpreter', 'programming', 'language', 'paper', 'mop', 'aop', 'meta-object']
+  },
+  {
+    url: 'https://github.com/github/gh-ost',
+    title: 'Online schema migration for MySQL',
+    description:
+      'gh-ost is a triggerless online schema migration solution for MySQL. It is testable and provides pausability, dynamic control/reconfiguration, auditing, and many operational perks.',
+    tags: ['mysql', 'schema-migration', 'gh-ost', 'database', 'online-migration', 'downtime', 'db', 'tool']
+  },
+  {
+    url: 'https://www.borgbackup.org/',
+    title: 'Deduplicating archiver with compression and encryption',
+    description:
+      'BorgBackup (short: Borg) is a deduplicating backup program. Optionally, it supports compression and authenticated encryption.',
+    tags: ['backup', 'compression', 'encryption', 'borg', 'borgbackup', 'tool']
+  },
+  {
     url: 'https://tratt.net/laurie/blog/2021/static_integer_types.html',
     title: 'Static Integer Types',
     description: 'Integers types and memmory layout on different architectures and runtimes',

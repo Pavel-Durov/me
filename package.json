@@ -28,7 +28,7 @@
     "dom-to-image": "^2.6.0",
     "figlet": "^1.7.0",
     "jquery": "^3.7.1",
-    "markdown-to-jsx": "^7.4.0",
+    "markdown-to-jsx": "^7.4.1",
     "pino": "^8.17.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.0",

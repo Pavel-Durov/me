@@ -38,11 +38,17 @@ export default class App extends React.Component<{}, HomeState> {
     };
   }
 
+  init386(): void {
+    window._386?.magicCursor();
+    window._386?.scrollLock();
+  }
+
   componentDidMount(): void {
     window.addEventListener('load', () => {
-      window._386.magicCursor();
-      window._386.scrollLock();
+      this.init386();
     });
+    this.init386();
+
     if (this.state.loadProgress !== 100) {
       for (let i = 1; i <= 100; i++) {
         setTimeout(() => {

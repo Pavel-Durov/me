@@ -23,3 +23,5 @@ jobs:
         run: npm run build   
       - name: test
         run: npm test   
+      - name: dead link check
+        run: bash ./scripts/check_dead_links.sh ./src/data

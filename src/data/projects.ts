@@ -41,12 +41,6 @@ const projects: Project[] = [
     techStack: ' Go, Bash, AWS, Eks, Kubernetes, Terraform, docker, KubeMQ, Redis, PostgreSQL, libP2p'
   },
   {
-    url: 'https://github.com/Pavel-Durov/dotfiles',
-    title: 'dotfiles',
-    description: 'dotfiles for my debian and macos',
-    techStack: 'Bash'
-  },
-  {
     url: 'https://github.com/dumconstantin/ramda-loader',
     title: 'Ramda Loader',
     description: 'Open source contributor. Native functional programming in JavaScript with Ramda and Webpack',

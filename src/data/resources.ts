@@ -587,13 +587,6 @@ export default [
     tags: ['category theory', 'mathematics', 'functional programming', 'Bartosz Milewski']
   },
   {
-    url: 'https://boris-marinov.gitbooks.io/category-theory-illustrated/content/02_more_sets/text.html',
-    title: 'Introduction · Category Theory Illustrated',
-    description:
-      'This book is a product of my own endeavour of understanding category theory from a more non-mathematical viewpoint - it is just that as I am explaining something, I am understanding it better.',
-    tags: ['category-theory', 'mathematics', 'functional-programming', 'book']
-  },
-  {
     url: 'https://martinfowler.com/bliki/MonolithFirst.html',
     title: 'MonolithFirst',
     description:

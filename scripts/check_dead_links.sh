@@ -20,16 +20,7 @@ for url in $URLS; do
     status=$(curl -A "${USER_AGENT}" -s -o /dev/null -w "%{http_code}\n" "${url}")
     echo "Status: ${status}"
 
-    if [[ $url == *"www.zenrows.com"* ]]; then
-        echo "Skipping URL: $url"
-        continue
-    fi
-
-    if [[ $url == *"linkedin.com"* ]]; then
-        echo "Skipping URL: $url"
-        continue
-    fi
-    if [[ $url == *"twitter.com"* ]]; then
+    if [[ $url == *"www.zenrows.com"* || $url == *"linkedin.com"* || $url == *"twitter.com"* || $url == *"stackoverflow.com"* ]]; then
         echo "Skipping URL: $url"
         continue
     fi

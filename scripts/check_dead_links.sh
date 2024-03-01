@@ -24,6 +24,11 @@ for url in $URLS; do
         echo "Skipping URL: $url"
         continue
     fi
+
+    if [[ $url == *"linkedin.com"* ]]; then
+        echo "Skipping URL: $url"
+        continue
+    fi
     if [[ $url == *"twitter.com"* ]]; then
         echo "Skipping URL: $url"
         continue

@@ -21,19 +21,9 @@ function get_urls(){
 }
 
 function get_domain(){
-    echo "$1" | grep -oE 'https?://([^/]+)' | sed 's|https*://||'
+    echo "${1}" | grep -oE 'https?://([^/]+)' | sed 's|https*://||'
 }
 
-function should_skip(){
-    if [[ $1 == *"www.zenrows.com"* \
-            || $1 == *"linkedin.com"* \
-            || $url == *"twitter.com"* \
-            || $1 == *"stackoverflow.com"* ]]; then
-        echo "Skipping URL: $url"
-        return 1
-    fi
-    return 0
-}
 function get_http_status(){
     USER_AGENT="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
     curl -A "${USER_AGENT}" -s -o /dev/null -w "%{http_code}\n" "${1}"
@@ -41,8 +31,7 @@ function get_http_status(){
 
 previous_domain=""
 
-for url in $(get_urls $TARGET_DIR); do
-    echo "Checking ${url}"
+for url in $(get_urls "${TARGET_DIR}"); do
     domain=$(get_domain "${url}")
 
     if [ "$domain" == "$previous_domain" ]; then
@@ -51,15 +40,16 @@ for url in $(get_urls $TARGET_DIR); do
     previous_domain=$domain
     USER_AGENT="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
     status=$(get_http_status "${url}")
-    echo "Status: ${status}"
 
-    if should_skip "${url}"; then
+    if [[ $url == *"www.zenrows.com"* \
+            || $url == *"linkedin.com"* \
+            || $url == *"twitter.com"* \
+            || $url == *"stackoverflow.com"* ]]; then
         echo "Skipping URL: $url"
         continue
-    fi
-    
-    if [ "${status}" -ge 400 ]; then
-        echo "Dead link: ${url}"
+    elif [ "${status}" -ge 400 ]; then
+        echo "Status: ${status}. Url: ${url}. Dead link"
         exit 1
     fi
+    echo "Status: ${status}. Url: ${url}"
 done

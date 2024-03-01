@@ -12,7 +12,7 @@ fi
 set -euo pipefail
 
 function get_urls(){
-    find "${1}" -type f -exec bash -c 'cat "$1"' _ {} \; \
+    find "./src/data" -type f -exec bash -c 'cat "$1"' _ {} \; \
     | grep -oE 'https?://[^[:space:]]+' \
     | sed 's/,$//' \
     | sed "s/'//g" \
@@ -48,10 +48,12 @@ for url in $(get_urls "${TARGET_DIR}"); do
             || $url == *"twitter.com"* \
             || $url == *"stackoverflow.com"* ]]; then
         echo "Skipping URL: $url"
-        continue
+    elif [ "${status}" -ge 429 ]; then
+          echo "Skipping URL: $url. Status: ${status}. Too many requests"
     elif [ "${status}" -ge 400 ]; then
         echo "Status: ${status}. Url: ${url}. Dead link"
         exit 1
+    else
+        echo "Status: ${status}. Url: ${url}"
     fi
-    echo "Status: ${status}. Url: ${url}"
 done

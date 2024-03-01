@@ -2,6 +2,12 @@ import { Resource } from 'model';
 
 export default [
   {
+    url:'https://arxiv.org/abs/2106.12496',
+    title: 'Threaded Code Generation with a Meta-Tracing JIT Compiler',
+    description: 'This paper describes the approach of adding Method-JIT to a Meta-Tracing JIT PyPy framework. It seems to be a bit undercooked as it lacks clarity and performance evaluation section. Overall I found it quite confusing although it has some visuals and intresting idea.',
+    tags: ['jit', 'rpython', 'threading', 'python', 'compiler', 'optimization', 'research']
+  },
+  {
     url: 'https://jilp.org/vol5/v5paper12.pdf',
     title: 'The Structure and Performance of Efficient Interpreters',
     description:

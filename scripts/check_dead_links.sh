@@ -17,6 +17,8 @@ function get_urls(){
     | sed 's/,$//' \
     | sed "s/'//g" \
     | sed "s/)//g" \
+    | sed "s/)//g" \
+    | sed 's/\.$//' \
     | shuf
 }
 

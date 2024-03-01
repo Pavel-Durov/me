@@ -2,6 +2,27 @@ import { Resource } from 'model';
 
 export default [
   {
+    url: 'https://jilp.org/vol5/v5paper12.pdf',
+    title: 'The Structure and Performance of Efficient Interpreters',
+    description:
+      'This paper presents findings on the performance characteristics of interpreters, revealing that they execute a substantial proportion of indirect branches, ranging from 3.2% to 13%. It also suggest on how to improve the performance of interpreters.',
+    tags: ['interpreter', 'performance', 'research', 'paper']
+  },
+  {
+    url: 'https://arxiv.org/pdf/2106.12496.pdf',
+    title: 'Threaded Code Generation with a Meta-Tracing JITCompiler',
+    description:
+      'This paper presents an idea to generate threaded code by reusing an existing meta-tracing JIT compiler, as well as an interpreter design for it.',
+    tags: ['jit', 'rpython', 'threading', 'python', 'compiler', 'optimization', 'research']
+  },
+  {
+    url: 'https://lwn.net/Articles/961117/',
+    title: 'A look at dynamic linking',
+    description:
+      'The dynamic linker is a critical component of modern Linux systems, being responsible for setting up the address space of most processes. While statically linked binaries have become more popular over time as the tradeoffs that originally led to dynamic linking become less relevant, dynamic linking is still the default. This article looks at what steps the dynamic linker takes to prepare a program for execution.',
+    tags: ['linux', 'dynamic-linking', 'elf', 'library', 'internals']
+  },
+  {
     url: 'https://www.zenrows.com/blog/perimeterx-bypass#how-perimeterx-work',
     title: 'How to Bypass PerimeterX in 2024: The 6 Best Methods',
     description:

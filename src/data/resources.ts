@@ -2,9 +2,17 @@ import { Resource } from 'model';
 
 export default [
   {
-    url:'https://arxiv.org/abs/2106.12496',
+    url: 'https://publications.sba-research.org/publications/dls10.pdf',
+    title: 'Efficient Interpretation using Quickening',
+    description:
+      'This paper presents a few non-jit techniques that can be used to improve the efficiency of interpreters. `Python is used as an example language.',
+    tags: ['interpreter', 'performance', 'research', 'paper']
+  },
+  {
+    url: 'https://arxiv.org/abs/2106.12496',
     title: 'Threaded Code Generation with a Meta-Tracing JIT Compiler',
-    description: 'This paper describes the approach of adding Method-JIT to a Meta-Tracing JIT PyPy framework. It seems to be a bit undercooked as it lacks clarity and performance evaluation section. Overall I found it quite confusing although it has some visuals and intresting idea.',
+    description:
+      'This paper describes the approach of adding Method-JIT to a Meta-Tracing JIT PyPy framework. It seems to be a bit undercooked as it lacks clarity and performance evaluation section. Overall I found it quite confusing although it has some visuals and intresting idea.',
     tags: ['jit', 'rpython', 'threading', 'python', 'compiler', 'optimization', 'research']
   },
   {

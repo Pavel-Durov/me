@@ -2,6 +2,13 @@ import { Resource } from 'model';
 
 export default [
   {
+    url: 'http://www.cs.williams.edu/~freund/cs434-exemplar/gal-trace.pdf',
+    title: 'Trace-based Just-in-Time Type Specialization for Dynamic Languages',
+    description:
+      'Alternative compilation technique for dynamically-typed languages (such as Javascript) that identifies frequently executed loop traces at run-time and then generates machine code on the fly that is specialized for the actual dynamic types occurring on each path through the loop.',
+    tags: ['JavaScript', 'jit', 'trace', 'type-specialization', 'research']
+  },
+  {
     url: 'https://publications.sba-research.org/publications/dls10.pdf',
     title: 'Efficient Interpretation using Quickening',
     description:

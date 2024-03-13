@@ -24,7 +24,7 @@
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.80",
     "@types/react": "^18.2.56",
-    "bootstrap": "^5.3.2",
+    "bootstrap": "^5.3.3",
     "dom-to-image": "^2.6.0",
     "figlet": "^1.7.0",
     "jquery": "^3.7.1",

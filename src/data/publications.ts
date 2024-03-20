@@ -2,6 +2,13 @@ import { Publication } from 'model';
 
 const publications: Publication[] = [
   {
+    title: 'Binary Patching with Radar2',
+    url: 'https://medium.com/gitconnected/binary-patching-with-radar2-02f0e048118b',
+    description:
+      'Binary patching is a crucial tool in software analysis and reverse engineering. This article provides an overview of the binary patching process using the Radare2 utility.',
+    date: '2024-03-20'
+  },
+  {
     title: 'Writing interpreter in Rust — Variables and Builtins (part-5)',
     description:
       'In this artickle we are going to build on top of the previous functionality of our interpreter. We will extend our Lexer and Parser and implement variable declaration and evaluation as well as a simple built-in function support.',

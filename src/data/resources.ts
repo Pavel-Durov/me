@@ -2,6 +2,13 @@ import { Resource } from 'model';
 
 export default [
   {
+    urls: 'https://hacks.mozilla.org/2010/03/improving-javascript-performance-with-jagermonkey/',
+    title: 'Improving JavaScript performance with JägerMonkey',
+    description:
+      'This article describes the JägerMonkey JavaScript engine, which was developed to improve the performance of JavaScript in Firefox and replace TraceMonkey.',
+    tags: ['javascript', 'firefox', 'jagermonkey', 'trace', 'jit', 'performance']
+  },
+  {
     url: 'http://www.cs.williams.edu/~freund/cs434-exemplar/gal-trace.pdf',
     title: 'Trace-based Just-in-Time Type Specialization for Dynamic Languages',
     description:

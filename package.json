@@ -23,7 +23,7 @@
     "@types/figlet": "^1.5.8",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.80",
-    "@types/react": "^18.2.58",
+    "@types/react": "^18.2.61",
     "bootstrap": "^5.3.3",
     "dom-to-image": "^2.6.0",
     "figlet": "^1.7.0",

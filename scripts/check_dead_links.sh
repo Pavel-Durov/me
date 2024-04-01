@@ -33,7 +33,11 @@ function get_http_status(){
 
 previous_domain=""
 
-for url in $(get_urls "${TARGET_DIR}"); do
+URLS=$(get_urls "${TARGET_DIR}")
+COUNT=$(echo "${URLS}" | wc -l | tr -d '[:space:]')
+counter=0
+for url in $URLS; do
+    counter=$((counter+1))
     domain=$(get_domain "${url}")
 
     if [ "$domain" == "$previous_domain" ]; then
@@ -47,13 +51,13 @@ for url in $(get_urls "${TARGET_DIR}"); do
             || $url == *"linkedin.com"* \
             || $url == *"twitter.com"* \
             || $url == *"stackoverflow.com"* ]]; then
-        echo "Skipping URL: $url"
+        echo "[$counter/$COUNT] Skipping URL: $url"
     elif [ "${status}" -ge 429 ]; then
-          echo "Skipping URL: $url. Status: ${status}. Too many requests"
+          echo "[$counter/$COUNT] Skipping URL: $url. Status: ${status}. Too many requests"
     elif [ "${status}" -ge 400 ]; then
-        echo "Status: ${status}. Url: ${url}. Dead link"
+        echo "[$counter/$COUNT] Status: ${status}. Url: ${url}. Dead link"
         exit 1
     else
-        echo "Status: ${status}. Url: ${url}"
+        echo "[$counter/$COUNT] Status: ${status}. Url: ${url}"
     fi
 done

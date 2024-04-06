@@ -6,9 +6,17 @@ I am a quick learner, a creative problem solver and a knowledge-driven technolog
 
 # Experience
 
+## Cogna, UK — Software Engineer
+
+March 2024 -PRESENT
+
+As a Software Engineer at Cogna, I am engaged in developing and enhancing the company's data platform and integrations, alongside contributing to various software and platform/infrastructure engineering projects.
+
+Go, TypeScript, Python, Bash, PostgreSQL, Git, Github, GithubActions, Azure, Kubernetes, Flux, Terraform.
+
 ## tree3, US — Technical Consultant (Contract)
 
-Nov 2023 - PRESENT
+Nov 2023 - March 2024
 
 Working on the Backend Services and Cloud platform as a technical consultant.
 

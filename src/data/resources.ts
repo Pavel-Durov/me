@@ -2,6 +2,12 @@ import { Resource } from 'model'
 
 export default [
   {
+    title: 'Customization: optimizing compiler technology for SELF, a dynamically-typed object-oriented programming language',
+    url: 'https://dl.acm.org/doi/10.1145/73141.74831',
+    description: 'This paper discusses the implementation of the SELF language compiler. SELF is a dynamically typed, object-oriented and prototype-based programming language.',
+    tags: ['research', 'paper', 'compilers', 'SELF', 'dynamic-typing', 'object-oriented', 'prototype-based']
+  },
+  {
     title: 'try_repeat',
     url: 'https://tratt.net/laurie/src/try_repeat/',
     description:

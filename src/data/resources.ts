@@ -2,11 +2,14 @@ import { Resource } from 'model';
 
 export default [
   {
-    title: 'Customization: optimizing compiler technology for SELF, a dynamically-typed object-oriented programming language',
+    title:
+      'Customization: optimizing compiler technology for SELF, a dynamically-typed object-oriented programming language',
     url: 'https://dl.acm.org/doi/10.1145/73141.74831',
-    description: 'This paper discusses the implementation of the SELF language compiler. SELF is a dynamically typed, object-oriented and prototype-based programming language.',
+    description:
+      'This paper discusses the implementation of the SELF language compiler. SELF is a dynamically typed, object-oriented and prototype-based programming language.',
     tags: ['research', 'paper', 'compilers', 'SELF', 'dynamic-typing', 'object-oriented', 'prototype-based']
-  }, {
+  },
+  {
     urls: 'https://hacks.mozilla.org/2010/03/improving-javascript-performance-with-jagermonkey/',
     title: 'Improving JavaScript performance with JägerMonkey',
     description:

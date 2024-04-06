@@ -1,22 +1,30 @@
-import { Project } from 'model'
+import { Project } from 'model';
 
 const projects: Project[] = [
   {
+    url: 'https://github.com/Pavel-Durov/arsenal.games.scraper.ts',
+    title: 'Arsenal Stadium games scraper and telegram bot',
+    description: "Scrapes arsenal's website for upcoming games and sends a daily update to telegram channel.",
+    techStack: 'node.js, typescript, cheerio, telegram-bot, github-actions'
+  },
+  {
     url: 'https://github.com/softdevteam/pavel.yaiwr',
     title: 'Yet Another Interpreter Written In Rust',
-    description: 'Interpreter written in Rust, based on grmtools. Part of my PhD at Kings\' College.',
+    description: "Interpreter written in Rust, based on grmtools. Part of my PhD at Kings' College.",
     techStack: 'compilers, rust, grmtool, yacc'
   },
   {
     url: 'https://github.com/EladLeev/kubeseal-convert',
     title: 'kubeseal-convert',
-    description: 'kubeseal-convert aims to reduce the friction of importing secrets from a pre-existing secret management systems (e.g. Vault, AWS Secrets Manager, etc) into a SealedSecret.',
+    description:
+      'kubeseal-convert aims to reduce the friction of importing secrets from a pre-existing secret management systems (e.g. Vault, AWS Secrets Manager, etc) into a SealedSecret.',
     techStack: 'Go, kubernetes, kubeseal'
   },
   {
     url: 'https://github.com/Pavel-Durov/kimchi.py',
     title: 'Kimchi.Py',
-    description: 'An interpreter called Kimchi. Inspired by the book "Writing An Interpreter In Go" but written in RPython.',
+    description:
+      'An interpreter called Kimchi. Inspired by the book "Writing An Interpreter In Go" but written in RPython.',
     techStack: 'RPython, PyPy'
   },
   {
@@ -28,14 +36,9 @@ const projects: Project[] = [
   {
     url: 'https://github.com/blitzshare',
     title: 'Blitzshare',
-    description: 'Blitzshare is a communication tool for data sharing between network participants directly, securely, and anonymously',
+    description:
+      'Blitzshare is a communication tool for data sharing between network participants directly, securely, and anonymously',
     techStack: ' Go, Bash, AWS, Eks, Kubernetes, Terraform, docker, KubeMQ, Redis, PostgreSQL, libP2p'
-  },
-  {
-    url: 'https://github.com/Pavel-Durov/dotfiles',
-    title: 'dotfiles',
-    description: 'dotfiles for my debian and macos',
-    techStack: 'Bash'
   },
   {
     url: 'https://github.com/dumconstantin/ramda-loader',
@@ -93,7 +96,8 @@ const projects: Project[] = [
   {
     url: 'https://github.com/Pavel-Durov/Design-Patterns',
     title: 'Design-Patterns',
-    description: 'Collection of design patterns code examples and explanations I used when I lectured Design patterns course.',
+    description:
+      'Collection of design patterns code examples and explanations I used when I lectured Design patterns course.',
     techStack: 'C#'
   },
   {
@@ -102,6 +106,6 @@ const projects: Project[] = [
     description: 'Code samples for the article "Android Basic Game Loop"',
     techStack: 'Java'
   }
-]
+];
 
-export default projects
+export default projects;

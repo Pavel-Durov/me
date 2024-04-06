@@ -1,11 +1,11 @@
-import 'App.css'
-import Profile from 'assets/head_spin_yellow_bg.gif'
+import 'App.css';
+import Profile from 'assets/head_spin_yellow_bg.gif';
 
-export function NavBar (): JSX.Element {
+export function NavBar(): JSX.Element {
   return (
     <>
       <div className="navbar navbar-expand-md fixed-top navbar-dark bg-primary">
-        <img src={Profile} style={{ margin: '1px', width: 30, padding: '5px' }} />
+        <img src={Profile} style={{ margin: '1px', width: 30, padding: '5px' }} alt="Spining head" />
 
         <mark>[P3LD3V]</mark>
 
@@ -27,9 +27,9 @@ export function NavBar (): JSX.Element {
               </a>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="themes">
+              <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="/" id="themes">
                 More
-                <span className="caret"></span>
+                <span className="caret" />
               </a>
               <div className="dropdown-menu" aria-labelledby="themes">
                 <a href={'/contact'} className="dropdown-item">
@@ -47,13 +47,16 @@ export function NavBar (): JSX.Element {
                 <a href={'/talks'} className="dropdown-item">
                   Talks
                 </a>
-                <a href={'./personal-statement'} className="dropdown-item">
+                <a href={'/personal-statement'} className="dropdown-item">
                   Personal Statement
                 </a>
                 <a href={'/projects'} className="dropdown-item">
                   Projects
                 </a>
-                <div className="dropdown-divider"></div>
+                <a href={'/title-generator'} className="dropdown-item">
+                  ASCII Title Generator
+                </a>
+                <div className="dropdown-divider" />
                 <a href={'/'} className="dropdown-item">
                   Home
                 </a>
@@ -66,5 +69,5 @@ export function NavBar (): JSX.Element {
         </div>
       </div>
     </>
-  )
+  );
 }

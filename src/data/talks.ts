@@ -1,10 +1,9 @@
-import { Talk } from 'model'
+import { Talk } from 'model';
 const talks: Talk[] = [
   {
     date: '2022-11-29',
     title: 'Research Proposal - Language Composition',
-    description:
-      'Language Composition research proposal presentation as part of my admission for part-time PhD',
+    description: 'Language Composition research proposal presentation as part of my admission for part-time PhD',
     url: 'https://drive.proton.me/urls/F47YJ3K78W#qoRPMFB6xO0S'
   },
   {
@@ -56,7 +55,7 @@ const talks: Talk[] = [
     date: '2022-05-13',
     title: 'Disaster recovery, disaster',
     description:
-    'Talking about general approach to disaster recovery, when and how its applicable strategy. In my case it was a premature optimization when we tried to address multiple problems at once',
+      'Talking about general approach to disaster recovery, when and how its applicable strategy. In my case it was a premature optimization when we tried to address multiple problems at once',
     url: 'https://docs.google.com/presentation/d/1-KVH401qcUQck8DvD81g4-ptfxHNT7do/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {
@@ -68,13 +67,15 @@ const talks: Talk[] = [
   {
     date: '2020-09-15',
     title: 'Introduction to WebAssembly (WASM)',
-    description: 'Introduction to WebAssembly. WebAssembly is a new type of low-level assembly-like language that can be run in modern web browsers',
+    description:
+      'Introduction to WebAssembly. WebAssembly is a new type of low-level assembly-like language that can be run in modern web browsers',
     url: 'https://docs.google.com/presentation/d/1f_Sw-YtEmb81Zm5QwY5FFiOUuthC7sFa/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {
     date: '2020-04-17',
     title: 'Algorithms analysis & big O notation',
-    description: 'Very high level overview of algorithms analysis and big O notation. Used as a refresher for those who forgot, or as a starting point for those who never heard of it',
+    description:
+      'Very high level overview of algorithms analysis and big O notation. Used as a refresher for those who forgot, or as a starting point for those who never heard of it',
     url: 'https://docs.google.com/presentation/d/1rL83knworsX9HYdFa-uMj4FBePqLUJRa/edit?usp=sharing&ouid=110168213891892877520&rtpof=true&sd=true'
   },
   {
@@ -83,6 +84,6 @@ const talks: Talk[] = [
     description: 'What’s node? What’s the event loop? How does it work? How does it affect our code?',
     url: 'https://drive.google.com/file/d/1ZYkym-LiSYiMT5G0HDCccKCng62JD4rF/view?usp=sharing'
   }
-]
+];
 
-export default talks
+export default talks;

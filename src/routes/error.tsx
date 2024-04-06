@@ -1,4 +1,4 @@
-export function Error (): JSX.Element {
+export function Error(): JSX.Element {
   return (
     <div id="error-page">
       <h1>Oops!</h1>
@@ -7,5 +7,5 @@ export function Error (): JSX.Element {
         <i>{err.statusText || err.message}</i>
       </p> */}
     </div>
-  )
+  );
 }

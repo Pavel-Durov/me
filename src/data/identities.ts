@@ -7,13 +7,17 @@ const identities = [
     url: 'https://stackoverflow.com/users/5321395/pavel-durov'
   },
   {
+    name: 'Strava',
+    url: 'https://www.strava.com/athletes/78355141'
+  },
+  {
     name: 'GoodReads',
     url: 'https://www.goodreads.com/user/show/154294414-pavel-durov'
   },
   { name: 'Hashnote', url: 'https://blog.p3ld3v.dev' },
-  { name: 'Medium', url: 'https://pav3ldurov.medium.com' },
+  { name: 'Medium', url: 'https://p3ld3v.medium.com/' },
   { name: 'Chess.com', url: 'https://www.chess.com/member/p3ld3v' },
   { name: 'Exercism', url: 'https://exercism.org/profiles/Pavel-Durov' }
-]
+];
 
-export default identities
+export default identities;

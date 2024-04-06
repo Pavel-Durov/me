@@ -1,4 +1,4 @@
-import { Resource } from 'model'
+import { Resource } from 'model';
 
 export default [
   {
@@ -6,6 +6,168 @@ export default [
     url: 'https://dl.acm.org/doi/10.1145/73141.74831',
     description: 'This paper discusses the implementation of the SELF language compiler. SELF is a dynamically typed, object-oriented and prototype-based programming language.',
     tags: ['research', 'paper', 'compilers', 'SELF', 'dynamic-typing', 'object-oriented', 'prototype-based']
+  }, {
+    urls: 'https://hacks.mozilla.org/2010/03/improving-javascript-performance-with-jagermonkey/',
+    title: 'Improving JavaScript performance with JägerMonkey',
+    description:
+      'This article describes the JägerMonkey JavaScript engine, which was developed to improve the performance of JavaScript in Firefox and replace TraceMonkey.',
+    tags: ['javascript', 'firefox', 'jagermonkey', 'trace', 'jit', 'performance']
+  },
+  {
+    url: 'http://www.cs.williams.edu/~freund/cs434-exemplar/gal-trace.pdf',
+    title: 'Trace-based Just-in-Time Type Specialization for Dynamic Languages',
+    description:
+      'Alternative compilation technique for dynamically-typed languages (such as Javascript) that identifies frequently executed loop traces at run-time and then generates machine code on the fly that is specialized for the actual dynamic types occurring on each path through the loop.',
+    tags: ['JavaScript', 'jit', 'trace', 'type-specialization', 'research']
+  },
+  {
+    url: 'https://publications.sba-research.org/publications/dls10.pdf',
+    title: 'Efficient Interpretation using Quickening',
+    description:
+      'This paper presents a few non-jit techniques that can be used to improve the efficiency of interpreters. `Python is used as an example language.',
+    tags: ['interpreter', 'performance', 'research', 'paper']
+  },
+  {
+    url: 'https://arxiv.org/abs/2106.12496',
+    title: 'Threaded Code Generation with a Meta-Tracing JIT Compiler',
+    description:
+      'This paper describes the approach of adding Method-JIT to a Meta-Tracing JIT PyPy framework. It seems to be a bit undercooked as it lacks clarity and performance evaluation section. Overall I found it quite confusing although it has some visuals and intresting idea.',
+    tags: ['jit', 'rpython', 'threading', 'python', 'compiler', 'optimization', 'research']
+  },
+  {
+    url: 'https://jilp.org/vol5/v5paper12.pdf',
+    title: 'The Structure and Performance of Efficient Interpreters',
+    description:
+      'This paper presents findings on the performance characteristics of interpreters, revealing that they execute a substantial proportion of indirect branches, ranging from 3.2% to 13%. It also suggest on how to improve the performance of interpreters.',
+    tags: ['interpreter', 'performance', 'research', 'paper']
+  },
+  {
+    url: 'https://arxiv.org/pdf/2106.12496.pdf',
+    title: 'Threaded Code Generation with a Meta-Tracing JITCompiler',
+    description:
+      'This paper presents an idea to generate threaded code by reusing an existing meta-tracing JIT compiler, as well as an interpreter design for it.',
+    tags: ['jit', 'rpython', 'threading', 'python', 'compiler', 'optimization', 'research']
+  },
+  {
+    url: 'https://lwn.net/Articles/961117/',
+    title: 'A look at dynamic linking',
+    description:
+      'The dynamic linker is a critical component of modern Linux systems, being responsible for setting up the address space of most processes. While statically linked binaries have become more popular over time as the tradeoffs that originally led to dynamic linking become less relevant, dynamic linking is still the default. This article looks at what steps the dynamic linker takes to prepare a program for execution.',
+    tags: ['linux', 'dynamic-linking', 'elf', 'library', 'internals']
+  },
+  {
+    url: 'https://www.zenrows.com/blog/perimeterx-bypass#how-perimeterx-work',
+    title: 'How to Bypass PerimeterX in 2024: The 6 Best Methods',
+    description:
+      'PerimeterX uses sophisticated server and client-side techniques to identify and block bots like your web scraper. This article provides a guide for bypassing PerimeterX.',
+    tags: ['perimeterx', 'bypass', 'security', 'web-scraping', 'bot-detection', 'research']
+  },
+  {
+    url: 'https://arxiv.org/pdf/1703.10873.pdf',
+    title: 'Open Programming Language Interpreters',
+    description:
+      'This paper presents the concept of open programming language interpreters, a model to support them and a prototype implementation in the Neverlang framework for modular development of programming languages',
+    tags: ['research', 'interpreter', 'programming', 'language', 'paper', 'mop', 'aop', 'meta-object']
+  },
+  {
+    url: 'https://github.com/github/gh-ost',
+    title: 'Online schema migration for MySQL',
+    description:
+      'gh-ost is a triggerless online schema migration solution for MySQL. It is testable and provides pausability, dynamic control/reconfiguration, auditing, and many operational perks.',
+    tags: ['mysql', 'schema-migration', 'gh-ost', 'database', 'online-migration', 'downtime', 'db', 'tool']
+  },
+  {
+    url: 'https://www.borgbackup.org/',
+    title: 'Deduplicating archiver with compression and encryption',
+    description:
+      'BorgBackup (short: Borg) is a deduplicating backup program. Optionally, it supports compression and authenticated encryption.',
+    tags: ['backup', 'compression', 'encryption', 'borg', 'borgbackup', 'tool']
+  },
+  {
+    url: 'https://tratt.net/laurie/blog/2021/static_integer_types.html',
+    title: 'Static Integer Types',
+    description: 'Integers types and memmory layout on different architectures and runtimes',
+    tags: ['research', 'memory', 'layout', 'runtime', 'internals']
+  },
+  {
+    urls: 'https://lemire.me/blog/2023/12/12/measuring-the-size-of-the-cache-line-empirically/',
+    title: 'Measuring the size of the cache line empirically',
+    description: 'post about measuring the size of the cache line empirically on different artchitectures',
+    tags: ['cache', 'cpu', 'performance', 'research']
+  },
+  {
+    url: 'https://blog.llvm.org/posts/2021-03-26-the-new-pass-manager/',
+    title: 'LLVM: The New Pass Manager',
+    description: 'An Overview of the new LLVM Pass Manager',
+    tags: ['llvm', 'compiler', 'optimization', 'research', 'pass', 'opt']
+  },
+  {
+    url: 'https://www.usenix.org/system/files/osdi23-zhou-zhe.pdf',
+    title: 'Userspace Bypass: Accelerating Syscall-intensive Applications',
+    description:
+      'This paper introduces Userspace Bypass (UB), an approach to accelerate syscall-intensive applications by transparently relocating userspace instructions into the kernel. UB achieves notable performance improvements, especially in I/O micro-benchmarks and Redis GET Requests Per Second (RPS) enhancements in a virtualized setting with KPTI enabled.',
+    tags: ['kernel', 'os', 'performance', 'optimisation', 'research', 'paper']
+  },
+  {
+    url: 'https://github.com/RUB-SysSec/JIT-Picker',
+    title: 'JIT-Picking: Differential Fuzzing of JavaScript Engines',
+    description:
+      'JIT-Picker is a differential fuzzer capable of detecting subtle miscomputations in the JS JIT compilers of browsers.',
+    tags: ['fuzzing', 'javascript', 'security', 'research', 'paper']
+  },
+  {
+    url: 'https://sigops.org/s/conferences/hotos/2023/papers/ghemawat.pdf',
+    title: 'Towards Modern Development of Cloud Applications',
+    description: 'Alternative proposal to the microservices architecture',
+    tags: ['microservices', 'architecture', 'k8s', 'testing', 'scalability', 'paper', 'research']
+  },
+  {
+    url: 'https://maskray.me/blog/2021-02-14-all-about-thread-local-storage',
+    title: 'All about thread-local storage',
+    description: 'Article about internals of thread-local storage',
+    tags: ['thread-local-storage', 'tls', 'internals', 'asm', 'cpp']
+  },
+  {
+    url: 'https://devcenter.heroku.com/articles/postgresql-concurrency',
+    title: 'PostgreSQL Concurrency with MVCC',
+    description: 'An article about Postgres Concurrency model and Multi Version Concurrency Control mechanism',
+    tags: ['postgres', 'concurrency', 'mvcc', 'performance']
+  },
+  {
+    url: 'https://www.designgurus.io/course-play/grokking-the-system-design-interview',
+    title: 'Grokking the System Design Interview',
+    description: 'System design interview online course',
+    tags: ['system-design', 'course', 'educational']
+  },
+  {
+    url: 'https://notes.eatonphil.com/2023-10-01-intercepting-and-modifying-linux-system-calls-with-ptrace.html',
+    title: 'Intercepting and modifying Linux system calls with ptrace',
+    description: 'Intercepting and modifying Linux system calls with ptrace',
+    tags: ['linux', 'ptrace', 'syscall', 'debugging', 'security']
+  },
+  {
+    url: 'https://notes.eatonphil.com/2023-05-25-raft.html',
+    title: 'Raft Consensus Algorithm',
+    description: 'Raft Consensus Algorithm',
+    tags: ['raft', 'consensus', 'algorithm', 'go', 'golang']
+  },
+  {
+    url: 'https://blog.subnetzero.io/post/building-language-vm-part-01/',
+    title: 'Building a Language VM: Part 01',
+    description: 'Building a Language VM: Part 01',
+    tags: ['vm', 'compiler', 'interpreter', 'language', 'rust']
+  },
+  {
+    url: 'https://github.com/Rydgel/monkey-rust',
+    title: 'Monkey Rust',
+    description: 'Monkey interpreter in Rust',
+    tags: ['monkey', 'interpreter', 'rust']
+  },
+  {
+    url: 'https://curtclifton.net/papers/MoseleyMarks06a.pdf',
+    title: 'Out of the Tar Pit',
+    description: 'Paper on complexity of software and how to manage it',
+    tags: ['complexity', 'software', 'research']
   },
   {
     title: 'try_repeat',
@@ -118,7 +280,8 @@ export default [
   {
     url: 'https://wepresent.wetransfer.com/stories/manifesto-ai-weiwei',
     title: 'WePresent | A manifesto for life and art by artist Ai Weiwei',
-    description: 'Chinese artist Ai Weiwei is one of the most important creatives and activists working today. Here, he shares his 10 rules for art and living',
+    description:
+      'Chinese artist Ai Weiwei is one of the most important creatives and activists working today. Here, he shares his 10 rules for art and living',
     tags: ['aiweiwei', 'art', 'manifesto']
   },
   {
@@ -183,7 +346,8 @@ export default [
   {
     url: 'https://www.npmjs.com/package/dependency-cruiser',
     title: 'Dependency Cruiser',
-    description: 'Validate and visualise dependencies. With your rules. JavaScript. TypeScript. CoffeeScript. ES6, CommonJS, AMD.',
+    description:
+      'Validate and visualise dependencies. With your rules. JavaScript. TypeScript. CoffeeScript. ES6, CommonJS, AMD.',
     tags: ['dependency', 'cruiser', 'npm', 'package', 'visual']
   },
   {
@@ -217,7 +381,8 @@ export default [
   {
     url: 'https://github.com/cue-lang/cue',
     title: 'The CUE Data Constraint Language',
-    description: 'CUE is an open source data constraint language which aims to simplify tasks involving defining and using data.',
+    description:
+      'CUE is an open source data constraint language which aims to simplify tasks involving defining and using data.',
     tags: ['cue', 'data', 'language']
   },
   {
@@ -301,7 +466,17 @@ export default [
     title: 'Defer, Panic, and Recover',
     description:
       'Go has the usual mechanisms for control flow: if, for, switch, goto. It also has the go statement to run code in a separate goroutine. Here I’d like to discuss some of the less common ones: defer, panic, and recover.',
-    tags: ['go', 'golang', 'programming', 'software development', 'error handling', 'control flow', 'defer', 'panic', 'recover']
+    tags: [
+      'go',
+      'golang',
+      'programming',
+      'software development',
+      'error handling',
+      'control flow',
+      'defer',
+      'panic',
+      'recover'
+    ]
   },
   {
     url: 'https://tratt.net/laurie/research/pubs/html/bolz_tratt__the_impact_of_metatracing_on_vm_design_and_implementation/',
@@ -376,7 +551,8 @@ export default [
   {
     url: 'https://unexpected-go.com/',
     title: 'unexpected-go',
-    description: 'This small site is oriented to developers learning golang that want to see the unexpected, at least for a newcomer, behaviors in the language.',
+    description:
+      'This small site is oriented to developers learning golang that want to see the unexpected, at least for a newcomer, behaviors in the language.',
     tags: ['golang', 'go']
   },
   {
@@ -438,13 +614,6 @@ export default [
     tags: ['category theory', 'mathematics', 'functional programming', 'Bartosz Milewski']
   },
   {
-    url: 'https://boris-marinov.gitbooks.io/category-theory-illustrated/content/02_more_sets/text.html',
-    title: 'Introduction · Category Theory Illustrated',
-    description:
-      'This book is a product of my own endeavour of understanding category theory from a more non-mathematical viewpoint - it is just that as I am explaining something, I am understanding it better.',
-    tags: ['category-theory', 'mathematics', 'functional-programming', 'book']
-  },
-  {
     url: 'https://martinfowler.com/bliki/MonolithFirst.html',
     title: 'MonolithFirst',
     description:
@@ -476,7 +645,8 @@ export default [
   {
     url: 'https://www.youtube.com/watch?v=1n9KMqssn54&ab_channel=PyConSweden',
     title: 'Using PyPy instead of Python for speed by Niklas Bivald',
-    description: 'Using PyPy - a faster version of Python for long running applications - as a first step to speed up your application.',
+    description:
+      'Using PyPy - a faster version of Python for long running applications - as a first step to speed up your application.',
     tags: ['python', 'pypy', 'speed', 'performance']
   },
 
@@ -535,7 +705,8 @@ export default [
   {
     url: 'https://www.infoq.com/presentations/Facebook-Release-Process/',
     title: 'The Facebook Mobile Release Process',
-    description: 'Christian Legnitto offers insight in some of the tools and processes used by Facebook for pushing new updates to their mobile apps.',
+    description:
+      'Christian Legnitto offers insight in some of the tools and processes used by Facebook for pushing new updates to their mobile apps.',
     tags: ['release', 'process', 'mobile', 'continuous delivery']
   },
   {
@@ -590,4 +761,4 @@ export default [
     url: 'https://www.youtube.com/watch?v=th4AgBcrEHA',
     tags: ['architecture', 'hexagonal architecture']
   }
-] as Resource[]
+] as Resource[];

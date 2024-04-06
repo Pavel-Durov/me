@@ -1,13 +1,12 @@
-import { Talk } from 'model'
+import { Talk } from 'model';
 
-export function Talks ({ talks }: { talks: Talk[] }): JSX.Element {
+export function Talks({ talks }: { talks: Talk[] }): JSX.Element {
   return (
-    <section>
-
-      <div className='kimchi-h1'>Talks</div>
+    <section className="kimchi-page">
+      <div className="kimchi-h1">Talks</div>
       {talks.map((talk, idx) => (
         <div key={idx} className="card">
-          <div className='kimchi-h1'>{talk.date}</div>
+          <div className="kimchi-h1">{talk.date}</div>
           <div className="card-header">
             <a href={talk.url}>{talk.title}</a>
           </div>
@@ -15,5 +14,5 @@ export function Talks ({ talks }: { talks: Talk[] }): JSX.Element {
         </div>
       ))}
     </section>
-  )
+  );
 }

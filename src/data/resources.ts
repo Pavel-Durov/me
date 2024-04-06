@@ -2,6 +2,13 @@ import { Resource } from 'model';
 
 export default [
   {
+    url: 'https://github.com/rizinorg/rizin',
+    title: 'Rizin',
+    description:
+      'Rizin is portable and it can be used to analyze binaries, disassemble code, debug programs, as a forensic tool, as a scriptable command-line hexadecimal editor able to open disk files, and much more!',
+    tags: ['tool', 'binary-patch', 'hex', 'reverse-engineering', 'cli']
+  },
+  {
     title:
       'Customization: optimizing compiler technology for SELF, a dynamically-typed object-oriented programming language',
     url: 'https://dl.acm.org/doi/10.1145/73141.74831',

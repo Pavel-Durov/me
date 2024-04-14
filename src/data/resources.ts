@@ -2,6 +2,18 @@ import { Resource } from 'model';
 
 export default [
   {
+    url: 'https://www.usenix.org/legacy/events/vee06/full_papers/p144-gal.pdf',
+    title: 'HotpathVM: An Effective JIT Compiler for Resource-constrained Devices',
+    description: 'This paper discusses the implementation of the HotpathVM JIT compiler. HotpathVM is a lightweight JIT that is small in size (~50 kBytes) and has much less memory consumption (128 kBytes)  requirements when compared to alternatives. This is achieved mainly through simplification of the tracing and compilation process. The idea is to make it suitable to be used on resource-constrained devices such as mobile, IoT and embedded. HotpathVM traces the bytecode directly, when hot trace is identified it is then compiled while performing optimisations.',
+    tags: ['research', 'paper', 'compilers', 'jit', 'hotpathvm', 'resource-constrained', 'embedded', 'jvm']
+  },
+  {
+    url: 'https://jvns.ca/blog/2024/02/16/popular-git-config-options/',
+    title: 'Popular git config options',
+    description: 'This blog post lists some popular git config options that I found useful.',
+    tags: ['git', 'config', 'tips', 'tricks']
+  },
+  {
     url: 'https://github.com/rizinorg/rizin',
     title: 'Rizin',
     description:

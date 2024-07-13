@@ -4,19 +4,19 @@ export default [
   {
     title:'Type Freezing: Exploiting Attribute Type Monomorphism in Tracing JIT Compilers',
     url: 'https://www.csl.cornell.edu/~cbatten/pdfs/cheng-type-freezing-cgo2020.pdf',
-    description: 'Paper discussing the optimisation technique of Type Freezing in Tracing JIT Compilers',
+    description: 'Type Freezing optimisation technique in Tracing JIT Compilers.',
     tags: ['jit', 'optimisation', 'compilers', 'research', 'paper', 'guards', 'type-monomorphism', 'types']
   },
   {
     url: 'https://dl.acm.org/doi/10.1145/1565824.1565827',
     title: 'Tracing the Meta-Level: PyPy’s Tracing JIT Compiler',
-    description: 'Paper the application of Tracing JIT Compilers in the context of the PyPy project',
+    description: 'Application of Tracing JIT Compilers in the context of the PyPy project.',
     tags: ['jit', 'pypy', 'compilers', 'research', 'paper']
   },
   {
     url: 'https://dl.acm.org/doi/abs/10.1145/857076.857077',
     title: 'A Brief History of Just-In-Time',
-    description: 'Overview of the history of Just-In-Time compilation',
+    description: 'Overview of the history of Just-In-Time compilation.',
     tags: ['jit', 'history', 'compilers','research', 'paper']
   },
   {

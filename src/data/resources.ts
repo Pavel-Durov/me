@@ -2,6 +2,12 @@ import { Resource } from 'model';
 
 export default [
   {
+    url: 'https://without.boats/blog/pin/',
+    title: 'Pin',
+    description: 'The Pin type (and the concept of pinning in general) is a foundational building block on which the rest of the the Rust async ecosystem stands. Unfortunately, it has also been one of the least accessible and most misunderstood elements of async Rust. This post is meant to explain what Pin achieves, how it came to be, and what the current problem with Pin is.',
+    tags: ['rust', 'pin', 'internals', 'types', 'async', 'await']
+  },
+  {
     url: 'https://www.usenix.org/legacy/events/vee06/full_papers/p144-gal.pdf',
     title: 'HotpathVM: An Effective JIT Compiler for Resource-constrained Devices',
     description: 'This paper discusses the implementation of the HotpathVM JIT compiler. HotpathVM is a lightweight JIT that is small in size (~50 kBytes) and has much less memory consumption (128 kBytes)  requirements when compared to alternatives. This is achieved mainly through simplification of the tracing and compilation process. The idea is to make it suitable to be used on resource-constrained devices such as mobile, IoT and embedded. HotpathVM traces the bytecode directly, when hot trace is identified it is then compiled while performing optimisations.',

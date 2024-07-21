@@ -2,6 +2,12 @@ import { Resource } from 'model';
 
 export default [
   {
+    url: 'https://blog.shrirambalaji.com/posts/resolving-rust-symbols/',
+    title: 'Resolving Rust Symbols',
+    description: 'This post explains how Rust symbols are resolved and how the linker works in Rust.',
+    tags: ['rust', 'symbols', 'internals', 'linking']
+  },
+  {
     url: 'https://without.boats/blog/pin/',
     title: 'Pin',
     description: 'The Pin type (and the concept of pinning in general) is a foundational building block on which the rest of the the Rust async ecosystem stands. Unfortunately, it has also been one of the least accessible and most misunderstood elements of async Rust. This post is meant to explain what Pin achieves, how it came to be, and what the current problem with Pin is.',

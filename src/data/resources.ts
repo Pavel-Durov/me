@@ -10,11 +10,13 @@ export default [
   {
     url: 'https://without.boats/blog/pin/',
     title: 'Pin',
-    description: 'The Pin type (and the concept of pinning in general) is a foundational building block on which the rest of the the Rust async ecosystem stands. Unfortunately, it has also been one of the least accessible and most misunderstood elements of async Rust. This post is meant to explain what Pin achieves, how it came to be, and what the current problem with Pin is.',
+    description:
+      'The Pin type (and the concept of pinning in general) is a foundational building block on which the rest of the the Rust async ecosystem stands. Unfortunately, it has also been one of the least accessible and most misunderstood elements of async Rust. This post is meant to explain what Pin achieves, how it came to be, and what the current problem with Pin is.',
     tags: ['rust', 'pin', 'internals', 'types', 'async', 'await']
   },
-    title:'Type Freezing: Exploiting Attribute Type Monomorphism in Tracing JIT Compilers',
+  {
     url: 'https://www.csl.cornell.edu/~cbatten/pdfs/cheng-type-freezing-cgo2020.pdf',
+    title: 'Type Freezing: Exploiting Attribute Type Monomorphism in Tracing JIT Compilers',
     description: 'Type Freezing optimisation technique in Tracing JIT Compilers.',
     tags: ['jit', 'optimisation', 'compilers', 'research', 'paper', 'guards', 'type-monomorphism', 'types']
   },
@@ -28,18 +30,20 @@ export default [
     url: 'https://dl.acm.org/doi/abs/10.1145/857076.857077',
     title: 'A Brief History of Just-In-Time',
     description: 'Overview of the history of Just-In-Time compilation.',
-    tags: ['jit', 'history', 'compilers','research', 'paper']
+    tags: ['jit', 'history', 'compilers', 'research', 'paper']
   },
   {
     url: 'https://www.unrealengine.com/en-US/tech-blog/bringing-verse-transactional-memory-semantics-to-c',
     title: 'Bringing Verse Transactional Memory Semantics to C++',
-    description:'AutoRTFM automates the registration of undo handlers for C++ code, ensuring that transactional semantics are preserved with zero performance overhead for non-transactional code. This new compiler clones and instruments code only when necessary, ensuring efficiency.',
+    description:
+      'AutoRTFM automates the registration of undo handlers for C++ code, ensuring that transactional semantics are preserved with zero performance overhead for non-transactional code. This new compiler clones and instruments code only when necessary, ensuring efficiency.',
     tags: ['cpp', 'compiler', 'llvm', 'transactional', 'performance', 'research']
   },
   {
     url: 'https://www.usenix.org/legacy/events/vee06/full_papers/p144-gal.pdf',
     title: 'HotpathVM: An Effective JIT Compiler for Resource-constrained Devices',
-    description: 'This paper discusses the implementation of the HotpathVM JIT compiler. HotpathVM is a lightweight JIT that is small in size (~50 kBytes) and has much less memory consumption (128 kBytes)  requirements when compared to alternatives. This is achieved mainly through simplification of the tracing and compilation process. The idea is to make it suitable to be used on resource-constrained devices such as mobile, IoT and embedded. HotpathVM traces the bytecode directly, when hot trace is identified it is then compiled while performing optimisations.',
+    description:
+      'This paper discusses the implementation of the HotpathVM JIT compiler. HotpathVM is a lightweight JIT that is small in size (~50 kBytes) and has much less memory consumption (128 kBytes)  requirements when compared to alternatives. This is achieved mainly through simplification of the tracing and compilation process. The idea is to make it suitable to be used on resource-constrained devices such as mobile, IoT and embedded. HotpathVM traces the bytecode directly, when hot trace is identified it is then compiled while performing optimisations.',
     tags: ['research', 'paper', 'compilers', 'jit', 'hotpathvm', 'resource-constrained', 'embedded', 'jvm']
   },
   {

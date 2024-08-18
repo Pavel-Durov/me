@@ -2,6 +2,12 @@ import { Resource } from 'model';
 
 export default [
   {
+    url: 'https://calteches.library.caltech.edu/51/2/CargoCult.htm',
+    title: 'Cargo Cult Science',
+    description: 'Richard Feynman’s famous 1974 Caltech commencement address on the nature of scientific integrity.',
+    tags: ['science', 'research', 'integrity', 'commencement']
+  },
+  {
     url: 'https://blog.shrirambalaji.com/posts/resolving-rust-symbols/',
     title: 'Resolving Rust Symbols',
     description: 'This post explains how Rust symbols are resolved and how the linker works in Rust.',

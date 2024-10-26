@@ -46,5 +46,6 @@ export const inspirationalQuotes = [
   '"Premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%.” — Donald E. Knuth',
   '"I don\'t trust anything until it runs… In fact, I don\'t trust anything until it runs twice." - Andrew Gelman',
   '"Failure is expected, failure is not an odd case. Design systems that help you identify failure. Design systems that can recover from failure." - JBD',
-  '"Everything should be made as simple as possible, but not simpler." - Albert Einstein'
+  '"Everything should be made as simple as possible, but not simpler." - Albert Einstein',
+  '"There is nothing quite so useless as doing with great efficiency what should not be done at all.” - Peter Drucker'
 ];

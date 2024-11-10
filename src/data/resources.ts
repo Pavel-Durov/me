@@ -2,6 +2,7 @@ import { Resource } from 'model';
 
 export default [
   {
+    title: 'Are We Fast Yet?',
     url: 'https://github.com/smarr/are-we-fast-yet/',
     description: 'Are We Fast Yet? Comparing Language Implementations with Objects, Closures, Arrays, and Strings',
     tags: ['benchmark', 'performance', 'language', 'implementation', 'comparison']

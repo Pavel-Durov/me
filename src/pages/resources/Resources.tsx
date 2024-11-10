@@ -27,9 +27,11 @@ export class Resources extends React.Component<
         items: this.props.resources
       });
     } else {
-      const filtered = this.props.resources.filter(function ({ title, tags }) {
+      const filtered = this.props.resources.filter(function ({ title, tags, description }) {
         return (
-          title.toLowerCase().includes(text.toLowerCase()) || tags.join(',').toLowerCase().includes(text.toLowerCase())
+          title.toLowerCase().includes(text.toLowerCase()) ||
+          tags.join(',').toLowerCase().includes(text.toLowerCase()) ||
+          description.toLowerCase().includes(text.toLowerCase())
         );
       });
       this.setState({

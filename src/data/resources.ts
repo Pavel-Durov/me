@@ -1,7 +1,33 @@
 import { Resource } from 'model';
 
 export default [
-   {
+  {
+    title: 'Are We Fast Yet?',
+    url: 'https://github.com/smarr/are-we-fast-yet/',
+    description: 'Are We Fast Yet? Comparing Language Implementations with Objects, Closures, Arrays, and Strings',
+    tags: ['benchmark', 'performance', 'language', 'implementation', 'comparison']
+  },
+  {
+    url: 'https://langium.org/',
+    title: 'Langium',
+    description:
+      'Langium is an open source language engineering tool with first-class support for the Language Server Protocol, written in TypeScript and running in Node.js.',
+    tags: ['language', 'framework', 'compiler', 'interpreter', 'language-server']
+  },
+  {
+    title: 'outlines',
+    url: 'https://github.com/dottxt-ai/outlines',
+    description: 'Structured text generation and robust prompting for language models ',
+    tags: ['language', 'llm', 'prompting', 'structured', 'text', 'generation', 'genai']
+  },
+  {
+    title: 'CQRS',
+    url: 'https://martinfowler.com/bliki/CQRS.html',
+    description:
+      'CQRS stands for Command Query Responsibility Segregation. It is a pattern that I first heard described by Greg Young. At its heart is the notion that you can use a different model to update information than the model you use to read information.',
+    tags: ['cqrs', 'pattern', 'design', 'architecture', 'software']
+  },
+  {
     url: 'https://brenebrown.com/articles/2018/10/15/clear-is-kind-unclear-is-unkind/',
     title: 'Clear is Kind, Unclear is unkind',
     description: 'Brené Brown on the importance of clear communication in relationships and work.',
@@ -10,19 +36,32 @@ export default [
   {
     url: 'https://kind.engineering/#what-is-kindness',
     title: 'What is Kindness?',
-    description: 'Evan Smith\'s "Kind Engineering" emphasizes creating a supportive workplace through empathy, honest communication, psychological safety, and inclusivity, ensuring that kindness builds genuine relationships and trust within teams. By adopting practices like constructive feedback, a no-blame culture, and effective asynchronous communication, organizations can enhance both individual well-being and overall collective success.',
+    description:
+      'Evan Smith\'s "Kind Engineering" emphasizes creating a supportive workplace through empathy, honest communication, psychological safety, and inclusivity, ensuring that kindness builds genuine relationships and trust within teams. By adopting practices like constructive feedback, a no-blame culture, and effective asynchronous communication, organizations can enhance both individual well-being and overall collective success.',
     tags: ['kindness', 'software', 'development', 'platform', 'culture']
   },
   {
     url: 'https://dl.acm.org/doi/pdf/10.1145/3622808',
     title: 'AST vs. Bytecode: Interpreters in the Age of Meta-Compilation',
-    description: 'This research paper examines the trade-offs between using abstract-syntax-tree (AST) and bytecode interpreters when building language implementations, particularly within the context of meta-compilation systems like RPython and GraalVM.',
-    tags: ['research', 'paper', 'interpreter', 'ast', 'bytecode', 'meta-compilation', 'performance', 'optimisation', 'benchmark']
+    description:
+      'This research paper examines the trade-offs between using abstract-syntax-tree (AST) and bytecode interpreters when building language implementations, particularly within the context of meta-compilation systems like RPython and GraalVM.',
+    tags: [
+      'research',
+      'paper',
+      'interpreter',
+      'ast',
+      'bytecode',
+      'meta-compilation',
+      'performance',
+      'optimisation',
+      'benchmark'
+    ]
   },
   {
     url: 'https://raw.githubusercontent.com/cyrus-and/gdb-dashboard/refs/heads/master/.gdbinit',
     title: 'GDB Dashboard',
-    description: 'GDB dashboard is a standalone .gdbinit file written using the Python API that enables a modular interface showing relevant information about the program being debugged. Its main goal is to reduce the number of GDB commands needed to inspect the status of current program thus allowing the developer to primarily focus on the control flow.',
+    description:
+      'GDB dashboard is a standalone .gdbinit file written using the Python API that enables a modular interface showing relevant information about the program being debugged. Its main goal is to reduce the number of GDB commands needed to inspect the status of current program thus allowing the developer to primarily focus on the control flow.',
     tags: ['gdb', 'dashboard', 'debugging', 'gdb-dashboard']
   },
   {

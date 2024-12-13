@@ -2,6 +2,19 @@ import { Resource } from 'model';
 
 export default [
   {
+    title: 'Stack frame layout on x86-64',
+    url: 'https://eli.thegreenplace.net/2023/07/15/stack-frame-layout-on-x64/',
+    description:
+      'This article examines the stack frame layout of the newer 64-bit version of the x86 architecture, x64, focusing on Linux and other OSes following the official System V AMD64 ABI. It also briefly discusses the differences in the Windows ABI. The article includes a diagram presenting the stack frame layout of a typical function call.',
+    tags: ['x86', 'x64', 'stack frame', 'x86-64', 'System V', 'ABI', 'Linux', 'architecture', 'diagram']
+  },
+  {
+    title: 'Understanding Stack Direction on x86 Architectures',
+    url: 'https://eli.thegreenplace.net/2011/02/04/where-the-top-of-the-stack-is-on-x86/',
+    description: 'This article clarifies common confusions about the direction in which the stack grows on x86 architectures, explaining the concepts of "top of the stack" and "bottom of the stack" with the help of detailed diagrams.',
+    tags: ['x86', 'stack', 'programming', 'architecture', 'diagrams']
+  },
+  {
     title: 'Are We Fast Yet?',
     url: 'https://github.com/smarr/are-we-fast-yet/',
     description: 'Are We Fast Yet? Comparing Language Implementations with Objects, Closures, Arrays, and Strings',

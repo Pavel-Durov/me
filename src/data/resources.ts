@@ -2,6 +2,12 @@ import { Resource } from 'model';
 
 export default [
   {
+    title: 'How To Understand Things',
+    url: 'https://nabeelqu.co/understanding',
+    description: 'Exploring the depth of true intelligence, emphasizing that it extends beyond mere intellectual capacity to encompass virtues like honesty, integrity, and the persistent "will to think."',
+    tags: ['article', 'intelligence', 'philosophy', 'thinking']
+  },
+  {
     title: 'Stack frame layout on x86-64',
     url: 'https://eli.thegreenplace.net/2023/07/15/stack-frame-layout-on-x64/',
     description:

@@ -2,6 +2,30 @@ import { Resource } from 'model';
 
 export default [
   {
+    title: 'On the Biology of a Large Language Model',
+    url: 'https://transformer-circuits.pub/2025/attribution-graphs/biology.html',
+    description: 'The article details an in-depth analysis of the internal mechanisms of Claude 3.5 Haiku, a large language model. Utilising a method called circuit tracing, the researchers aim to demystify how such models process inputs to generate outputs. It is a great read for anyone interested in the inner workings of large language models.',
+    tags: ['llm', 'biology', 'tracing', 'circuit', 'model', 'analysis']
+  },
+  {
+    title: 'Tracing the thoughts of a large language model',
+    url: 'https://www.anthropic.com/research/tracing-thoughts-language-model',
+    description: 'The article from Anthropic, dated 27 March 2025, presents new research into interpreting how large language models (LLMs) like Claude function internally, drawing parallels to neuroscience and proposing novel methods of AI interpretability.',
+    tags: ['llm', 'anthropic', 'research', 'interpretation', 'neuroscience']
+  },
+  {
+    title: 'rr',
+    url: 'https://rr-project.org/',
+    description: 'rr is a fast, multi-threaded, user-mode tracing system that records and replays execution traces of native programs.',
+    tags: ['tracing', 'debugging', 'replay', 'rr']
+  },
+  {
+    title: 'LLVM IR Tutorial - Phis, GEPs ...',
+    url: 'https://www.youtube.com/watch?v=m8G_S5LwlTo',
+    description: 'Great LLVM IR Tutorial video',
+    tags: ['llvm', 'ir', 'tutorial', 'video']
+  },
+  {
     title: 'How To Understand Things',
     url: 'https://nabeelqu.co/understanding',
     description: 'Exploring the depth of true intelligence, emphasizing that it extends beyond mere intellectual capacity to encompass virtues like honesty, integrity, and the persistent "will to think."',

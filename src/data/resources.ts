@@ -2,6 +2,12 @@ import { Resource } from 'model';
 
 export default [
   {
+    title: 'Shrinkray',
+    url: 'https://github.com/DRMacIver/shrinkray',
+    description: 'Shrinkray is a utility that reduces test cases to their minimal reproducing form using an executable script. Similar to tools like CReduce before, which work well, but easier to configure and use. In my testing, it consistently reduced failing cases by 85–90% :)',
+    tags: ['shrinkray', 'test', 'optimization', 'tool']
+  },
+  {
     title: 'On the Biology of a Large Language Model',
     url: 'https://transformer-circuits.pub/2025/attribution-graphs/biology.html',
     description: 'The article details an in-depth analysis of the internal mechanisms of Claude 3.5 Haiku, a large language model. Utilising a method called circuit tracing, the researchers aim to demystify how such models process inputs to generate outputs. It is a great read for anyone interested in the inner workings of large language models.',

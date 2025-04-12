@@ -2,6 +2,30 @@ import { Resource } from 'model';
 
 export default [
   {
+    title: 'Engineering Record And Replay For Deployability Extended Technical Report',
+    url: 'https://arxiv.org/pdf/1705.05937',
+    description: 'This technical report presents RR, a lightweight, user-space record-and-replay system designed for high deployability and low overhead on modern Linux/x86 systems without modifying the OS, compilers, or application code',
+    tags: ['llm', 'testing', 'survey', 'research', 'paper', 'ai']
+  },
+  {
+    title: 'Make LLM a Testing Expert: Bringing Human-like Interaction to Mobile GUI Testing via Functionality-aware Decisions',
+    url: 'https://dl.acm.org/doi/abs/10.1145/3597503.3639180',
+    description: 'The paper presents GPTDroid, a novel automated mobile GUI testing framework that leverages Large Language Models (LLMs) to emulate human-like interaction through a question-and-answer paradigm.',
+    tags: ['llm', 'gui', 'testing', 'mobile', 'research', 'paper', 'ai', 'android']
+  },
+  {
+    title: 'Using LLM for Mining and Testing Constraints in API Testing',
+    url: 'https://dl.acm.org/doi/abs/10.1145/3691620.3695341',
+    description: 'The paper introduces APITesting, a novel approach that leverages Large Language Models (LLMs) to enhance REST API testing by mining and validating semantic constraints embedded in OpenAPI specifications.',
+    tags: ['llm', 'api', 'testing', 'constraints', 'research', 'paper', 'ai']
+  },
+  {
+    title: 'Shrinkray',
+    url: 'https://github.com/DRMacIver/shrinkray',
+    description: 'Shrinkray is a utility that reduces test cases to their minimal reproducing form using an executable script. Similar to tools like CReduce before, which work well, but easier to configure and use. In my testing, it consistently reduced failing cases by 85–90% :)',
+    tags: ['shrinkray', 'test', 'optimization', 'tool']
+  },
+  {
     title: 'On the Biology of a Large Language Model',
     url: 'https://transformer-circuits.pub/2025/attribution-graphs/biology.html',
     description: 'The article details an in-depth analysis of the internal mechanisms of Claude 3.5 Haiku, a large language model. Utilising a method called circuit tracing, the researchers aim to demystify how such models process inputs to generate outputs. It is a great read for anyone interested in the inner workings of large language models.',

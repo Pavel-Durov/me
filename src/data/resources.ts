@@ -2,6 +2,19 @@ import { Resource } from "model";
 
 export default [
   {
+    url: "https://blog.swgillespie.me/posts/monorepo-ingredients/",
+    title: "Monorepo Ingredients",
+    description:
+      "This blog post explores the practical realities and engineering responsibilities of building a productive monorepo, particularly from the perspective of a small Developer Productivity team within a growing organisation. It cautions against idealising the sophisticated systems at Google, Meta, or Uber, and instead emphasises clear, organisation-specific goals for adopting a monorepo such as consistency and shared tooling rather than vague aspirations of '10x engineering.'",
+    tags: [
+      "monorepo",
+      "engineering",
+      "productivity",
+      "engineering",
+      "productivity",
+    ],
+  },
+  {
     url: "https://arxiv.org/pdf/2403.16218v3",
     title: "CoverUp: Coverage-Guided LLM-Based Test Generation",
     description:

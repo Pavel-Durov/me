@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 
-import { Error } from 'routes/error';
+import { ErrorPage } from 'routes/error';
 // Pages
 import { Home } from 'pages/Home';
 import { Markdown } from 'components/Markdown/Markdown';
@@ -12,7 +12,6 @@ import { Identity } from 'pages/Identity';
 import { EngineeringPhilosophy } from 'pages/EngineeringPhilosophy';
 import { AssetWall } from 'pages/AssetWall';
 import { Resources } from 'pages/resources/Resources';
-import { PersonalStatement } from 'pages/PersonalStatment';
 
 import resources from 'data/resources';
 import identities from 'data/identities';
@@ -21,9 +20,9 @@ import publications from 'data/publications';
 import talks from 'data/talks';
 import { values, inspirationalQuotes } from 'data/engineeringPhilosophy';
 import { contact } from 'data/contact';
-import personalStatementData from 'data/personalStatement';
 
 import MdCv from 'data/md/cv.md';
+import personalStatementData from 'data/md/personalStatement.md';
 import { TitleGenerator } from 'components/TitleGenerator/TitleGenerator';
 
 declare global {
@@ -40,7 +39,7 @@ export const router = createBrowserRouter([
   {
     path: '/*',
     element: <Home />,
-    errorElement: <Error />
+    errorElement: <ErrorPage />
   },
   {
     path: '/cv',
@@ -84,6 +83,6 @@ export const router = createBrowserRouter([
   },
   {
     path: '/personal-statement',
-    element: <PersonalStatement title={personalStatementData.title} content={personalStatementData.content} />
+    element: <Markdown getContent={() => fetch(personalStatementData).then((res) => res.text())} />
   }
 ]);

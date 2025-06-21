@@ -2,11 +2,26 @@ import { Resource } from 'model';
 
 export default [
   {
-    title: 'Engineering Record And Replay For Deployability Extended Technical Report',
-    url: 'https://arxiv.org/pdf/1705.05937',
+    title: 'PromptPex: Automatic Test Generation for Language Model Prompts',
+    url: 'https://arxiv.org/abs/2503.05070',
     description:
-      'This technical report presents RR, a lightweight, user-space record-and-replay system designed for high deployability and low overhead on modern Linux/x86 systems without modifying the OS, compilers, or application code',
-    tags: ['llm', 'testing', 'survey', 'research', 'paper', 'ai']
+      'This paper presents PromptPex, a tool for automatically generating unit tests for prompts used in software applications with large language models (LLMs). artifacts, PromptPex extracts structured input/output specifications from prompts and uses them to create test cases. It evaluates prompt robustness across different LLMs by identifying when outputs fail to comply with prompt-defined constraints.',
+    tags: [
+      'prompt engineering',
+      'test generation',
+      'LLMs',
+      'robustness',
+      'software engineering',
+      'automated testing',
+      'research'
+    ]
+  },
+  {
+    title: 'Execution-Aware Program Reduction for WebAssembly via Record and Replay',
+    url: 'https://www.arxiv.org/abs/2506.07834',
+    description:
+      'This paper introduces RR-Reduce and Hybrid-Reduce, execution-aware program reduction techniques specifically designed for Wasm. Unlike other execution-unaware techniques (e.g., wasm-reduce, wasm-shrink), which rely purely on syntactic and static analysis, these approaches take advantage of dynamic execution information via record-and-replay techniques to isolate the minimal subset of code needed to trigger a specific path in the program that leads to a bug.',
+    tags: ['wasm', 'debugging', 'record-and-replay', 'testing', 'research', 'paper']
   },
   {
     title:

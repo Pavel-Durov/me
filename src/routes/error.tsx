@@ -1,4 +1,4 @@
-export function Error(): JSX.Element {
+export function ErrorPage(): JSX.Element {
   return (
     <div id="error-page">
       <h1>Oops!</h1>

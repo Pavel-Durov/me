@@ -2,10 +2,17 @@ import { Resource } from 'model';
 
 export default [
   {
+    title: '',
+    url: 'https://www.ozimmer.ch/practices/2020/05/22/ADDefinitionOfDone.html',
+    description:
+      'Definition of Done for architectural decisions to complement Agile focus on features by providing clear completion criteria for technical design choices. He identifies five key elements—Evidence, Criteria, Agreement, Documentation, and Realisation/Review plan—that ensure decisions are well-founded, evaluated against alternatives, socially validated, recorded, and scheduled for implementation and later reassessment.',
+    tags: ['architecture', 'decision-making', 'principles', 'technology radar', 'adr', 'agile']
+  },
+  {
     title: 'PromptPex: Automatic Test Generation for Language Model Prompts',
     url: 'https://arxiv.org/abs/2503.05070',
     description:
-      'This paper presents PromptPex, a tool for automatically generating unit tests for prompts used in software applications with large language models (LLMs). artifacts, PromptPex extracts structured input/output specifications from prompts and uses them to create test cases. It evaluates prompt robustness across different LLMs by identifying when outputs fail to comply with prompt-defined constraints.',
+      'This paper presents PromptPex, a tool for automatically generating unit tests for prompts used in software applications wzith large language models (LLMs). artifacts, PromptPex extracts structured input/output specifications from prompts and uses them to create test cases. It evaluates prompt robustness across different LLMs by identifying when outputs fail to comply with prompt-defined constraints.',
     tags: [
       'prompt engineering',
       'test generation',

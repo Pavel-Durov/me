@@ -47,5 +47,6 @@ export const inspirationalQuotes = [
   '"I don\'t trust anything until it runs… In fact, I don\'t trust anything until it runs twice." - Andrew Gelman',
   '"Failure is expected, failure is not an odd case. Design systems that help you identify failure. Design systems that can recover from failure." - JBD',
   '"Everything should be made as simple as possible, but not simpler." - Albert Einstein',
-  '"There is nothing quite so useless as doing with great efficiency what should not be done at all.” - Peter Drucker'
+  '"There is nothing quite so useless as doing with great efficiency what should not be done at all.” - Peter Drucker',
+  '"What you do is what matters, not what you think or say or plan." - Jason Fried'
 ];
